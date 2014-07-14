@@ -1,0 +1,21 @@
+/* --- Style --- */
+/* --- AE-Giving Style Guide --- */
+/* --- AE-Giving --- */
+/* --- AE-Giving Style Guide --- */
+/* --- lt mso 9 --- */
+.title-purpose {
+  background: white;
+  border-top: 1px solid #bbcdeb;
+  border-bottom: 1px solid #bbcdeb; }
+
+.article-purpose {
+  color: #01172c; }
+
+.article-purpose a {
+  color: #01172c;
+  text-decoration: underline; }
+
+.article-content ol, .article-content ul {
+  margin: 0 0 0 24px;
+  padding: 0;
+  list-style-position: inside; }

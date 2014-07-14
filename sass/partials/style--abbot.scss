@@ -1,0 +1,32 @@
+/* --- Abbot Style Guide --- */
+
+// Global
+$white: #ffffff;
+$adkblue: #01172c;
+$mdblue: #2d5781;
+$amdblue: #4f79a5;
+$ablue:#0039a6;
+$dkgrey:#333333;
+
+/* --- Abbot --- */
+// Color
+$header--text: $adkblue;
+$footer--text: $adkblue;
+$link: $ablue;
+$brand--logobg: #6aadd2;
+$title: $amdblue;
+$text: $dkgrey;
+$brand--borderbg: #bbcdeb;
+
+// Color used in inline CSS
+$brand--bg: #e8eef4;
+$secondarycolor--bg: #f7f6ec;
+$secondarycolor--borderbg: #e4e2d4;
+
+// Font
+$serif: Georgia, Times, serif;
+$san-serif: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$body--font:$san-serif;
+$brand--font:$serif;
+
+/* --- Abbot Style Guide --- */

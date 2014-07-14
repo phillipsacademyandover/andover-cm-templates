@@ -1,0 +1,13 @@
+/* --- lt mso 9 --- */
+.title-purpose {
+	background:$white;
+	border-top:1px solid $brand--borderbg;
+	border-bottom:1px solid $brand--borderbg;
+}
+	.article-purpose {
+		color:$header--text;
+	}
+	.article-purpose a {
+		color: $header--text;
+		text-decoration: underline;
+	}
