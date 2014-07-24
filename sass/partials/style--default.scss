@@ -184,6 +184,10 @@ code {
 #background-table {
 	background-color: $white;
 }
+
+.mobile-block {
+    display:inline;
+}
 /* Webkit Elements */
 //#top-bar {
 //	border-radius:6px 6px 0px 0px;
@@ -305,6 +309,11 @@ body, td {
 		font-weight:bold;
 		text-decoration:underline;
 	}
+    .article-content a.white {
+		color: $white;
+		font-weight:normal;
+		text-decoration:underline;
+	}
 	.article-content img {
 		max-width: 100%
 	}
@@ -411,6 +420,8 @@ body, td {
 			font-weight: bold;
 		}
 /* --- END Footer --- */
+
+
 @media only screen and (max-width: 660px) {
 	tr[id=webversion] {
 		display:none !important;	
@@ -444,6 +455,12 @@ body, td {
 	table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
 		width:95% !important;
 	}
+    table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
+		width:5% !important;
+	}
+	table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
+		width:90% !important;
+	}
 	table[class=threecol], td[class=threecol], img[class=threecol] {
 		width:33% !important;
 		height:auto !important;
@@ -457,6 +474,11 @@ body, td {
 	div[id=date] {
 		font-weight:bold !important;	
 	}
+}
+@media only screen and (max-width: 568px) {
+    span[class=mobile-block] {
+        display: block !important;
+    }
 }
 @media only screen and (max-width: 480px) {
 	table[class=table-row] table[class=table-row-1],

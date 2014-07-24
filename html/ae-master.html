@@ -200,6 +200,9 @@ code {
 #background-table {
   background-color: white; }
 
+.mobile-block {
+  display: inline; }
+
 /* Webkit Elements */
 /* Fonts and Content */
 body, td {
@@ -292,6 +295,11 @@ body, td {
 .article-content a {
   color: #0039a6;
   font-weight: bold;
+  text-decoration: underline; }
+
+.article-content a.white {
+  color: white;
+  font-weight: normal;
   text-decoration: underline; }
 
 .article-content img {
@@ -427,6 +435,12 @@ body, td {
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
 
+  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
+    width: 5% !important; }
+
+  table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
+    width: 90% !important; }
+
   table[class=threecol], td[class=threecol], img[class=threecol] {
     width: 33% !important;
     height: auto !important; }
@@ -439,6 +453,9 @@ body, td {
 
   div[id=date] {
     font-weight: bold !important; } }
+@media only screen and (max-width: 568px) {
+  span[class=mobile-block] {
+    display: block !important; } }
 @media only screen and (max-width: 480px) {
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
@@ -462,7 +479,6 @@ body, td {
   table[id=threecol] img[class=responsive] {
     width: 101px !important;
     height: 101px !important; } }
-
     /* --- Style --- */
 /* --- Abbot Style Guide --- */
 /* --- Abbot --- */
@@ -657,6 +673,9 @@ code {
 #background-table {
   background-color: white; }
 
+.mobile-block {
+  display: inline; }
+
 /* Webkit Elements */
 /* Fonts and Content */
 body, td {
@@ -749,6 +768,11 @@ body, td {
 .article-content a {
   color: #0039a6;
   font-weight: bold;
+  text-decoration: underline; }
+
+.article-content a.white {
+  color: white;
+  font-weight: normal;
   text-decoration: underline; }
 
 .article-content img {
@@ -884,6 +908,12 @@ body, td {
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
 
+  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
+    width: 5% !important; }
+
+  table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
+    width: 90% !important; }
+
   table[class=threecol], td[class=threecol], img[class=threecol] {
     width: 33% !important;
     height: auto !important; }
@@ -896,6 +926,9 @@ body, td {
 
   div[id=date] {
     font-weight: bold !important; } }
+@media only screen and (max-width: 568px) {
+  span[class=mobile-block] {
+    display: block !important; } }
 @media only screen and (max-width: 480px) {
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
@@ -919,7 +952,6 @@ body, td {
   table[id=threecol] img[class=responsive] {
     width: 101px !important;
     height: 101px !important; } }
-
     
 </style>
 
@@ -941,7 +973,6 @@ body, td {
 .article-purpose a {
   color: #01172c;
   text-decoration: underline; }
-
 </style>
 <![endif]-->
 <!--[if gte mso 9]>
@@ -967,31 +998,18 @@ body, td {
   margin: 0 0 0 24px;
   padding: 0;
   list-style-position: inside; }
-
 </style>
 <![endif]-->
 <!--[if gte mso 15]>
 <style _tmplitem="201" >
 </style>
 <![endif]-->
-
 <!-- include ../partials/style--ae-giving.kit -->
 <!-- KIT -->
     <!-- Color -->
-    
-    
-    
-    
-    
-    
-    
-    
-
+                                    
     <!-- Text -->
-    
-    
-<!-- END KIT -->  
-</head>
+        <!-- END KIT -->  </head>
 <body>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
 <tbody>
@@ -1151,8 +1169,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Text only">
+</layout>                            <layout label="Text only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1164,8 +1181,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Indented Text only">
+</layout>                            <layout label="Indented Text only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1178,8 +1194,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Title only">
+</layout>                            <layout label="Title only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1191,8 +1206,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Title and Text only">
+</layout>                            <layout label="Title and Text only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1207,8 +1221,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Full-width: 3 Images">
+</layout>                            <layout label="Full-width: 3 Images">
     <table id="threecol" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1227,8 +1240,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Full-width image">
+</layout>                            <layout label="Full-width image">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1241,8 +1253,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Centered image">
+</layout>                            <layout label="Centered image">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
         <tbody>
         <tr style="border-collapse:collapse;">
@@ -1251,8 +1262,7 @@ body, td {
         <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Donate image">
+</layout>                            <layout label="Donate image">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1265,8 +1275,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Full-width image with text">
+</layout>                            <layout label="Full-width image with text">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
         <tbody>
         <tr style="border-collapse:collapse;">
@@ -1285,8 +1294,7 @@ body, td {
         <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="Two RWD columns: image left, content right">
+</layout>                            <layout label="Two RWD columns: image left, content right">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1329,8 +1337,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Two RWD columns: content left, content right">
+</layout>                            <layout label="Two RWD columns: content left, content right">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1370,8 +1377,7 @@ body, td {
     </tr></tbody>
     </table>
 
-</layout>
-                            <layout label="Story: Post with Image">
+</layout>                            <layout label="Story: Post with Image">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1422,8 +1428,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="First Table Row: 2 Columns">
+</layout>                            <layout label="First Table Row: 2 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1453,8 +1458,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Table Row: 2 Columns">
+</layout>                            <layout label="Table Row: 2 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1483,8 +1487,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Last Table Row: 2 Columns">
+</layout>                            <layout label="Last Table Row: 2 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1513,8 +1516,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="First Table Row: 2 Columns with border">
+</layout>                            <layout label="First Table Row: 2 Columns with border">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1544,8 +1546,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Table Row: 2 Columns with border">
+</layout>                            <layout label="Table Row: 2 Columns with border">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1574,8 +1575,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Last Table Row: 2 Columns with border">
+</layout>                            <layout label="Last Table Row: 2 Columns with border">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1622,8 +1622,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="First Table Row: 3 Columns">
+</layout>                            <layout label="First Table Row: 3 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1671,8 +1670,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Table Row: 3 Columns">
+</layout>                            <layout label="Table Row: 3 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1719,8 +1717,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="Last Table Row: 3 Columns">
+</layout>                            <layout label="Last Table Row: 3 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1767,8 +1764,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                            <layout label="One Signature">
+</layout>                            <layout label="One Signature">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1799,8 +1795,7 @@ body, td {
     </tr></tbody>
     </table>
 
-</layout>
-                            <layout label="Two columns: Signatures">
+</layout>                            <layout label="Two columns: Signatures">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1857,8 +1852,7 @@ body, td {
     </tr></tbody>
     </table>
 
-</layout>
-                            <layout label="TOC Sidebar with Text">
+</layout>                            <layout label="TOC Sidebar with Text">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1941,8 +1935,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="TOC Title only">
+</layout>                            <layout label="TOC Title only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1954,8 +1947,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="TOC Title and Text only">
+</layout>                            <layout label="TOC Title and Text only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1970,8 +1962,7 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>
-                            <layout label="TOC Story: Post with Image">
+</layout>                            <layout label="TOC Story: Post with Image">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -2022,8 +2013,7 @@ body, td {
     </tbody>
     </table>
 
-</layout>
-                        <!-- END Modules -->
+</layout>                        <!-- END Modules -->
 						</repeater>
                         
 					</td>
