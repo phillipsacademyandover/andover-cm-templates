@@ -269,6 +269,27 @@ body, td {
 		color: $white;
 		text-decoration: underline;
 	}
+.newsletter-title {
+    font-size:54px;
+    text-align:center;
+}
+.section-title {
+	font-size: 21px;
+	line-height:130%;
+	color: #2c2c20 !important;
+	font-weight:normal;
+	margin-top:0px;
+	margin-bottom:0;
+	font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+	.section-title a {
+		font-weight:bold;
+		color: #2a5b7d !important;
+		text-decoration: underline;
+	}
+h1.section-title {
+	line-height:100% !important;
+}
 /* --- END Header --- */
 /* --- Article --- */
 .article-title {
@@ -478,6 +499,9 @@ body, td {
 @media only screen and (max-width: 568px) {
     span[class=mobile-block] {
         display: block !important;
+    }
+    div[class=newsletter-title] {
+        font-size:36px;
     }
 }
 @media only screen and (max-width: 480px) {

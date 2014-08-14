@@ -23,6 +23,10 @@ $brand--bg: #e8eef4;
 $secondarycolor--bg: #f7f6ec;
 $secondarycolor--borderbg: #e4e2d4;
 
+// Section - Color used in inline CSS
+$section--bg: $brand--bg;
+$section--borderbg: $brand--borderbg;
+
 // Font
 $serif: Georgia, Times, serif;
 $san-serif: "Helvetica Neue", Arial, Helvetica, sans-serif;
