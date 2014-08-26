@@ -650,6 +650,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/module--ae-giving--footer-smi.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--ae-giving--footer-smi.kit",
+		"outputAbbreviatedPath": "\/html\/module--ae-giving--footer-smi.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--centeredimage.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -692,6 +701,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--indentedtext.kit",
 		"outputAbbreviatedPath": "\/html\/module--indentedtext.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--pa--footer-smi.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--pa--footer-smi.kit",
+		"outputAbbreviatedPath": "\/html\/module--pa--footer-smi.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -764,6 +782,33 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--threecol-midrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--threecol-midrow.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--table--twocol-1-2-firstrow.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-firstrow.kit",
+		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-firstrow.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--table--twocol-1-2-lastrow.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-lastrow.kit",
+		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-lastrow.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--table--twocol-1-2-midrow.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-midrow.kit",
+		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-midrow.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
