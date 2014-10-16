@@ -151,7 +151,7 @@ body {
 /* Reset Styles */
 /* Add 100px so mobile switch bar doesn't cover street address. */
 body {
-  background-color: white;
+  background-color: #ffffff;
   margin: 0;
   padding: 0; }
 
@@ -198,7 +198,7 @@ code {
   word-break: break-all; }
 
 #background-table {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .mobile-block {
   display: inline; }
@@ -217,7 +217,7 @@ body, td {
 .header-branding {
   font-family: Georgia, Times, serif;
   font-size: 18px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase; }
 
 .header-office {
@@ -230,11 +230,11 @@ body, td {
 
 .header-message {
   font-size: 12px;
-  color: white; }
+  color: #ffffff; }
 
 .header-message a {
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-decoration: underline; }
 
 .header-content {
@@ -255,13 +255,13 @@ body, td {
 .article-purpose {
   font-size: 16px;
   line-height: 130%;
-  color: white;
+  color: #ffffff;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0; }
 
 .article-purpose a {
-  color: white;
+  color: #ffffff;
   text-decoration: underline; }
 
 .newsletter-title {
@@ -303,6 +303,22 @@ h1.section-title {
 .article-title.with-meta {
   margin-bottom: 0; }
 
+#callout--title h1.article-title {
+  font-size: 60px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px; }
+
+#callout--title h1.article-title a {
+  color: #ffffff !important; }
+
+#title--center h2.article-title {
+  font-size: 28px;
+  color: #2d5781 !important;
+  text-transform: uppercase;
+  text-align: center; }
+
 .article-content {
   font-size: 15px;
   line-height: 130%;
@@ -319,7 +335,7 @@ h1.section-title {
   text-decoration: underline; }
 
 .article-content a.white {
-  color: white;
+  color: #ffffff;
   font-weight: normal;
   text-decoration: underline; }
 
@@ -349,6 +365,29 @@ h1.section-title {
 
 .table-row .article-content p {
   margin-bottom: 5px; }
+
+#callout--title .article-content {
+  font-size: 28px;
+  color: #ffffff !important;
+  margin-bottom: 0; }
+
+#callout--title .article-content p {
+  margin-bottom: 0; }
+
+#callout--title .article-content a,
+#callout--content .article-content a {
+  color: #ffffff !important; }
+
+#callout--content .article-content {
+  color: #ffffff !important;
+  margin-bottom: 0; }
+
+#callout .article-content {
+  font-size: 30px;
+  color: #2d5781 !important; }
+
+#callout .article-content a {
+  color: #2d5781 !important; }
 
 /* --- END Article --- */
 /* --- Sidebar --- */
@@ -503,6 +542,12 @@ h1.section-title {
   table[id=threecol] img[class=responsive] {
     width: 101px !important;
     height: 101px !important; } }
+@media only screen and (max-width: 414px) {
+  #callout--title h1.article-title {
+    font-size: 45px !important; }
+
+  #callout--title .article-content {
+    font-size: 21px !important; } }
     
 </style>
 
@@ -514,7 +559,7 @@ h1.section-title {
 /* --- AE-Giving Style Guide --- */
 /* --- lt mso 9 --- */
 .title-purpose {
-  background: white;
+  background: #ffffff;
   border-top: 1px solid #bbcdeb;
   border-bottom: 1px solid #bbcdeb; }
 
@@ -534,7 +579,7 @@ h1.section-title {
 /* --- AE-Giving Style Guide --- */
 /* --- lt mso 9 --- */
 .title-purpose {
-  background: white;
+  background: #ffffff;
   border-top: 1px solid #bbcdeb;
   border-bottom: 1px solid #bbcdeb; }
 
@@ -559,7 +604,7 @@ h1.section-title {
     <!-- Color -->
                                     
         
-    
+        
     <!-- Text -->
             <!-- END KIT -->  </head>
 <body>
@@ -1445,6 +1490,82 @@ h1.section-title {
     </tr></tbody>
     </table>
 
+</layout>                            
+                            <layout label="Callout Title">
+    <table id="callout--title" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" bgcolor="#2d5781">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="30" colspan="3" style="font-size:30px;line-height:30px;">&nbsp;</td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="580">
+            <h1 align="left" class="article-title">
+                <singleline label="Title">Add a title</singleline>
+            </h1>
+            <div align="left" class="article-content">
+                <multiline label="Description">Enter your description</multiline>
+            </div>
+        </td>
+        <td class="responsive-padding" width="15"></td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="30" colspan="3" style="font-size:30px;line-height:30px;">&nbsp;</td>
+    </tr>
+    </tbody>
+    </table>
+</layout>                            <layout label="Callout">
+    <table id="callout" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="30" colspan="3" style="font-size:30px;line-height:30px;">&nbsp;</td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="580">
+            <div align="left" class="article-content">
+                <multiline label="Description">Add a title content</multiline>
+            </div>
+        </td>
+        <td class="responsive-padding" width="15"></td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="30" colspan="3" style="font-size:30px;line-height:30px;">&nbsp;</td>
+    </tr>
+    </tbody>
+    </table>
+</layout>                            <layout label="Callout Content">
+    <table id="callout--content" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" bgcolor="#2d5781">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="20" colspan="3" style="font-size:20px;line-height:20px;">&nbsp;</td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="580">
+            <div align="left" class="article-content">
+                <multiline label="Description">Enter your description</multiline>
+            </div>
+        </td>
+        <td class="responsive-padding" width="15"></td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="5" colspan="3" style="font-size:5px;line-height:5px;">&nbsp;</td>
+    </tr>
+    </tbody>
+    </table>
+</layout>                            <layout label="Title only (Center)">
+    <table id="title--center" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610">
+            <h2 align="center" class="article-title">
+                <singleline label="Title">Add a title</singleline>
+            </h2>
+        </td>
+    </tr>
+    </tbody>
+    </table>
 </layout>                        <!-- END Modules -->
 						</repeater>
                         

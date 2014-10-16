@@ -151,7 +151,7 @@ body {
 /* Reset Styles */
 /* Add 100px so mobile switch bar doesn't cover street address. */
 body {
-  background-color: white;
+  background-color: #ffffff;
   margin: 0;
   padding: 0; }
 
@@ -198,7 +198,7 @@ code {
   word-break: break-all; }
 
 #background-table {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .mobile-block {
   display: inline; }
@@ -217,7 +217,7 @@ body, td {
 .header-branding {
   font-family: Georgia, Times, serif;
   font-size: 18px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase; }
 
 .header-office {
@@ -230,11 +230,11 @@ body, td {
 
 .header-message {
   font-size: 12px;
-  color: white; }
+  color: #ffffff; }
 
 .header-message a {
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-decoration: underline; }
 
 .header-content {
@@ -255,13 +255,13 @@ body, td {
 .article-purpose {
   font-size: 16px;
   line-height: 130%;
-  color: white;
+  color: #ffffff;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0; }
 
 .article-purpose a {
-  color: white;
+  color: #ffffff;
   text-decoration: underline; }
 
 .newsletter-title {
@@ -303,6 +303,22 @@ h1.section-title {
 .article-title.with-meta {
   margin-bottom: 0; }
 
+#callout--title h1.article-title {
+  font-size: 60px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px; }
+
+#callout--title h1.article-title a {
+  color: #ffffff !important; }
+
+#title--center h2.article-title {
+  font-size: 28px;
+  color: #2d5781 !important;
+  text-transform: uppercase;
+  text-align: center; }
+
 .article-content {
   font-size: 15px;
   line-height: 130%;
@@ -319,7 +335,7 @@ h1.section-title {
   text-decoration: underline; }
 
 .article-content a.white {
-  color: white;
+  color: #ffffff;
   font-weight: normal;
   text-decoration: underline; }
 
@@ -349,6 +365,29 @@ h1.section-title {
 
 .table-row .article-content p {
   margin-bottom: 5px; }
+
+#callout--title .article-content {
+  font-size: 28px;
+  color: #ffffff !important;
+  margin-bottom: 0; }
+
+#callout--title .article-content p {
+  margin-bottom: 0; }
+
+#callout--title .article-content a,
+#callout--content .article-content a {
+  color: #ffffff !important; }
+
+#callout--content .article-content {
+  color: #ffffff !important;
+  margin-bottom: 0; }
+
+#callout .article-content {
+  font-size: 30px;
+  color: #2d5781 !important; }
+
+#callout .article-content a {
+  color: #2d5781 !important; }
 
 /* --- END Article --- */
 /* --- Sidebar --- */
@@ -503,6 +542,12 @@ h1.section-title {
   table[id=threecol] img[class=responsive] {
     width: 101px !important;
     height: 101px !important; } }
+@media only screen and (max-width: 414px) {
+  #callout--title h1.article-title {
+    font-size: 45px !important; }
+
+  #callout--title .article-content {
+    font-size: 21px !important; } }
     
 </style>
 

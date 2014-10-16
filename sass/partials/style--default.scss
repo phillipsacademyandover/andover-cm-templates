@@ -305,9 +305,30 @@ h1.section-title {
 		font-weight:bold;
 		text-decoration: underline;
 	}
+
 .article-title.with-meta {
 	margin-bottom: 0;
 }
+// Background Section: Blue
+#callout--title h1.article-title {
+    font-size:60px;
+    color: $white !important;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#callout--title h1.article-title a {
+    color: $white !important;
+}
+
+// Centered Title
+#title--center h2.article-title {
+    font-size:28px;
+    color: $mdblue !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 //.article-meta {
 //	font-size: 13px;
 //	line-height: 20px;
@@ -363,6 +384,32 @@ h1.section-title {
 	.table-row .article-content p {
 		margin-bottom: 5px;
 	}
+
+// Callout
+#callout--title .article-content {
+    font-size:28px;
+    color: $white !important;
+    margin-bottom: 0;
+}
+#callout--title .article-content p {
+    margin-bottom: 0;
+}
+#callout--title .article-content a,
+#callout--content .article-content a{
+    color: $white !important;
+}
+#callout--content .article-content {
+    color: $white !important;
+    margin-bottom: 0;
+}
+
+#callout .article-content {
+    font-size:30px;
+    color: $mdblue !important;
+}
+#callout .article-content a {
+    color: $mdblue !important;
+}
 /* --- END Article --- */
 
 /* --- Sidebar --- */
@@ -523,4 +570,13 @@ h1.section-title {
 		width:101px !important;
 		height:101px !important;	
 	}
+}
+@media only screen and (max-width: 414px) {
+    #callout--title h1.article-title {
+        font-size:45px !important;
+    }
+    #callout--title .article-content {
+        font-size:21px !important;
+    }
+    
 }
