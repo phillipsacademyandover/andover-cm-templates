@@ -1,0 +1,37 @@
+/* --- PA Style Guide --- */
+
+// Global
+$white: #ffffff;
+$adkblue: #01172c;
+$mdblue: #2d5781;
+$amdblue: #4f79a5;
+$ablue:#0039a6;
+$dkgrey:#333333;
+$red:#c12501;
+
+/* --- PA --- */
+// Color
+$header--text: $adkblue;
+$footer--text: $adkblue;
+$link: $red;
+$brand--logobg: $adkblue;
+$title: $red;
+$text: $dkgrey;
+$brand--borderbg: #91b7df;
+
+// Color used in inline CSS
+$brand--bg: #b8d0e9;
+$secondarycolor--bg: $brand--bg;
+$secondarycolor--borderbg: $brand--borderbg;
+
+// Section - Color used in inline CSS
+$section--bg: $brand--bg;
+$section--borderbg: $brand--borderbg;
+
+// Font
+$serif: Georgia, Times, serif;
+$san-serif: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$body--font:$san-serif;
+$brand--font:$serif;
+
+/* --- PA Style Guide --- */
