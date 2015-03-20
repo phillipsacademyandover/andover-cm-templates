@@ -438,12 +438,22 @@ h1.section-title {
   color: #01172c; }
 
 #footer a {
-  font-weight: bold;
   color: #0039a6;
   text-decoration: underline; }
 
+#footer a.link {
+  font-weight: bold; }
+
 .footer-content {
   font-family: Georgia, Times, serif;
+  font-size: 12px;
+  line-height: 130%;
+  color: #01172c;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+.footer-content--pref {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 130%;
   color: #01172c;
@@ -495,14 +505,20 @@ h1.section-title {
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
 
-  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
+  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
+  table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
 
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
 
-  table[class=threecol], td[class=threecol], img[class=threecol] {
+  table[class=threecol], td[class=threecol], img[class=threecol],
+  table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
+    height: auto !important; }
+
+  table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
+    width: 95% !important;
     height: auto !important; }
 
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
@@ -603,8 +619,7 @@ h1.section-title {
 <!-- KIT -->
     <!-- Color -->
     <!-- Invite -->
-                                                    
-        
+                                                                
     <!-- Text -->
             
 <!-- END KIT -->  </head>

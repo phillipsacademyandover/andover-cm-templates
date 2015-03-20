@@ -438,12 +438,22 @@ h1.section-title {
   color: #01172c; }
 
 #footer a {
-  font-weight: bold;
   color: #0039a6;
   text-decoration: underline; }
 
+#footer a.link {
+  font-weight: bold; }
+
 .footer-content {
   font-family: Georgia, Times, serif;
+  font-size: 12px;
+  line-height: 130%;
+  color: #01172c;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+.footer-content--pref {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 130%;
   color: #01172c;
@@ -495,14 +505,20 @@ h1.section-title {
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
 
-  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
+  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
+  table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
 
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
 
-  table[class=threecol], td[class=threecol], img[class=threecol] {
+  table[class=threecol], td[class=threecol], img[class=threecol],
+  table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
+    height: auto !important; }
+
+  table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
+    width: 95% !important;
     height: auto !important; }
 
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
@@ -602,8 +618,7 @@ h1.section-title {
 <![endif]-->
 <!-- KIT -->
     <!-- Color -->
-                                    
-        
+                                                
     <!-- Text -->
                 <!-- END KIT -->  </head>
 <body>
@@ -956,6 +971,67 @@ h1.section-title {
                     </td>
                 </tr>
                 <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
+                </tbody></table>
+                </td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr></tbody>
+    </table>
+
+</layout>                            <layout label="RWD Sidebar + Signature Layout">
+
+    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+<!--
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <div align="left" class="article-content">
+                <currentmonthname> <currentday>, <currentyear>
+            </div>
+        </td>
+    </tr>
+-->
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <!-- COL 1 - Text -->
+            <table class="responsive" width="404" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody>
+            <tr style="border-collapse:collapse;">
+                <td class="responsive" width="404" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    
+                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Enter your content</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            </table>
+            <!-- COL 2 - Sidebar -->
+            <table class="responsive" width="202" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody><tr style="border-collapse:collapse;">
+                <td class="w0" width="10"></td>
+                <td>
+                <table class="responsive" width="190" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#e8eef4" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                <tbody>
+                <tr style="border-collapse:collapse;">
+                    <td class="responsive" width="190" height="5" colspan="3" style="font-size:5px;line-height:5px;">&nbsp;</td>
+                </tr>
+                <tr style="border-collapse:collapse;">
+                    <td class="responsive-padding" width="5"></td>
+                    <td class="responsive-content" width="180">
+                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                            <multiline label="Description">Enter your sidebar content</multiline>
+                        </div>
+                    </td>
+                    <td class="responsive-padding" width="5"></td>
+                </tr>
+                <tr style="border-collapse:collapse;">
+                    <td class="responsive" width="180" height="15" colspan="3" style="font-size:15px;line-height:15px;">&nbsp;</td>
+                </tr>
                 </tbody></table>
                 </td>
             </tr>

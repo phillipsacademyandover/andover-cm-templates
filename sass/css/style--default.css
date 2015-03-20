@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 139 of /Users/jkapaldo/GitHub/Andover-CM-Templates/sass/partials/style--aechallenge--default.scss
+        on line 139 of /Users/jkapaldo/GitHub/Andover-CM-Templates/sass/partials/style--default.scss
 
 134: 	display:block !important;
 135: } /* Force Hotmail to display emails at full width *\/
@@ -15,21 +15,21 @@ Error: Undefined variable: "$white".
 144: 	outline: none;
 
 Backtrace:
-/Users/jkapaldo/GitHub/Andover-CM-Templates/sass/partials/style--aechallenge--default.scss:139
+/Users/jkapaldo/GitHub/Andover-CM-Templates/sass/partials/style--default.scss:139
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:420:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
@@ -59,4 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 139 of /Users/jkapaldo/GitHub/Andover-CM-Templates/sass/partials/style--aechallenge--default.scss\A \A 134: 	display:block !important;\A 135: } /* Force Hotmail to display emails at full width */\A 136: /* Reset Styles */\A 137: /* Add 100px so mobile switch bar doesn't cover street address. */\A 138: body {\A 139: 	background-color: $white;\A 140: 	margin: 0;\A 141: 	padding: 0;\A 142: }\A 143: img {\A 144: 	outline: none;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 139 of /Users/jkapaldo/GitHub/Andover-CM-Templates/sass/partials/style--default.scss\A \A 134: 	display:block !important;\A 135: } /* Force Hotmail to display emails at full width */\A 136: /* Reset Styles */\A 137: /* Add 100px so mobile switch bar doesn't cover street address. */\A 138: body {\A 139: 	background-color: $white;\A 140: 	margin: 0;\A 141: 	padding: 0;\A 142: }\A 143: img {\A 144: 	outline: none;"; }

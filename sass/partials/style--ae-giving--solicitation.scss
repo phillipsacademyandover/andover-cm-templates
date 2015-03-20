@@ -1,0 +1,43 @@
+/* --- AE-Giving Style Guide --- */
+
+// Global
+$white: #ffffff;
+$adkblue: #01172c;
+$mdblue: #2d5781;
+$amdblue: #4f79a5;
+//$ablue:#0039a6;
+$ablue:$adkblue;
+$dkgrey:#333333;
+
+/* --- AE-Giving --- */
+// Color
+$header--text: $adkblue;
+$footer--text: $adkblue;
+$link: $adkblue;
+$brand--logobg: #012663;
+$title: $amdblue;
+$text: $dkgrey;
+$brand--borderbg: #bbcdeb;
+
+// Color used in inline CSS
+$brand--bg: #e8eef4;
+$secondarycolor--bg: #dae6ee;
+$secondarycolor--borderbg: #dae6ee;
+
+// Section - Color used in inline CSS
+$section--bg: $brand--bg;
+$section--borderbg: $brand--borderbg;
+
+// Sidebar - Color used in inline CSS
+$sidebar--bg: $brand--bg;
+
+// Background Section
+$bg--blue: $mdblue;
+
+// Font
+$serif: Georgia, Times, serif;
+$san-serif: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$body--font:$san-serif;
+$brand--font:$serif;
+
+/* --- AE-Giving Style Guide --- */
