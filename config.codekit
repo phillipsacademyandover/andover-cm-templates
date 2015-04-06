@@ -2,6 +2,24 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/html\/0315-afpf-03.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/0315-afpf-03.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/html\/0315-pf-03.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/0315-pf-03.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/1214-pf-solicitation-02.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -306,6 +324,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/ms2-logo-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7340,
+		"inputAbbreviatedPath": "\/html\/images\/ms2-logo-2x.png",
+		"outputAbbreviatedPath": "\/html\/images\/ms2-logo-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/samsarah-seal-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -359,6 +388,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/module--border-button.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/module--border-button.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/module--donateimage--aechallenge.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -373,6 +411,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/html\/module--ice--footer-smi.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/html\/module--pa--footer-preferences--border-button.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/module--pa--footer-preferences--border-button.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -485,6 +532,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/pa-ms2.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/pa-ms2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/pa-newsletter-parentbulletin.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -530,6 +586,116 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/solicitation-img\/bg-pf-2x1850.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1589,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/bg-pf-2x1850.jpg",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/bg-pf-2x1850.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/bg_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28614,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/bg_1.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/bg_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/bg_b_zpsigj7ftoy.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54575,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/bg_b_zpsigj7ftoy.JPG",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/bg_b_zpsigj7ftoy.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/facebook-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 806,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/facebook-2x.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/facebook-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/forwardtoafriend-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1163,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/forwardtoafriend-2x.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/forwardtoafriend-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/mountains-pf-1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7389,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/mountains-pf-1x.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/mountains-pf-1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/smugmug-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1216,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/smugmug-2x.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/smugmug-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/twitter-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1065,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/twitter-2x.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/twitter-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/video-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57453,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/video-2x.jpg",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/video-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/solicitation-img\/youtube-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 933,
+		"inputAbbreviatedPath": "\/html\/solicitation-img\/youtube-2x.png",
+		"outputAbbreviatedPath": "\/html\/solicitation-img\/youtube-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/style--abbot.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -562,6 +728,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/html\/style--pa.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/html\/module--title.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/html\/module--title.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -746,6 +921,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/pages\/pa-ms2.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/pa-ms2.kit",
+		"outputAbbreviatedPath": "\/html\/pa-ms2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/pages\/pa-newsletter-parentbulletin.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -818,6 +1002,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/default__head.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__head.kit",
+		"outputAbbreviatedPath": "\/html\/default__head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--ae-giving--footer-smi--solicitation.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -833,6 +1026,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--ae-giving--footer-smi.kit",
 		"outputAbbreviatedPath": "\/html\/module--ae-giving--footer-smi.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--border-button.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--border-button.kit",
+		"outputAbbreviatedPath": "\/html\/module--border-button.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -923,6 +1125,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--indentedtext.kit",
 		"outputAbbreviatedPath": "\/html\/module--indentedtext.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--pa--footer-preferences--border-button.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--pa--footer-preferences--border-button.kit",
+		"outputAbbreviatedPath": "\/html\/module--pa--footer-preferences--border-button.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1268,6 +1479,51 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/solicitations\/0315-afpf-03.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/solicitations\/0315-afpf-03.kit",
+		"outputAbbreviatedPath": "\/html\/0315-afpf-03.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/solicitations\/0315-pf-03.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/solicitations\/0315-pf-03.kit",
+		"outputAbbreviatedPath": "\/html\/0315-pf-03.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/solicitations\/partials\/module--solicitation--footer-smi.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/solicitations\/partials\/module--solicitation--footer-smi.kit",
+		"outputAbbreviatedPath": "\/kit\/html\/module--solicitation--footer-smi.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/solicitations\/partials\/module--title.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/solicitations\/partials\/module--title.kit",
+		"outputAbbreviatedPath": "\/kit\/html\/module--title.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/solicitations\/partials\/style--0315-afpf-03.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/solicitations\/partials\/style--0315-afpf-03.kit",
+		"outputAbbreviatedPath": "\/kit\/html\/style--0315-afpf-03.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/css\/style--abbot-master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1300,15 +1556,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/css\/style--aechallenge-master.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sass\/css\/style--default--solicitation.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/css\/style--default--solicitation.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1383,37 +1630,12 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/partials\/style--ae-giving--solicitation.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/partials\/style--ae-giving--solicitation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sass\/partials\/style--ae-giving--solicitation.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/partials\/style--ae-giving--solicitation.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/style--ae-giving--solicitation.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/partials\/style--ae-giving.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/style--ae-giving.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/style--ae-giving.css",
@@ -1456,28 +1678,12 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/partials\/style--default--solicitation.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/partials\/style--default--solicitation.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/style--default--solicitation.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/partials\/style--default.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/style--default.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/style--default.css",
@@ -1536,6 +1742,72 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/solicitation-03\/style--ae-giving-master--solicitation.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--ae-giving-master--solicitation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/solicitation-03\/style--ae-giving-master--solicitation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--ae-giving-master--solicitation.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--ae-giving-master--solicitation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/solicitation-03\/style--default--solicitation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--default--solicitation.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--default--solicitation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/solicitation-03\/style--vars--solicitation.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--vars--solicitation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/solicitation-03\/style--vars--solicitation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--vars--solicitation.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--vars--solicitation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/style--abbot-master.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1545,31 +1817,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/style--abbot-master.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/style--abbot-master.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/style--ae-giving-master--solicitation.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/style--ae-giving-master--solicitation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sass\/style--ae-giving-master--solicitation.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/style--ae-giving-master--solicitation.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/style--ae-giving-master--solicitation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
