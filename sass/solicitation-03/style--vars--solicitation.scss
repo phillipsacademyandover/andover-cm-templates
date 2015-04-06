@@ -5,18 +5,19 @@ $white: #ffffff;
 $adkblue: #01172c;
 $mdblue: #2d5781;
 $amdblue: #4f79a5;
-//$ablue:#0039a6;
-$ablue:$adkblue;
+$ablue:#0039a6;
+//$ablue:$adkblue;
 $dkgrey:#333333;
+$black:#000000;
 
 /* --- AE-Giving --- */
 // Color
 $header--text: $adkblue;
 $footer--text: $adkblue;
-$link: $adkblue;
+$link: $ablue;
 $brand--logobg: #012663;
-$title: $amdblue;
-$text: $dkgrey;
+$title: $black;
+$text: $black;
 $brand--borderbg: #bbcdeb;
 
 // Color used in inline CSS
@@ -35,8 +36,9 @@ $sidebar--bg: $brand--bg;
 $bg--blue: $mdblue;
 
 // Font
+$solicitation-serif: "Roboto Slab", Georgia, Times, serif;
 $serif: Georgia, Times, serif;
-$san-serif: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$san-serif: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
 $body--font:$san-serif;
 $brand--font:$serif;
 

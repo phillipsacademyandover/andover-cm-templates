@@ -120,6 +120,10 @@
   #headline p {
     font-size: 30px !important; }
 
+  .article-content {
+    -webkit-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important; }
+
   .header-content, .footer-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
@@ -146,13 +150,25 @@ body {
 /* Force Hotmail to display emails at full width */
 /* Reset Styles */
 /* Add 100px so mobile switch bar doesn't cover street address. */
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0; }
+
 img {
   outline: none;
   text-decoration: none;
   display: block; }
 
+br, strong br, b br, em br, i br {
+  line-height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 100% !important;
+  -webkit-font-smoothing: antialiased; }
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #01172c;
+  color: #0039a6;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -161,7 +177,7 @@ h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-  color: #01172c;
+  color: #0039a6;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -190,7 +206,7 @@ code {
 /* Webkit Elements */
 /* Fonts and Content */
 body, td {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
 .header-content, .footer-content {
   -webkit-text-size-adjust: none;
@@ -205,7 +221,7 @@ body, td {
   text-transform: uppercase; }
 
 .header-office {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #01172c; }
 
@@ -227,7 +243,7 @@ body, td {
 
 .header-content a {
   font-weight: bold;
-  color: #01172c;
+  color: #0039a6;
   text-decoration: underline; }
 
 .title-purpose {
@@ -272,15 +288,16 @@ h1.section-title {
 /* --- END Header --- */
 /* --- Article --- */
 .article-title {
-  font-size: 20px;
+  font-family: "Roboto Slab", Georgia, Times, serif;
+  font-size: 24px;
   line-height: 130%;
-  color: #4f79a5 !important;
+  color: #000000 !important;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 15px; }
 
 .article-title a {
-  color: #01172c;
+  color: #0039a6;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -304,9 +321,10 @@ h1.section-title {
   text-align: center; }
 
 .article-content {
-  font-size: 15px;
-  line-height: 130%;
-  color: #333333;
+  font-size: 16px;
+  letter-spacing: .3px;
+  line-height: 24px;
+  color: #000000;
   margin-top: 0px;
   margin-bottom: 15px; }
 
@@ -314,7 +332,7 @@ h1.section-title {
   margin-bottom: 0; }
 
 .article-content a {
-  color: #01172c;
+  color: #0039a6;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -336,11 +354,11 @@ h1.section-title {
 .article-content li {
   font-size: 15px;
   line-height: 130%;
-  color: #333333;
+  color: #000000;
   margin-bottom: 9px; }
 
 .article-content li a {
-  color: #01172c;
+  color: #0039a6;
   text-decoration: underline; }
 
 .article-content p {
@@ -376,21 +394,21 @@ h1.section-title {
 /* --- END Article --- */
 /* --- Sidebar --- */
 .sidebar-title {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: bold;
   line-height: 140%;
-  color: #333333;
+  color: #000000;
   margin-top: 0px;
   margin-bottom: 0;
   text-transform: uppercase; }
 
 .sidebar-content {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 140%;
-  color: #333333;
+  color: #000000;
   margin-top: 0px;
   margin-bottom: 0; }
 
@@ -400,20 +418,20 @@ h1.section-title {
   text-align: left; }
 
 .toc a {
-  color: #01172c;
+  color: #0039a6;
   font-weight: bold;
   text-decoration: underline; }
 
 .article-toc {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 140%;
-  color: #333333;
+  color: #000000;
   text-align: left; }
 
 .article-toc a {
   font-weight: bold;
-  color: #01172c;
+  color: #0039a6;
   text-decoration: underline; }
 
 /* --- END Sidebar --- */
@@ -422,12 +440,22 @@ h1.section-title {
   color: #01172c; }
 
 #footer a {
-  font-weight: bold;
-  color: #01172c;
+  color: #0039a6;
   text-decoration: underline; }
+
+#footer a.link {
+  font-weight: bold; }
 
 .footer-content {
   font-family: Georgia, Times, serif;
+  font-size: 12px;
+  line-height: 130%;
+  color: #01172c;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+.footer-content--pref {
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 130%;
   color: #01172c;
@@ -443,7 +471,7 @@ h1.section-title {
   white-space: normal; }
 
 #street-address a {
-  color: #01172c;
+  color: #0039a6;
   text-decoration: underline;
   font-weight: bold; }
 
@@ -479,14 +507,20 @@ h1.section-title {
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
 
-  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
+  table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
+  table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
 
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
 
-  table[class=threecol], td[class=threecol], img[class=threecol] {
+  table[class=threecol], td[class=threecol], img[class=threecol],
+  table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
+    height: auto !important; }
+
+  table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
+    width: 95% !important;
     height: auto !important; }
 
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
