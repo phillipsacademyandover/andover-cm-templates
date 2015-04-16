@@ -548,8 +548,8 @@ h1.section-title {
     width: 0 !important; }
 
   table[id=threecol] img[class=responsive] {
-    width: 101px !important;
-    height: 101px !important; } }
+    width: 100% !important;
+    height: auto !important; } }
 @media only screen and (max-width: 414px) {
   #callout--title h1.article-title {
     font-size: 45px !important; }
