@@ -130,3 +130,8 @@ https://tinypng.com/
 With a background image, border buttons should be used. You can not use the bulletproof buttons that use VML in Outlook along with a background image that uses VML in Outlook.
 
 https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
+
+#### Tablet body fix
+Use width:100% !important; and min-width:100%; on the body tag, so the email does not look cut off on an iPad.
+
+    <body style=“width:100% !important;min-width:100%;”>
