@@ -1,11 +1,11 @@
-# andover-cm-templates
+# Andover Campaign Monitor Email Templates
 The purpose of this github repository is to share the Phillips Academy Email Templates and usage guidelines. The email templates are for use with Campaign Monitor by Phillips Academy and approved third-party developers.
 
 ## Intro
 This project contains all of the email templates for use with Campaign Monitor. Nothing propriety is included in these files. 
 
 ## Email Template System
-These files follow a custom email template system process that was created to manage all of these templates. This process is in flux to improve the process and management of the templates.
+These files follow a custom email template system process that was created to manage all templates. This process development is currently fluid.
 
 ### Applications Used
 * Adobe Brackets
@@ -15,3 +15,118 @@ These files follow a custom email template system process that was created to ma
 
 ## Copyright
 These files are copyrighted by Phillips Academy and maintained by the Communications Office at Phillips Academy.
+
+
+## Andover Email Styleguide
+
+### Philosophy
+
+#### Coding Style
+Andover email templates is code heavy. The reason for code heavy templates is to dictate to the email client as much style and layout structure as possible, so avoiding unexpected problems, i.e. Outlook issues. We highly suggest using this coding style in your development.
+
+### Support Requirements
+
+#### Responsive Development
+All new email campaign and template development must be designed to work responsively across supported mobile, tablet, and desktop devices.
+
+#### Litmus
+All new email campaigns and templates must be tested on Litmus. Andover can provide access to Litmus, if the developer does not have a Litmus account. The supported email clients are based on Litmus testing.
+
+#### Supported OS
+
+##### OS support based on Litmus testing
+* Android 2.3+
+* iOS 7+
+* Mac/PC
+
+#### Supported Email Clients
+
+##### Supported email clients (Class A):
+* Apple Mail 7+
+* Outlook 2000-2016
+* Thunderbird 31
+* Android 2.3, 4.2
+* iPad and iPad Mini
+* iPhone 5s+
+* AOL (Explorer, Firefox, Chrome)
+* Gmail (Explorer, Firefox, Chrome)
+* Outlook.com (Explorer, Firefox, Chrome)
+* Yahoo! Mail (Explorer, Firefox, Chrome)
+
+##### Supported email clients (Class B):
+* Android Gmail App
+* Windows Phone
+
+##### We do not support:
+* Lotus (All Versions)
+* Blackberry
+
+##### Outlook Support
+Andover supports Outlook. Currently, our organization that uses Outlook 2007-2010 as our main email client. Our organization will most likely review new email campaigns and templates in Outlook. Therefore, we work to make email campaigns and templates appear acceptable. Acceptable means we still provide a professional and Andover centric design in Outlook, but emails might look different because of Outlook’s limitations.
+
+
+### Email/Template Requirements
+
+#### Editable CM Templates
+CM templates need to have editable regions. Instead of uploading a template per email campaign, all templates must be loaded into the CM template library for testing and use. This allows any of our trained CM users to use an approved template and build out an email campaign.
+
+#### Images
+Images must be responsive and work on supported devices and email clients. All images in template development, whether images or background images, must be uploaded with a template design.
+
+#### Standard Font Styles
+Serif font stack: Georgia, Times, serif;
+San-serif font stack: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+#### Custom Fonts
+We like custom fonts. Feel free to use custom fonts in email as the design purposes. Custom font usage will need to be approved by Andover Communications.
+
+#### Andover Seal & Wordmark
+The Andover seal and wordmark must be used as provided. The Andover seal must not be used alone, EVER. The Andover wordmark can be used on its own in the absence of the seal and wordmark or if the seal and wordmark are used elsewhere in the email.
+
+#### Andover Header
+The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header or alterations to the header will need to be approved by Andover Communications.
+
+#### Andover Footer
+The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer or alterations to the footer will need to be approved by Andover Communications.
+
+#### Social Media Icons
+The standard social media icons should appear on all templates. The standard social media icons for Phillips Academy are:
+* Facebook  (Phillips Academy)
+* Twitter (Phillips Academy)
+* YouTube (Phillips Academy)
+* Smugmug (Phillips Academy)
+* Forward to a Friend
+
+The standard social media icons for Alumni Engagement and Giving are:
+* Alumni Calendar
+* LinkedIn (Phillips Academy)
+* Alumni Directory
+* Facebook (Alumni Engagement)
+* Twitter (Phillips Academy)
+* Forward to a Friend
+
+The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
+
+### Approval Process
+All new email campaigns and template development must be approved by Andover Communications.
+
+### Accountability
+The third party designer/developer will be accountable to deliver all email campaigns and templates on time and abiding by these requirements. Andover will not debug and fix errors, unless absolutely necessary.
+
+### Helpful Tools
+
+#### Buttons
+https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
+
+#### Image Compression
+For PNG images use this compression tool. I have recently found this tool works great:
+
+https://tinypng.com/
+
+
+### Learned Email Fixes + Helpful Tips
+
+#### Buttons
+With a background image, border buttons should be used. You can not use the bulletproof buttons that use VML in Outlook along with a background image that uses VML in Outlook.
+
+https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
