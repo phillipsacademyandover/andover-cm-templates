@@ -74,8 +74,10 @@ CM templates need to have editable regions. Instead of uploading a template per 
 Images must be responsive and work on supported devices and email clients. All images in template development, whether images or background images, must be uploaded with a template design.
 
 #### Standard Font Styles
-Serif font stack: Georgia, Times, serif;
-San-serif font stack: "Helvetica Neue", Arial, Helvetica, sans-serif;
+Serif font stack:
+    Georgia, Times, serif;
+San-serif font stack:
+    "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 #### Custom Fonts
 We like custom fonts. Feel free to use custom fonts in email as the design purposes. Custom font usage will need to be approved by Andover Communications.
