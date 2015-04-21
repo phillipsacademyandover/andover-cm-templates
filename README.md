@@ -1,11 +1,11 @@
 # Andover Campaign Monitor Email Templates
-The purpose of this github repository is to share the Phillips Academy Email Templates and usage guidelines. The email templates are for use with Campaign Monitor by Phillips Academy and approved third-party developers.
+The purpose of this github repository is to share the Phillips Academy Email Templates and usage guidelines. The email templates are for use with Campaign Monitor by Phillips Academy and by approved third-party designer/developer.
 
 ## Intro
 This project contains all of the email templates for use with Campaign Monitor. Nothing propriety is included in these files. 
 
 ## Email Template System
-These files follow a custom email template system process that was created to manage all templates. This process development is currently fluid.
+A custom email template system has been created to manage all templates. This development process is currently fluid.
 
 ### Applications Used
 * Adobe Brackets
@@ -111,7 +111,7 @@ The social media icons can be removed or the background color changed depending 
 All new email campaigns and template development must be approved by Andover Communications.
 
 ### Accountability
-The third party designer/developer will be accountable to deliver all email campaigns and templates on time and abiding by these requirements. Andover will not debug and fix errors, unless absolutely necessary.
+The third-party designer/developer will be accountable to deliver all email campaigns and templates on time and abiding by these requirements. Andover will not debug and fix errors, unless absolutely necessary.
 
 ### Helpful Tools
 
