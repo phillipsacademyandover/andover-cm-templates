@@ -75,9 +75,9 @@ Images must be responsive and work on supported devices and email clients. All i
 
 #### Standard Font Styles
 Serif font stack:
-    Georgia, Times, serif;
+    font-family: Georgia, Times, serif;
 San-serif font stack:
-    "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 #### Custom Fonts
 We like custom fonts. Feel free to use custom fonts in email as the design purposes. Custom font usage will need to be approved by Andover Communications.
