@@ -140,6 +140,7 @@ Use width:100% !important; and min-width:100%; on the body tag, so the email doe
 For images to work well, height needs to have a specific numbered height. In a media query, use width:100% !important and height:auto !important; for images to size proportionally on devices.
 
 Example:
+
     <img href="#" width="100" height="100" class="device__width" />
 
     @media only screen and (max-width: 640px) {
