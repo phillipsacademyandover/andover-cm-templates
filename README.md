@@ -19,6 +19,12 @@ These files are copyrighted by Phillips Academy and maintained by the Communicat
 
 ## Andover Email Styleguide
 
+### Approval Process
+All new email campaigns and template development must be approved by Andover Communications.
+
+### Accountability
+The third-party designer/developer will be accountable to deliver all email campaigns and templates on time and abiding by these requirements. Andover will not debug and fix errors, unless absolutely necessary.
+
 ### Philosophy
 
 #### Coding Style
@@ -78,7 +84,7 @@ Serif font stack:
 
     font-family: Georgia, Times, serif;
 
-San-serif font stack:
+Sans-serif font stack:
 
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 
@@ -112,11 +118,6 @@ The standard social media icons for Alumni Engagement and Giving are:
 
 The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
 
-### Approval Process
-All new email campaigns and template development must be approved by Andover Communications.
-
-### Accountability
-The third-party designer/developer will be accountable to deliver all email campaigns and templates on time and abiding by these requirements. Andover will not debug and fix errors, unless absolutely necessary.
 
 ### Helpful Tools
 
