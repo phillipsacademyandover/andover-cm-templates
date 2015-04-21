@@ -75,8 +75,11 @@ Images must be responsive and work on supported devices and email clients. All i
 
 #### Standard Font Styles
 Serif font stack:
+
     font-family: Georgia, Times, serif;
+
 San-serif font stack:
+
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 #### Custom Fonts
