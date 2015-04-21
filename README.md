@@ -134,13 +134,13 @@ https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
 #### Tablet body fix
 Use width:100% !important; and min-width:100%; on the body tag, so the email does not look cut off on an iPad.
 
-    <body style=“width:100% !important;min-width:100%;”>
+    <body style="width:100% !important;min-width:100%;">
 
 #### Image Height - Outlook 2007-2013
 For images to work well, height needs to have a specific numbered height. In a media query, use width:100% !important and height:auto !important; for images to size proportionally on devices.
 
 Example:
-    <img href=“#” width=“100” height=“100” class=“device__width" />
+    <img href="#" width="100" height="100" class="device__width" />
 
     @media only screen and (max-width: 640px) {
          .device__width {
@@ -161,6 +161,6 @@ Instead of specifying a large image for use in the background, if the image can 
 #### Specify block spacing - Outlook 2013
 Avoid using padding or margin to add row space. I am not referring to padding or margin using on paragraphs, but to rows. Instead, use font-size and line-height in table td to add block spacing. A table td alone will cause larger than expected spacing in Outlook 2013. 
 
-    <td class="responsive" width="640" height=“10" style="font-size:10px;line-height:10px;">&nbsp;</td>
+    <td class="responsive" width="640" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
 
 Another example is how the social media icons were originally coded using padding. Depending on the email client, the padding was ignored. The solution was to center each social media image inside a larger td to add spacing between each image.
