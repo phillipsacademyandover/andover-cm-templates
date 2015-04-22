@@ -1,8 +1,7 @@
 # Andover Campaign Monitor Email Templates
-The purpose of this github repository is to share the Phillips Academy Email Templates and usage guidelines. The email templates are for use with Campaign Monitor by Phillips Academy and by approved third-party designer/developer.
+The purpose of this github repository is to share the Phillips Academy Email Templates and usage styleguide. The email templates are for use with Campaign Monitor by Phillips Academy and by approved third-party designer/developer.
 
-## Intro
-This project contains all of the email templates for use with Campaign Monitor. Nothing propriety is included in these files. 
+https://www.campaignmonitor.com
 
 ## Email Template System
 A custom email template system has been created to manage all templates. This development process is currently fluid.
@@ -36,7 +35,10 @@ Andover email templates is code heavy. The reason for code heavy templates is to
 All new email campaign and template development must be designed to work responsively across supported mobile, tablet, and desktop devices.
 
 #### Litmus
-All new email campaigns and templates must be tested on Litmus. Andover can provide access to Litmus, if the developer does not have a Litmus account. The supported email clients are based on Litmus testing.
+All new email campaigns and templates must be tested on Litmus. The supported email clients are based on Litmus testing.
+
+https://litmus.com
+
 
 #### Supported OS
 
@@ -73,8 +75,8 @@ Andover supports Outlook. Currently, our organization that uses Outlook 2007-201
 
 ### Email/Template Requirements
 
-#### Editable CM Templates
-CM templates need to have editable regions. Instead of uploading a template per email campaign, all templates must be loaded into the CM template library for testing and use. This allows any of our trained CM users to use an approved template and build out an email campaign.
+#### Editable Campaign Monitor Templates
+Campaign Monitor templates need to have editable regions. Instead of uploading a template per email campaign, all templates must be loaded into the Campaign Monitor template library for testing and use. This allows any of our trained Campaign Monitor users to use an approved template and build out an email campaign.
 
 #### Images
 Images must be responsive and work on supported devices and email clients. All images in template development, whether images or background images, must be uploaded with a template design.
