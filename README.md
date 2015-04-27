@@ -148,15 +148,16 @@ https://tinypng.com/
 #### Buttons
 With a background image, border buttons should be used. You can not use the bulletproof buttons that use VML in Outlook along with a background image which also uses VML in Outlook.
 
+https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
+
 Currently, manage preferences button is a bulletproof button, which will need to be changed to a border button when using a background image.
 
-**Buttons:**
+**Border Button Resources:**
 
-Manage Preference Button (Border Button): <a href="/html/module--pa--footer-preferences--border-button.html">HTML</a>, <a href="/kit/partials/module--pa--footer-preferences--border-button.kit">KIT</a>
+Manage Preference Border Button: <a href="/html/module--pa--footer-preferences--border-button.html">HTML</a>, <a href="/kit/partials/module--pa--footer-preferences--border-button.kit">KIT</a>
 
 Border Button: <a href="/html/default__module--border-button.html">HTML</a>, <a href="/kit/partials/default__module--border-button.kit">KIT</a>
 
-https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
 
 #### Tablet body fix
 Use width:100% !important; and min-width:100%; on the body tag, so the email does not look cut off on an iPad.
