@@ -99,12 +99,12 @@ The Andover seal and wordmark must be used as provided. The Andover seal must no
 #### Andover Header
 The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header or alterations to the header will need to be approved by Andover Communications.
 
-<a href="/html/default__module__andover--header.html">Andover Header</a> | <a href="/html/default__module__andover-giving--header.html">Alumni + Giving Header</a>
+Andover Header <a href="/html/default__module__andover--header.html">HTML</a>, <a href="/kit/partials/default__module__andover--header.kit">KIT</a>  | Alumni + Giving Header <a href="/html/default__module__alumni-giving--header.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--header.kit">KIT</a>
 
 #### Andover Footer
 The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer or alterations to the footer will need to be approved by Andover Communications.
 
-#### Social Media Icons
+##### Social Media Icons
 The standard social media icons should appear on all templates. The standard social media icons for Phillips Academy are:
 * Facebook  (Phillips Academy)
 * Twitter (Phillips Academy)
@@ -121,6 +121,8 @@ The standard social media icons for Alumni Engagement and Giving are:
 * Forward to a Friend
 
 The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
+
+Andover Footer <a href="/html/default__module__andover--footer.html">HTML</a>, <a href="/kit/partials/default__module__andover--footer.kit">KIT</a>  | Alumni + Giving Footer <a href="/html/default__module__alumni-giving--footer.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--footer.kit">KIT</a>
 
 
 ### Helpful Tools
