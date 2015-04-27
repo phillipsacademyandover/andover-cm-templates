@@ -94,13 +94,13 @@ Sans-serif font stack:
 We like custom fonts. Feel free to use custom fonts in email as the design purposes. Custom font usage will need to be approved by Andover Communications.
 
 #### Andover Seal & Wordmark
-The Andover seal and wordmark must be used as provided. The Andover seal must not be used alone, EVER. The Andover wordmark can be used on its own in the absence of the seal and wordmark or if the seal and wordmark are used elsewhere in the email.
+The Andover seal and wordmark must be used as provided. The Andover seal must not be used alone, EVER. The Andover wordmark can be used on its own in the absence of the seal and wordmark or if the seal and wordmark is used elsewhere in the email.
 
 * Andover Seal & Wordmark: <a href="/html/images/andover-sealwordmark-2x.png">PNG</a>
 * Andover Wordmark: <a href="/html/images/andover-wordmark-2x.png">PNG</a>
 
 #### Andover Header
-The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header or alterations to the header will need to be approved by Andover Communications.
+The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header will need to be approved by Andover Communications.
 
 * Andover Header: <a href="/html/default__module__andover--header.html">HTML</a>, <a href="/kit/partials/default__module__andover--header.kit">KIT</a>
 * Alumni + Giving Header: <a href="/html/default__module__alumni-giving--header.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--header.kit">KIT</a>
@@ -108,7 +108,7 @@ The standard Andover header should appear on all templates. The branding element
 
 
 #### Andover Footer
-The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer or alterations to the footer will need to be approved by Andover Communications.
+The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer will need to be approved by Andover Communications.
 
 ##### Social Media Icons
 The standard social media icons should appear on all templates. The standard social media icons for Phillips Academy are:
@@ -146,7 +146,11 @@ https://tinypng.com/
 ### Learned Email Fixes + Helpful Tips
 
 #### Buttons
-With a background image, border buttons should be used. You can not use the bulletproof buttons that use VML in Outlook along with a background image that uses VML in Outlook.
+With a background image, border buttons should be used. You can not use the bulletproof buttons that use VML in Outlook along with a background image which also uses VML in Outlook.
+
+Currently, manage preferences button is a bulletproof button, which will need to be changed to a border button when using a background image.
+
+Buttons: <a href="/html/module--pa--footer-preferences--border-button.html">Manage Preference Button (Border Button)</a> | <a href="/html/module--border-button.html">Border Button</a>
 
 https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
 
