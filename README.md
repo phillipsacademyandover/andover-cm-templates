@@ -1,5 +1,5 @@
 # Andover Email Templates for Campaign Monitor
-The purpose of this github repository is to share the Phillips Academy Email Templates and usage styleguide. The email templates are for use with Campaign Monitor by Phillips Academy and by approved third-party designer/developer.
+The purpose of this github repository is to share the Phillips Academy Email Templates and usage styleguide. For use by Phillips Academy and contracted third-party designer/developer for creating official emails in Campaign Monitor.
 
 https://www.campaignmonitor.com
 
@@ -42,7 +42,7 @@ https://litmus.com
 
 #### Supported OS
 
-##### OS support based on Litmus testing
+##### OS support based on Litmus testing:
 * Android 2.3+
 * iOS 7+
 * Mac/PC
@@ -69,8 +69,8 @@ https://litmus.com
 * Lotus (All Versions)
 * Blackberry
 
-##### Outlook Support
-Andover supports Outlook. Currently, our organization that uses Outlook 2007-2010 as our main email client. Our organization will most likely review new email campaigns and templates in Outlook. Therefore, we work to make email campaigns and templates appear acceptable. Acceptable means we still provide a professional and Andover centric design in Outlook, but emails might look different because of Outlook’s limitations.
+##### Outlook Support:
+Andover supports Outlook. Currently, our organization uses Outlook 2007-2010 as our main email client. Our organization will most likely review new email campaigns and templates in Outlook. Therefore, we work to make email campaigns and templates appear acceptable. Acceptable means we still provide a professional and Andover centric design in Outlook, but emails might look different because of Outlook’s limitations.
 
 
 ### Email/Template Requirements
