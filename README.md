@@ -96,6 +96,9 @@ We like custom fonts. Feel free to use custom fonts in email as the design purpo
 #### Andover Seal & Wordmark
 The Andover seal and wordmark must be used as provided. The Andover seal must not be used alone, EVER. The Andover wordmark can be used on its own in the absence of the seal and wordmark or if the seal and wordmark are used elsewhere in the email.
 
+* Andover Seal & Wordmark: <a href="/html/images/andover-sealwordmark-2x.png">PNG</a>
+* Andover Wordmark: <a href="/html/images/andover-wordmark-2x.png">PNG</a>
+
 #### Andover Header
 The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header or alterations to the header will need to be approved by Andover Communications.
 
