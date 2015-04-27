@@ -150,7 +150,11 @@ With a background image, border buttons should be used. You can not use the bull
 
 Currently, manage preferences button is a bulletproof button, which will need to be changed to a border button when using a background image.
 
-Buttons: <a href="/html/module--pa--footer-preferences--border-button.html">Manage Preference Button (Border Button)</a> | <a href="/html/module--border-button.html">Border Button</a>
+**Buttons:**
+
+Manage Preference Button (Border Button): <a href="/html/module--pa--footer-preferences--border-button.html">HTML</a>, <a href="/kit/partials/module--pa--footer-preferences--border-button.kit">KIT</a>
+
+Border Button: <a href="/html/default__module--border-button.html">HTML</a>, <a href="/kit/partials/default__module--border-button.kit">KIT</a>
 
 https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
 
