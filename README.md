@@ -99,9 +99,8 @@ The Andover seal and wordmark must be used as provided. The Andover seal must no
 #### Andover Header
 The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header or alterations to the header will need to be approved by Andover Communications.
 
-Andover Header: <a href="/html/default__module__andover--header.html">HTML</a>, <a href="/kit/partials/default__module__andover--header.kit">KIT</a>
-
-Alumni + Giving Header: <a href="/html/default__module__alumni-giving--header.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--header.kit">KIT</a>
+* Andover Header: <a href="/html/default__module__andover--header.html">HTML</a>, <a href="/kit/partials/default__module__andover--header.kit">KIT</a>
+* Alumni + Giving Header: <a href="/html/default__module__alumni-giving--header.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--header.kit">KIT</a>
 
 
 
@@ -126,8 +125,8 @@ The standard social media icons for Alumni Engagement and Giving are:
 
 The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
 
-Andover Footer: <a href="/html/default__module__andover--footer.html">HTML</a>, <a href="/kit/partials/default__module__andover--footer.kit">KIT</a>
-Alumni + Giving Footer: <a href="/html/default__module__alumni-giving--footer.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--footer.kit">KIT</a>
+* Andover Footer: <a href="/html/default__module__andover--footer.html">HTML</a>, <a href="/kit/partials/default__module__andover--footer.kit">KIT</a>
+* Alumni + Giving Footer: <a href="/html/default__module__alumni-giving--footer.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--footer.kit">KIT</a>
 
 
 ### Helpful Tools
