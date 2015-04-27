@@ -1,4 +1,4 @@
-# Andover Campaign Monitor Email Templates
+# Andover Email Templates for Campaign Monitor
 The purpose of this github repository is to share the Phillips Academy Email Templates and usage styleguide. The email templates are for use with Campaign Monitor by Phillips Academy and by approved third-party designer/developer.
 
 https://www.campaignmonitor.com
