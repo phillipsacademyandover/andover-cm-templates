@@ -103,6 +103,8 @@ Andover Header: <a href="/html/default__module__andover--header.html">HTML</a>, 
 
 Alumni + Giving Header: <a href="/html/default__module__alumni-giving--header.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--header.kit">KIT</a>
 
+
+
 #### Andover Footer
 The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer or alterations to the footer will need to be approved by Andover Communications.
 
