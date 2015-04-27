@@ -99,6 +99,8 @@ The Andover seal and wordmark must be used as provided. The Andover seal must no
 #### Andover Header
 The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header or alterations to the header will need to be approved by Andover Communications.
 
+<a href="/html/default__module__andover--header.html">Andover Header</a> | <a href="/html/default__module__andover-giving--header.html">Alumni + Giving Header</a>
+
 #### Andover Footer
 The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer or alterations to the footer will need to be approved by Andover Communications.
 
