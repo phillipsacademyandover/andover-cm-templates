@@ -2,30 +2,35 @@
 
 // Global
 $white: #ffffff;
-$adkblue: #01172c;
-$mdblue: #2d5781;
-$amdblue: #4f79a5;
-$ablue:#0039a6;
+$pa-orange: #f37021;
+$pa-ltgreen: #8dc63f;
+$pa-green: #00ab4e;
+$pa-dkblue: #112369;
+$pa-blue-3: #2d73b3;
+$pa-blue-4: #4982bc;
+$pa-blue-5: #6092c6;
+$pa-blue-10: #dee8f4;
+$pa-blue:#0058a0;
 $dkgrey:#333333;
 
 /* --- PA --- */
 // Color
-$header--text: $adkblue;
-$footer--text: $adkblue;
-$link: $ablue;
-$brand--logobg: $adkblue;
-$title: $mdblue;
+$header--text: $pa-dkblue;
+$footer--text: $dkgrey;
+$link: $pa-blue;
+//$brand--logobg: $pa-dkblue;
+$title: $pa-dkblue;
 $text: $dkgrey;
-$brand--borderbg: #91b7df;
+//$brand--borderbg: #91b7df;
 
 // Color used in inline CSS
-$brand--bg: #b8d0e9;
-$secondarycolor--bg: $brand--bg;
-$secondarycolor--borderbg: $brand--borderbg;
+//$brand--bg: #b8d0e9;
+//$secondarycolor--bg: $brand--bg;
+//$secondarycolor--borderbg: $brand--borderbg;
 
 // Section - Color used in inline CSS
-$section--bg: $brand--bg;
-$section--borderbg: $brand--borderbg;
+//$section--bg: $brand--bg;
+//$section--borderbg: $brand--borderbg;
 
 // Font
 $serif: Georgia, Times, serif;
