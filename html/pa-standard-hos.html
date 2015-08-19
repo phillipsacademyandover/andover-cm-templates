@@ -213,6 +213,20 @@ body, td {
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
+.brand__name {
+  text-align: center; }
+
+.whitelist-message {
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.whitelist-message a {
+  font-weight: bold;
+  color: #ffffff !important;
+  text-decoration: underline; }
+
 .header-branding {
   font-family: Georgia, Times, serif;
   font-size: 18px;
@@ -617,7 +631,7 @@ h1.section-title {
 <![endif]-->
 <!-- KIT -->
     <!-- Color -->
-                                                
+                                                       
     <!-- Text -->
                 <!-- END KIT -->  </head>
 <body>
@@ -632,10 +646,7 @@ h1.section-title {
 		</tr>
 		<tr style="border-collapse:collapse;">
 			<td class="responsive" width="640" valign="middle" align="center">
-				<div class="header-message">
-					<span class="mobile">To keep receiving emails from us, </span><a href="http://www.campaignmonitor.com/guides/whitelisting/" target="_blank">please add us to your address book</a>.
-				</div>
-			</td>
+				<p class="whitelist-message">To ensure continued receipt of Phillips Academy messages, please <a href="http://www.campaignmonitor.com/guides/whitelisting/" target="_blank">“white list”</a> us.</p>			</td>
 		</tr>
 		<tr style="border-collapse:collapse;">
 			<td class="responsive" width="640" height="10" valign="middle" style="font-size:10px;line-height:10px;">&nbsp;</td>
@@ -725,7 +736,7 @@ h1.section-title {
         <!-- hos image -->
 		<tr style="border-collapse:collapse;">
             <td class="responsive" width="640">
-                <img editable="false" label="Full-width Image" class="responsive" src="images/andover-head-samphil-twilight-2x.jpg" width="640" height="200" border="0" alt="Samuel Phillips Hall in the fall">
+                <img editable="false" label="Full-width Image" class="responsive" src="images/andover-head-samphil-twilight-2x.jpg" width="640" height="200" border="0" alt="Samuel Phillips Hall at twilight">
             </td>
         </tr>
 		<tr style="border-collapse:collapse;">
@@ -841,12 +852,48 @@ h1.section-title {
     </tr>
     </tbody>
     </table>
+</layout>                            <layout label="Text + Left Image">
+<table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr style="border-collapse:collapse;">
+
+    <td class="responsive" width="610">
+        <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+        <tr>
+            <td class="responsive" width="610" align="left" valign="top">
+                <table class="floatimg" width="200" cellpadding="0" cellspacing="0" border="0" align="left">
+                <tbody>
+                <tr>
+
+                    <td class="floatimg-content" width="190" align="left" valign="top">
+                        <img editable="true" label="Image" class="floatimg-content" width="190" height="190" border="0" />
+                    </td>
+                    <td class="floatimg-padding" width="10"></td>
+                </tr>
+                <tr>
+                    <td class="responsive" height="10" colspan="2" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                </tr>
+                </tbody>
+                </table>
+                <div align="left" class="article-content">
+                    <multiline label="Description">Enter your description</multiline>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+    </td>
+        
+</tr>
+</tbody>
+</table>
 </layout>                            <layout label="Full-width image">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
         <td class="responsive" width="610">
-            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0">
+            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0" style="Margin:0 auto;">
         </td>
     </tr>
     <tr style="border-collapse:collapse;">
@@ -881,7 +928,7 @@ h1.section-title {
         <tbody>
         <tr style="border-collapse:collapse;">
             <td class="responsive" width="610">
-                <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0">
+                <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0" style="Margin:0 auto;">
             </td>
         </tr>
         <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
@@ -926,7 +973,7 @@ h1.section-title {
                         </div>
                     </td>
                 </tr>
-                <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
+<!--                <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>-->
                 </tbody>
                 </table>
                 </td>
@@ -1605,7 +1652,7 @@ h1.section-title {
 </tr>
 <tr style="border-collapse:collapse;">
     <td class="responsive-padding" width="15"></td>
-    <td align="center" class="responsive" width="610">
+    <td align="center" class="responsive-content" width="610">
         <p align="left" class="footer-content--pref">To customize the kinds of communications you receive from Phillips Academy, please click on <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="link">Manage Preferences</a>. If you would like to stop receiving all e-mail from Phillips Academy, including event invitations, e-newsletters, development news, class news, reunion information, and special messages from the Head of School, click on <unsubscribe>unsubscribe</unsubscribe>.</p>
     </td>
     <td class="responsive-padding" width="15"></td>

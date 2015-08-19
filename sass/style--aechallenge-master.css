@@ -4,6 +4,12 @@
 /* --- PA Style Guide --- */
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
+  /* line 3, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class=w0], td[class=w0] {
+    width: 0 !important; }
+  /* line 6, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class=w10], td[class=w10], img[class=w10] {
+    width: 10px !important; }
   /*table[class=w15], td[class=w15], img[class=w15] {
         width:5px !important;
     }
@@ -86,47 +92,55 @@
     table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
         width:90% !important;
     }*/
+  /* line 91, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] {
+    display: none !important; }
+  /* line 94, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class*=mobile], td[class*=mobile], img[class*=mobile], p[class*=mobile], span[class*=mobile] {
+    display: block !important;
+    width: 100% !important; }
+  /* line 95, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class=h0], td[class=h0] {
+    height: 0 !important; }
   /*table[class=h10], td[class=h10] {
         height: 10px !important;
         width:320px !important;
     }*/
-  table[class=w0], td[class=w0] {
-    width: 0 !important; }
-  table[class=w10], td[class=w10], img[class=w10] {
-    width: 10px !important; }
-  table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] {
-    display: none !important; }
-  table[class*=mobile], td[class*=mobile], img[class*=mobile], p[class*=mobile], span[class*=mobile] {
-    display: block !important;
-    width: 100% !important; }
-  table[class=h0], td[class=h0] {
-    height: 0 !important; }
+  /* line 102, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   p[class=footer-content-left] {
     text-align: center !important; }
+  /* line 105, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   #headline p {
     font-size: 30px !important; }
+  /* line 108, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   .article-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
+  /* line 112, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   .header-content, .footer-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
+  /* line 116, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   img {
     height: auto;
     line-height: 100%; } }
 
 /* Client-specific Styles */
+/* line 122, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #outlook a {
   padding: 0; }
 
 /* Force Outlook to provide a "view in browser" button. */
+/* line 125, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 body {
   width: 100% !important;
   min-width: 100%; }
 
+/* line 129, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .ReadMsgBody {
   width: 100%; }
 
+/* line 132, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .ExternalClass {
   width: 100%;
   display: block !important; }
@@ -134,41 +148,50 @@ body {
 /* Force Hotmail to display emails at full width */
 /* Reset Styles */
 /* Add 100px so mobile switch bar doesn't cover street address. */
+/* line 138, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 body {
   background-color: #ffffff;
   margin: 0;
   padding: 0; }
 
+/* line 143, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 img {
   outline: none;
   text-decoration: none;
   display: block; }
 
+/* line 148, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 br, strong br, b br, em br, i br {
   line-height: 100%; }
 
+/* line 151, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 100% !important;
   -webkit-font-smoothing: antialiased; }
 
+/* line 155, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #c12501;
   font-weight: bold;
   text-decoration: underline; }
 
+/* line 160, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
   color: red !important; }
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+/* line 164, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
   color: #c12501;
   font-weight: bold;
   text-decoration: underline; }
 
 /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+/* line 170, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 table td, table tr {
   border-collapse: collapse; }
 
+/* line 173, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .yshortcuts, .yshortcuts a, .yshortcuts a:link, .yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
   color: black;
   text-decoration: none !important;
@@ -177,65 +200,79 @@ table td, table tr {
 
 /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
 /* This most probably won't work in all email clients. Don't include code blocks in email. */
+/* line 180, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 code {
   white-space: normal;
   word-break: break-all; }
 
+/* line 184, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #background-table {
   background-color: #ffffff; }
 
+/* line 188, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .mobile-block {
   display: inline; }
 
 /* Webkit Elements */
 /* Fonts and Content */
+/* line 212, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
+/* line 215, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-content, .footer-content {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
+/* line 222, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-branding {
   font-family: Georgia, Times, serif;
   font-size: 18px;
   color: #ffffff;
   text-transform: uppercase; }
 
+/* line 228, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #01172c; }
 
+/* line 233, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-office p {
   margin: 0; }
 
+/* line 236, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-message {
   font-size: 12px;
   color: #ffffff; }
 
+/* line 240, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-message a {
   font-weight: bold;
   color: #ffffff;
   text-decoration: underline; }
 
+/* line 245, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-content {
   font-size: 12px;
   color: #01172c; }
 
+/* line 249, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .header-content a {
   font-weight: bold;
   color: #c12501;
   text-decoration: underline; }
 
+/* line 254, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .title-purpose {
   background: #01172c;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
+/* line 260, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-purpose {
   font-size: 16px;
   line-height: 130%;
@@ -244,14 +281,17 @@ body, td {
   margin-top: 0px;
   margin-bottom: 0; }
 
+/* line 268, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-purpose a {
   color: #ffffff;
   text-decoration: underline; }
 
+/* line 272, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .newsletter-title {
   font-size: 54px;
   text-align: center; }
 
+/* line 276, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .section-title {
   font-size: 21px;
   line-height: 130%;
@@ -261,16 +301,19 @@ body, td {
   margin-bottom: 0;
   font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
 
+/* line 285, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .section-title a {
   font-weight: bold;
   color: #2a5b7d !important;
   text-decoration: underline; }
 
+/* line 290, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 h1.section-title {
   line-height: 100% !important; }
 
 /* --- END Header --- */
 /* --- Article --- */
+/* line 295, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-title {
   font-size: 36px;
   line-height: 130%;
@@ -279,14 +322,17 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
+/* line 303, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-title a {
   color: #c12501;
   font-weight: bold;
   text-decoration: underline; }
 
+/* line 309, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-title.with-meta {
   margin-bottom: 0; }
 
+/* line 313, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout--title h1.article-title {
   font-size: 60px;
   color: #ffffff !important;
@@ -294,15 +340,18 @@ h1.section-title {
   text-align: center;
   margin-bottom: 5px; }
 
+/* line 320, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout--title h1.article-title a {
   color: #ffffff !important; }
 
+/* line 325, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #title--center h2.article-title {
   font-size: 28px;
   color: #2d5781 !important;
   text-transform: uppercase;
   text-align: center; }
 
+/* line 339, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content {
   font-size: 15px;
   line-height: 130%;
@@ -310,22 +359,27 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
+/* line 346, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .table-row .article-content {
   margin-bottom: 0; }
 
+/* line 349, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content a {
   color: #c12501;
   font-weight: bold;
   text-decoration: underline; }
 
+/* line 354, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content a.white {
   color: #ffffff;
   font-weight: normal;
   text-decoration: underline; }
 
+/* line 359, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content img {
   max-width: 100%; }
 
+/* line 362, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content ol, .article-content ul {
   margin-top: 0px;
   margin-bottom: 15px;
@@ -333,47 +387,59 @@ h1.section-title {
   padding: 0;
   padding-left: 19px; }
 
+/* line 369, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content li {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
   margin-bottom: 9px; }
 
+/* line 375, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content li a {
   color: #c12501;
   text-decoration: underline; }
 
+/* line 380, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-content p {
   margin-top: 0;
   margin-bottom: 15px; }
 
+/* line 384, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .table-row .article-content p {
   margin-bottom: 5px; }
 
+/* line 389, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout--title .article-content {
   font-size: 28px;
   color: #ffffff !important;
   margin-bottom: 0; }
 
+/* line 394, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout--title .article-content p {
   margin-bottom: 0; }
 
-#callout--title .article-content a, #callout--content .article-content a {
+/* line 398, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+#callout--title .article-content a,
+#callout--content .article-content a {
   color: #ffffff !important; }
 
+/* line 401, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout--content .article-content {
   color: #ffffff !important;
   margin-bottom: 0; }
 
+/* line 406, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout .article-content {
   font-size: 30px;
   color: #2d5781 !important; }
 
+/* line 410, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #callout .article-content a {
   color: #2d5781 !important; }
 
 /* --- END Article --- */
 /* --- Sidebar --- */
+/* line 416, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -384,6 +450,7 @@ h1.section-title {
   margin-bottom: 0;
   text-transform: uppercase; }
 
+/* line 426, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .sidebar-content {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -393,16 +460,19 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 0; }
 
+/* line 435, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .toc {
   list-style: none;
   padding-left: 0.5em;
   text-align: left; }
 
+/* line 440, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .toc a {
   color: #c12501;
   font-weight: bold;
   text-decoration: underline; }
 
+/* line 446, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-toc {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -410,6 +480,7 @@ h1.section-title {
   color: #333333;
   text-align: left; }
 
+/* line 453, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .article-toc a {
   font-weight: bold;
   color: #c12501;
@@ -417,14 +488,17 @@ h1.section-title {
 
 /* --- END Sidebar --- */
 /* --- Footer --- */
+/* line 461, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #footer {
   color: #01172c; }
 
+/* line 464, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #footer a {
   font-weight: bold;
-  color: #c12501;
+  color: #01172c;
   text-decoration: underline; }
 
+/* line 469, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 .footer-content {
   font-family: Georgia, Times, serif;
   font-size: 12px;
@@ -433,79 +507,112 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
+/* line 477, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #permission-reminder {
   white-space: normal; }
 
+/* line 480, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #street-address {
   font-family: Georgia, Times, serif;
   color: #01172c;
   white-space: normal; }
 
+/* line 485, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
 #street-address a {
-  color: #c12501;
+  color: #01172c;
   text-decoration: underline;
   font-weight: bold; }
 
 /* --- END Footer --- */
 @media only screen and (max-width: 660px) {
+  /* line 494, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   tr[id=webversion] {
     display: none !important; }
+  /* line 497, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=auto], td[class=auto], img[class=auto] {
     width: auto !important; }
-  table[class=responsive], td[class=responsive], img[class=responsive], table[class=table-row], td[class=table-row], img[class=table-row] {
+  /* line 502, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class=responsive], td[class=responsive], img[class=responsive],
+  table[class=table-row], td[class=table-row], img[class=table-row] {
     width: 100% !important; }
+  /* line 505, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=responsive-signature], td[class=responsive-signature], img[class=responsive-signature] {
     width: 100% !important;
     height: auto !important; }
+  /* line 509, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=table-col], td[class=table-col], img[class=table-col] {
     width: 20% !important; }
-  table[class=table-row-1], td[class=table-row-1], img[class=table-row-1], table[class=table-row-2], td[class=table-row-2], img[class=table-row-2] {
+  /* line 514, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class=table-row-1], td[class=table-row-1], img[class=table-row-1],
+  table[class=table-row-2], td[class=table-row-2], img[class=table-row-2] {
     width: 50% !important; }
+  /* line 517, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
+  /* line 520, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
+  /* line 523, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
+  /* line 526, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding] {
     width: 5% !important; }
+  /* line 529, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
+  /* line 532, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=threecol], td[class=threecol], img[class=threecol] {
     width: 33% !important;
     height: auto !important; }
+  /* line 536, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
     width: 95% !important; }
+  /* line 539, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   td[class=toc-padding] {
     width: 2.5% !important; }
+  /* line 542, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   div[id=date] {
     font-weight: bold !important; } }
 
 @media only screen and (max-width: 568px) {
+  /* line 547, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   span[class=mobile-block] {
     display: block !important; }
+  /* line 550, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   div[class=newsletter-title] {
     font-size: 36px; } }
 
 @media only screen and (max-width: 480px) {
-  table[class=table-row] table[class=table-row-1], table[class=table-row] table[class=table-row-2], table[class=table-row] table[class=table-col2], table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
+  /* line 558, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
+  table[class=table-row] table[class=table-row-1],
+  table[class=table-row] table[class=table-row-2],
+  table[class=table-row] table[class=table-col2],
+  table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
     width: 100% !important; }
+  /* line 561, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=w140], td[class=w140], img[class=w140] {
     width: 90px !important; }
+  /* line 562, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=w140-story], td[class=w140-story], img[class=w140-story] {
     width: 90px !important;
     height: auto !important; }
+  /* line 563, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=w170], td[class=w170], img[class=w170] {
     width: 100px !important; }
+  /* line 566, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[class=w0-phone], td[class=w0-phone] {
     width: 0 !important; }
+  /* line 569, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   table[id=threecol] img[class=responsive] {
     width: 101px !important;
     height: 101px !important; } }
 
 @media only screen and (max-width: 414px) {
+  /* line 575, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   #callout--title h1.article-title {
     font-size: 45px !important; }
+  /* line 578, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--aechallenge--default.scss */
   #callout--title .article-content {
     font-size: 21px !important; } }
 
