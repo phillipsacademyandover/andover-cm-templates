@@ -229,9 +229,6 @@ body, td {
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 
 /* --- Header --- */
-.brand__name {
-    text-align: center;
-}
 .preview__text {
     font-family: $body--font;
     font-size: 5px;
@@ -247,30 +244,30 @@ body, td {
 		color: $pa-blue-tint-10;
 		text-decoration: underline;
 	}
-.header-branding {
+.header__branding {
 	font-family:$brand--font;
 	font-size:24px;
 	color:$white;
 	text-transform:uppercase;
 }
-.header-office {
+.header__office {
 	font-family: $body--font;
 	font-size: 12px;
     font-style:italic;
 	color: $white;
 }
-	.header-office p {
+	.header__office p {
 		margin:0;
 	}
-.header-message {
-	font-size: 12px;
-	color: $white;
-}
-	.header-message a {
-		font-weight: bold;
-		color: $white;
-		text-decoration: underline;
-	}
+//.header-message {
+//	font-size: 12px;
+//	color: $white;
+//}
+//	.header-message a {
+//		font-weight: bold;
+//		color: $white;
+//		text-decoration: underline;
+//	}
 .title-purpose {
 	background:$pa-dkblue;
 	-webkit-border-radius:4px;
