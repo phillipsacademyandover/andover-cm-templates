@@ -219,12 +219,13 @@ body, td {
 
 .preview__text {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  color: #dee8f4; }
+  font-size: 5px;
+  color: #0058a0;
+  height: 6px; }
 
 .preview__text p {
   margin: 0 !important;
-  font-size: 10px; }
+  font-size: 5px; }
 
 .webversion__content a {
   font-weight: bold;
@@ -256,7 +257,7 @@ body, td {
   text-decoration: underline; }
 
 .title-purpose {
-  background: #112369;
+  background: #003c7f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -280,7 +281,7 @@ body, td {
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #112369 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
@@ -299,7 +300,7 @@ h1.section-title {
 .article-title {
   font-size: 21px;
   line-height: 130%;
-  color: #112369 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 8px; }
@@ -412,7 +413,7 @@ h1.section-title {
   border-radius: 4px;
   border-top: 1px solid #0058a0;
   border-right: 1px solid #0058a0;
-  border-bottom: 2px solid #112369;
+  border-bottom: 2px solid #003c7f;
   border-left: 1px solid #0058a0;
   color: #ffffff;
   display: inline-block;
@@ -420,7 +421,7 @@ h1.section-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: normal;
   padding: 12px 18px;
-  text-shadow: 0 1px 2px #112369; }
+  text-shadow: 0 1px 2px #003c7f; }
 
 .pb-button a {
   font-size: 18px;

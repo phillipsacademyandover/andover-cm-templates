@@ -129,7 +129,8 @@
 
   img {
     height: auto;
-    line-height: 100%; } }
+    line-height: 100%;
+    Margin: 0 auto; } }
 /* Client-specific Styles */
 #outlook a {
   padding: 0; }
@@ -167,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -176,7 +177,7 @@ h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -207,36 +208,48 @@ code {
 body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
-.header-content, .footer-content {
+#header, #footer {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
+
+/* --- Helpers --- */
+.mso__center {
+  Margin-top: 0;
+  Margin-right: auto;
+  Margin-bottom: 0;
+  Margin-left: auto; }
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
 .brand__name {
   text-align: center; }
 
-.whitelist-message {
-  font-size: 12px;
-  color: #ffffff;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+.preview__text {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  color: #0058a0;
+  height: 6px; }
 
-.whitelist-message a {
+.preview__text p {
+  margin: 0 !important;
+  font-size: 5px; }
+
+.webversion__content a {
   font-weight: bold;
-  color: #ffffff !important;
+  color: #dee8f4;
   text-decoration: underline; }
 
 .header-branding {
   font-family: Georgia, Times, serif;
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
   text-transform: uppercase; }
 
 .header-office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color: #01172c; }
+  font-style: italic;
+  color: #ffffff; }
 
 .header-office p {
   margin: 0; }
@@ -250,17 +263,8 @@ body, td {
   color: #ffffff;
   text-decoration: underline; }
 
-.header-content {
-  font-size: 12px;
-  color: #01172c; }
-
-.header-content a {
-  font-weight: bold;
-  color: #0039a6;
-  text-decoration: underline; }
-
 .title-purpose {
-  background: #01172c;
+  background: #003c7f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -284,7 +288,7 @@ body, td {
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #2c2c20 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
@@ -301,15 +305,15 @@ h1.section-title {
 /* --- END Header --- */
 /* --- Article --- */
 .article-title {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 130%;
-  color: #2d5781 !important;
-  font-weight: bold;
+  color: #003c7f !important;
+  font-weight: normal;
   margin-top: 0px;
-  margin-bottom: 15px; }
+  margin-bottom: 8px; }
 
 .article-title a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -328,7 +332,7 @@ h1.section-title {
 
 #title--center h2.article-title {
   font-size: 28px;
-  color: #2d5781 !important;
+  color: #4982bc !important;
   text-transform: uppercase;
   text-align: center; }
 
@@ -343,7 +347,7 @@ h1.section-title {
   margin-bottom: 0; }
 
 .article-content a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -369,7 +373,7 @@ h1.section-title {
   margin-bottom: 9px; }
 
 .article-content li a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 .article-content p {
@@ -397,12 +401,41 @@ h1.section-title {
 
 #callout .article-content {
   font-size: 30px;
-  color: #2d5781 !important; }
+  color: #4982bc !important; }
 
 #callout .article-content a {
-  color: #2d5781 !important; }
+  color: #4982bc !important; }
 
 /* --- END Article --- */
+/* --- Button --- */
+.pb-button__mso {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.pb-button__style {
+  background-color: #0058a0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-top: 1px solid #0058a0;
+  border-right: 1px solid #0058a0;
+  border-bottom: 2px solid #003c7f;
+  border-left: 1px solid #0058a0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 12px 18px;
+  text-shadow: 0 1px 2px #003c7f; }
+
+.pb-button a {
+  font-size: 18px;
+  color: #ffffff !important;
+  text-decoration: none; }
+
+/* --- END Button --- */
 /* --- Sidebar --- */
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -429,7 +462,7 @@ h1.section-title {
   text-align: left; }
 
 .toc a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -442,16 +475,16 @@ h1.section-title {
 
 .article-toc a {
   font-weight: bold;
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 /* --- END Sidebar --- */
 /* --- Footer --- */
 #footer {
-  color: #01172c; }
+  color: #333333; }
 
 #footer a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 #footer a.link {
@@ -461,7 +494,7 @@ h1.section-title {
   font-family: Georgia, Times, serif;
   font-size: 12px;
   line-height: 130%;
-  color: #01172c;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 15px; }
 
@@ -469,24 +502,43 @@ h1.section-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 130%;
-  color: #01172c;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 15px; }
+
+.footer-content--pref a {
+  font-weight: bold; }
 
 #permission-reminder {
   white-space: normal; }
 
 #street-address {
   font-family: Georgia, Times, serif;
-  color: #01172c;
+  color: #333333;
   white-space: normal; }
 
 #street-address a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline;
   font-weight: bold; }
 
+.whitelist-message,
+.webversion__content--footer {
+  font-size: 12px;
+  color: #333333;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+.whitelist-message a,
+.webversion__content--footer a {
+  font-weight: bold;
+  color: #0058a0;
+  text-decoration: underline; }
+
 /* --- END Footer --- */
+@media only screen and (min-width: 660px) {
+  .pb-button {
+    max-width: 50%; } }
 @media only screen and (max-width: 660px) {
   tr[id=webversion] {
     display: none !important; }
@@ -512,8 +564,23 @@ h1.section-title {
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
 
+  table[class=r70], td[class=r70], img[class=r70] {
+    width: 70% !important; }
+
+  table[class=r30], td[class=r30], img[class=r30] {
+    width: 30% !important; }
+
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 75% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 25% !important; }
+
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
+
+  table[class=responsive-content-padding], td[class=responsive-content-padding], img[class=responsive-content-padding] {
+    width: 97.5% !important; }
 
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
@@ -547,7 +614,13 @@ h1.section-title {
     display: block !important; }
 
   div[class=newsletter-title] {
-    font-size: 36px; } }
+    font-size: 36px; }
+
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 70% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 30% !important; } }
 @media only screen and (max-width: 480px) {
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
@@ -570,59 +643,191 @@ h1.section-title {
 
   table[id=threecol] img[class=responsive] {
     width: 100% !important;
-    height: auto !important; } }
+    height: auto !important; }
+
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 65% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 35% !important; } }
 @media only screen and (max-width: 414px) {
   #callout--title h1.article-title {
     font-size: 45px !important; }
 
   #callout--title .article-content {
-    font-size: 21px !important; } }
+    font-size: 21px !important; }
+
+  div[class=header-branding] {
+    font-size: 20px !important; } }
+@media only screen and (max-width: 360px) {
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 62% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 38% !important; } }
+@media only screen and (max-width: 320px) {
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 60% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 40% !important; } }
     
 </style>
 
 <!--[if lt mso 9]>
 <style _tmplitem="201">
-    /* --- Style --- */
-/* --- PA Style Guide --- */
-/* --- PA --- */
-/* --- PA Style Guide --- */
-/* --- lt mso 9 --- */
-.title-purpose {
-  background: #ffffff;
-  border-top: 1px solid #91b7df;
-  border-bottom: 1px solid #91b7df; }
+    /*
+Error: Undefined variable: "$brand--borderbg".
+        on line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--outlook--ltmso9.scss
+        from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--outlook--ltmso9--pa-master.scss
 
-.article-purpose {
-  color: #01172c; }
+1: /* --- Style --- *\/
+2: 
+3: @import "partials/style--pa";
+4: @import "partials/style--outlook--ltmso9";
 
-.article-purpose a {
-  color: #01172c;
-  text-decoration: underline; }
+Backtrace:
+/Users/jkapaldo/GitHub/CM Templates/sass/partials/style--outlook--ltmso9.scss:4
+/Users/jkapaldo/GitHub/CM Templates/sass/style--outlook--ltmso9--pa-master.scss:4
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/list_literal.rb:63:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:418:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$brand--borderbg\".\A         on line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--outlook--ltmso9.scss\A         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--outlook--ltmso9--pa-master.scss\A \A 1: /* --- Style --- */\A 2: \A 3: @import \"partials/style--pa\";\A 4: @import \"partials/style--outlook--ltmso9\";"; }
 </style>
 <![endif]-->
 <!--[if gte mso 9]>
 <style _tmplitem="201" >
-    /* --- Style --- */
-/* --- PA Style Guide --- */
-/* --- PA --- */
-/* --- PA Style Guide --- */
-/* --- lt mso 9 --- */
-.title-purpose {
-  background: #ffffff;
-  border-top: 1px solid #91b7df;
-  border-bottom: 1px solid #91b7df; }
+    /*
+Error: Undefined variable: "$brand--borderbg".
+        on line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--outlook--gtemso9.scss
+        from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--outlook--gtemso9--pa-master.scss
 
-.article-purpose {
-  color: #01172c; }
+1: /* --- Style --- *\/
+2: 
+3: @import "partials/style--pa";
+4: @import "partials/style--outlook--gtemso9";
 
-.article-purpose a {
-  color: #01172c;
-  text-decoration: underline; }
-
-.article-content ol, .article-content ul {
-  margin: 0 0 0 24px;
-  padding: 0;
-  list-style-position: inside; }
+Backtrace:
+/Users/jkapaldo/GitHub/CM Templates/sass/partials/style--outlook--gtemso9.scss:4
+/Users/jkapaldo/GitHub/CM Templates/sass/style--outlook--gtemso9--pa-master.scss:4
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/list_literal.rb:63:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:418:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$brand--borderbg\".\A         on line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--outlook--gtemso9.scss\A         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--outlook--gtemso9--pa-master.scss\A \A 1: /* --- Style --- */\A 2: \A 3: @import \"partials/style--pa\";\A 4: @import \"partials/style--outlook--gtemso9\";"; }
 </style>
 <![endif]-->
 <!--[if gte mso 15]>
@@ -631,82 +836,71 @@ h1.section-title {
 <![endif]-->
 <!-- KIT -->
     <!-- Color -->
-                                                       
+                    <!-- brand--bg = #b8d0e9 -->
+    <!-- brand--borderbg = #91b7df -->
+    <!-- brand--logobg = #01172c -->
+            <!-- secondarycolor--bg = #dee8f4 -->
+    <!-- secondarycolor--borderbg = #dee8f4 -->
+               
+   
     <!-- Text -->
-                <!-- END KIT -->  </head>
+                <!-- END KIT --></head>
 <body>
-<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+<!-- ------------ -->
+<!-- BRAND HEADER -->
+<!-- ------------ -->
+<table id="header" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0058a0">
 <tbody>
-<tr style="border-collapse:collapse;">
-	<td class="responsive" align="center" bgcolor="#2d5781" style="border-bottom:2px solid #ffffff;">
-		<table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
-		<tbody>
-		<tr style="border-collapse:collapse;">
-			<td class="responsive" width="640" height="10" valign="middle" style="font-size:10px;line-height:10px;">&nbsp;</td>
-		</tr>
-		<tr style="border-collapse:collapse;">
-			<td class="responsive" width="640" valign="middle" align="center">
-				<p class="whitelist-message">To ensure continued receipt of Phillips Academy messages, please <a href="http://www.campaignmonitor.com/guides/whitelisting/" target="_blank">“white list”</a> us.</p>			</td>
-		</tr>
-		<tr style="border-collapse:collapse;">
-			<td class="responsive" width="640" height="10" valign="middle" style="font-size:10px;line-height:10px;">&nbsp;</td>
-		</tr>
-		</tbody>
-		</table>
-	</td>
+<tr style="border-collapse:collapse;" bgcolor="">
+    <td width="640" align="center" class="responsive">
+        <table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="border-collapse:collapse;">
+            <td width="100%" class="responsive" valign="middle" align="right">
+                <div class="preview__text">
+                    <multiline editable label="Preheader Text">Preheader Text Goes Here Preheader Text Goes Here Preheader Text Goes Here Preheader Text Goes Here Preheader Text Goes Here Preheader Text Goes Here Preheader Text Goes Here Preheader Text Goes Here</multiline>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+    </td>
 </tr>
+
 <tr style="border-collapse:collapse;">
-	<td class="responsive" align="center" bgcolor="#b8d0e9" style="border-bottom:1px solid #91b7df;">
+	<td class="responsive" align="center" bgcolor="">
 		<table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
 		<tbody>
 		<tr style="border-collapse:collapse;">
-			<td align="center" width="140" bgcolor="#01172c">
-				<table width="140" border="0" cellspacing="0" cellpadding="0">
-				<tbody>
-				<tr style="border-collapse:collapse;">
-					<td width="140" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
-				</tr>
-				<tr style="border-collapse:collapse;">
-					<td align="center" width="140">
-						<div class="header-branding">
-							Andover
-						</div>
-					</td>
-				</tr>
-				<tr style="border-collapse:collapse;">
-					<td width="140" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
-				</tr>
-				</tbody>
-				</table>
+			<td width="160" class="branding__logo" align="left" style="text-align:center;">
+
+                    <div class="header-branding" style="padding-left: 10px;padding-right: 10px;word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 10px;Margin-right: 10px">
+                        Andover
+                    </div>
+					
 			</td>
-			<td class="auto" width="500">
-				<table class="auto" width="500" border="0" cellspacing="0" cellpadding="0">
-				<tbody>
-				<tr style="border-collapse:collapse;">
-					<td colspan="2" class="auto" width="500" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
-				</tr>
-				<tr style="border-collapse:collapse;">
-					<td class="w10" width="15"></td>
-					<td align="center" class="auto" width="500">
-						<div align="left" class="header-office">
-							<multiline label="Description">Enter Office Title</multiline>
-						</div>
-					</td>
-				</tr>
-				<tr style="border-collapse:collapse;">
-					<td colspan="2" class="auto" width="500" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
-				</tr>
-				</tbody>
-				</table>
+			<td width="480" class="branding__office" align="left" style="text-align:left;">
+                    
+                <div class="header-office" style="padding-left: 10px;padding-right: 10px;word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 10px;Margin-right: 10px">
+                    <multiline label="Description">Enter Office Title</multiline>
+                </div>
+						
 			</td>
 		</tr>
+		<tr style="border-collapse:collapse;">
+            <td align="center" colspan="3" width="100%" height="6" bgcolor="" style="font-size:6px;line-height:6px;">&nbsp;</td>
+        </tr>
 		</tbody>
 		</table>
 	</td>
 </tr>
 </tbody>
 </table>
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+
+<!-- ------------ -->
+<!-- BRAND HEADER -->
+<!-- ------------ --><table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tbody>
 <tr style="border-collapse:collapse;">
 	<td class="responsive" align="center" bgcolor="#ffffff">
@@ -928,8 +1122,8 @@ h1.section-title {
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610">
-            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0" style="Margin:0 auto;">
+        <td align="center" class="responsive" width="610">
+            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0">
         </td>
     </tr>
     <tr style="border-collapse:collapse;">
@@ -1122,58 +1316,8 @@ h1.section-title {
     </tr></tbody>
     </table>
 
-</layout>                            <layout label="Story: Post with Image">
-
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="middle">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="auto" width="418">
-                    <table class="auto" width="418" cellpadding="0" cellspacing="0" border="0" align="left">
-                    <tbody>
-                    <tr style="border-collapse:collapse;">
-                        <td class="auto" width="418" align="left" valign="middle">
-                            <h2 align="left" class="article-title" style="padding-right:10px;">
-                                <singleline label="Title">Add a story title</singleline>
-                            </h2>
-                            <div align="left" class="article-content" style="padding-right:10px;">
-                                <multiline label="Description">Enter your description</multiline>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                    </table>
-                </td>
-
-                <!-- TABLE 2 -->
-                <td class="w170" width="192">
-                    <table class="w170" width="192" cellpadding="0" cellspacing="0" border="0" align="right">
-                    <tbody>
-                    <tr style="border-collapse:collapse;">
-                        <td width="10"></td>
-                        <td class="w140" width="182" align="right" valign="middle">
-                            <div align="right" class="article-content" style="border:1px solid #01172c;">
-                                <img editable="true" label="Story Image" src="" width="180" height="115" border="0" class="w140-story" />
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                    </table>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" height="15" colspan="2" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="First Table Row: 2 Columns">
+</layout>                            <!-- include ../partials/module--story.kit -->
+                            <layout label="First Table Row: 2 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1709,13 +1853,14 @@ h1.section-title {
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tbody>
 <tr style="border-collapse:collapse;">
-	<td class="responsive" align="center" bgcolor="#b8d0e9" style="border-top:1px solid #91b7df;">
+	<td class="responsive" align="center" bgcolor="#dee8f4">
 			<table id="footer" class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
 			<tbody>
 			<tr style="border-collapse:collapse;">
 				<td class="responsive" width="640" height="20" style="font-size:20px;line-height:20px;">&nbsp;</td>
 			</tr>
-			<tr style="border-collapse:collapse;">
+            
+            <tr style="border-collapse:collapse;">
 				<td class="responsive" width="640">
 					<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
                     <!-- seal & wordmark -->
@@ -1723,7 +1868,7 @@ h1.section-title {
 						<td class="threecol" width="254"></td>
 						<td width="132" align="center" valign="middle">
 							<a href="http://www.andover.edu" target="_blank">
-								<img src="images/andover-sealwordmark-2x.png" alt="Phillips Academy" width="132" height="147" border="0" />
+								<img src="images/andover-sealwordmark-2x-pablue.png" alt="Phillips Academy" width="132" height="147" border="0" />
 							</a>
 						</td>
 						<td class="threecol" width="254"></td>
@@ -1731,66 +1876,7 @@ h1.section-title {
 					</table>
 				</td>
 			</tr>
-			<tr style="border-collapse:collapse;">
-				<td class="responsive" width="610" height="20" style="font-size:20px;line-height:20px;">&nbsp;</td>
-			</tr>
-			<tr style="border-collapse:collapse;">
-				<td align="center" class="responsive">
-					<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
-					<tbody>
-					<tr style="border-collapse:collapse;">
-						<td class="responsive" width="640">
-							<table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
-							<tbody>
-							<tr style="border-collapse:collapse;">
-								<td class="responsive" width="640" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
-							</tr>
-							<tr style="border-collapse:collapse;">
-								<td align="center" class="responsive" width="640">
-									
-									<table cellpadding="0" cellspacing="0">
-<tr style="border-collapse:collapse;">
-
-    <td width="48" height="48" align="center" valign="middle">
-        <a href="http://www.facebook.com/phillipsacademy" target="_blank">
-            <img src="images/facebook-2x.png" alt="Phillips Academy Facebook" title="Phillips Academy Facebook" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
-        </a>
-    </td>
-    <td width="48" height="48" align="center" valign="middle">
-        <a href="http://www.twitter.com/phillipsacademy" target="_blank">
-            <img src="images/twitter-2x.png" alt="Phillips Academy Twitter" title="Phillips Academy Twitter" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
-        </a>
-    </td>
-    <td width="48" height="48" align="center" valign="middle">
-        <a href="http://www.youtube.com/user/PhillipsAndover" target="_blank">
-            <img src="images/youtube-2x.png" alt="Phillips Academy YouTube" title="Phillips Academy YouTube" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
-        </a>
-    </td>
-    <td width="48" height="48" align="center" valign="middle">
-        <a href="http://phillipsacademy.smugmug.com/" target="_blank">
-            <img src="images/smugmug-2x.png" alt="Phillips Academy Photo Gallery" title="Phillips Academy Photo Gallery" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
-        </a>
-    </td>
-    <td width="48" height="48" align="center" valign="middle">
-        <forwardtoafriend lang="en">
-            <img src="images/forwardtoafriend-2x.png" alt="Forward this email to a Friend" title="Forward this email to a Friend" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
-        </forwardtoafriend>
-    </td>
-</tr>
-</table>									
-								</td>
-							</tr>
-							<tr style="border-collapse:collapse;">
-								<td class="responsive" width="640" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
-							</tr>
-							</tbody>
-							</table>
-						</td>
-					</tr>
-					</tbody>
-					</table>
-				</td>
-			</tr>
+            
 			<tr style="border-collapse:collapse;">
 				<td class="responsive" width="640" height="20" style="font-size:20px;line-height:20px;">&nbsp;</td>
 			</tr>
@@ -1811,8 +1897,59 @@ h1.section-title {
 					</table>
 				</td>
 			</tr>
+			
 			<tr style="border-collapse:collapse;">
-				<td class="responsive" width="640" height="15" colspan="3" style="font-size:15px;line-height:15px;">&nbsp;</td>
+                <td align="center" class="responsive" width="640">
+                    <table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="640" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
+                    </tr>
+                    <tr style="border-collapse:collapse;">
+                        <td align="center" class="responsive" width="640">
+
+                            <table cellpadding="0" cellspacing="0">
+<tr style="border-collapse:collapse;">
+
+    <td width="48" height="48" align="center" valign="middle">
+        <a href="http://www.facebook.com/phillipsacademy" target="_blank">
+            <img src="images/facebook-2x-pablue.png" alt="Phillips Academy Facebook" title="Phillips Academy Facebook" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
+        </a>
+    </td>
+    <td width="48" height="48" align="center" valign="middle">
+        <a href="http://www.twitter.com/phillipsacademy" target="_blank">
+            <img src="images/twitter-2x-pablue.png" alt="Phillips Academy Twitter" title="Phillips Academy Twitter" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
+        </a>
+    </td>
+    <td width="48" height="48" align="center" valign="middle">
+        <a href="http://www.youtube.com/user/PhillipsAndover" target="_blank">
+            <img src="images/youtube-2x-pablue.png" alt="Phillips Academy YouTube" title="Phillips Academy YouTube" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
+        </a>
+    </td>
+    <td width="48" height="48" align="center" valign="middle">
+        <a href="http://phillipsacademy.smugmug.com/" target="_blank">
+            <img src="images/smugmug-2x-pablue.png" alt="Phillips Academy Photo Gallery" title="Phillips Academy Photo Gallery" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
+        </a>
+    </td>
+    <td width="48" height="48" align="center" valign="middle">
+        <forwardtoafriend lang="en">
+            <img src="images/forwardtoafriend-2x-pablue.png" alt="Forward this email to a Friend" title="Forward this email to a Friend" width="44" height="44" border="0" style="display:inline-block;padding-top:4px;" />
+        </forwardtoafriend>
+    </td>
+</tr>
+</table>
+                        </td>
+                    </tr>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="640" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </td>
+            </tr>
+			
+			<tr style="border-collapse:collapse;">
+				<td class="responsive" width="640" height="30" colspan="3" style="font-size:30px;line-height:30px;">&nbsp;</td>
 			</tr>
 			<tr style="border-collapse:collapse;">
 				<td align="center" class="responsive" width="640">
@@ -1821,12 +1958,12 @@ h1.section-title {
     <td align="center" class="responsive" colspan="3" width="640">
         <div>
         <!--[if mso]>
-          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" style="height:36px;v-text-anchor:middle;width:200px;" arcsize="50%" stroke="f" fillcolor="#0039a6">
+          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" style="height:36px;v-text-anchor:middle;width:200px;" arcsize="50%" stroke="f" fillcolor="#0058a0">
             <w:anchorlock/>
             <center>
           <![endif]-->
               <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]"
-        style="background-color:#0039a6;border-radius:18px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">Manage Preferences</a>
+        style="background-color:#0058a0;border-radius:18px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">Manage Preferences</a>
           <!--[if mso]>
             </center>
           </v:roundrect>
@@ -1838,22 +1975,55 @@ h1.section-title {
     <td class="responsive" width="640" height="15" colspan="3" style="font-size:15px;line-height:15px;">&nbsp;</td>
 </tr>
 <tr style="border-collapse:collapse;">
-    <td class="responsive-padding" width="15"></td>
-    <td align="center" class="responsive-content" width="610">
-        <p align="left" class="footer-content--pref">To customize the kinds of communications you receive from Phillips Academy, please click on <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="link">Manage Preferences</a>. If you would like to stop receiving all e-mail from Phillips Academy, including event invitations, e-newsletters, development news, class news, reunion information, and special messages from the Head of School, click on <unsubscribe>unsubscribe</unsubscribe>.</p>
+    <td align="center" class="responsive" width="640">
+        <p class="footer-content--pref" style="padding: 0;word-break: break-word;word-wrap: break-word;Margin-left: 10px;Margin-right: 10px;text-align:left;">To customize the kinds of communications you receive from Phillips Academy, please click on <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="link">Manage Preferences</a>. If you would like to stop receiving all e-mail from Phillips Academy, including event invitations, e-newsletters, development news, class news, reunion information, and special messages from the Head of School, click on <unsubscribe>unsubscribe</unsubscribe>.</p>
     </td>
-    <td class="responsive-padding" width="15"></td>
 </tr>
 <tr style="border-collapse:collapse;">
     <td class="responsive" width="640" height="15" colspan="3" style="font-size:15px;line-height:15px;">&nbsp;</td>
 </tr>
 </table>                </td>
             </tr>
+            <tr style="border-collapse:collapse;">
+                <td align="center" class="responsive" width="100%">
+                    <table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td valign="top" align="left" class="responsive-content" width="640">
+                            <table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td valign="top" align="left" class="r70" width="384">
+                                    
+                                    <div style="word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 10px;Margin-right: 10px">
+                                        
+                                        <p class="whitelist-message">To ensure continued receipt of Phillips Academy messages, please <a href="http://www.campaignmonitor.com/guides/whitelisting/" target="_blank">“white list”</a> us.</p>                                        
+                                    </div>
+
+                                </td>
+                                <td valign="top" align="left" class="r30" width="256">
+                                   
+                                    <div style="word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 10px;Margin-right: 10px">
+                                        
+                                        <div class="webversion__content--footer" style="text-align:right;">
+                                            <webversion>Web Version</webversion>
+                                        </div>
+                                        
+                                    </div>
+                                   
+                                </td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+            <tr style="border-collapse:collapse;">
+				<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
+			</tr>
 			</tbody>
 			</table>
 		</td>
 	</tr>
 </tbody>
-</table>
-</body>
+</table></body>
 </html>

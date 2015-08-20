@@ -234,17 +234,17 @@ body, td {
 }
 .preview__text {
     font-family: $body--font;
-    font-size: 10px;
-    color: $pa-blue-10;
-    
+    font-size: 5px;
+    color: $pa-blue;
+    height: 6px;
 }
     .preview__text p {
         margin:0 !important;
-        font-size: 10px;
+        font-size: 5px;
     }
 	.webversion__content a {
 		font-weight: bold;
-		color: $pa-blue-10;
+		color: $pa-blue-tint-10;
 		text-decoration: underline;
 	}
 .header-branding {
@@ -271,11 +271,6 @@ body, td {
 		color: $white;
 		text-decoration: underline;
 	}
-//.header-content {
-//	font-size: 12px;
-//	color: $header--text;
-//}
-
 .title-purpose {
 	background:$pa-dkblue;
 	-webkit-border-radius:4px;
@@ -349,7 +344,7 @@ h1.section-title {
 // Centered Title
 #title--center h2.article-title {
     font-size:28px;
-    color: $pa-blue-4 !important;
+    color: $pa-blue-tint-60 !important;
     text-transform: uppercase;
     text-align: center;
 }
@@ -430,10 +425,10 @@ h1.section-title {
 
 #callout .article-content {
     font-size:30px;
-    color: $pa-blue-4 !important;
+    color: $pa-blue-tint-60 !important;
 }
 #callout .article-content a {
-    color: $pa-blue-4 !important;
+    color: $pa-blue-tint-60 !important;
 }
 /* --- END Article --- */
 

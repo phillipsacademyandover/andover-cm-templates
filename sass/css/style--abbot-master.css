@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$pa-blue-10".
+Error: Undefined variable: "$pa-blue".
         on line 238 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss
         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--abbot-master.scss
 
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$pa-blue-10\".\A         on line 238 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss\A         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--abbot-master.scss"; }
+  content: "Error: Undefined variable: \"$pa-blue\".\A         on line 238 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss\A         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--abbot-master.scss"; }
