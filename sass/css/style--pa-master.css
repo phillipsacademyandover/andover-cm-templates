@@ -206,12 +206,6 @@ body, td {
   -ms-text-size-adjust: none; }
 
 /* --- Helpers --- */
-.mso__center {
-  Margin-top: 0;
-  Margin-right: auto;
-  Margin-bottom: 0;
-  Margin-left: auto; }
-
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
 .preview__text {
@@ -233,16 +227,23 @@ body, td {
   font-family: Georgia, Times, serif;
   font-size: 24px;
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  Margin-right: 10px;
+  Margin-left: 10px; }
 
 .header__office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: italic;
-  color: #ffffff; }
-
-.header__office p {
-  margin: 0; }
+  color: #ffffff;
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  Margin-right: 10px;
+  Margin-left: 10px; }
 
 .title-purpose {
   background: #003c7f;
@@ -638,7 +639,7 @@ h1.section-title {
   #callout--title .article-content {
     font-size: 21px !important; }
 
-  div[class=header-branding] {
+  div[class=header__branding] {
     font-size: 20px !important; } }
 @media only screen and (max-width: 360px) {
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {

@@ -219,12 +219,7 @@ body, td {
 }
 
 /* --- Helpers --- */
-.mso__center {
-    Margin-top:0;
-    Margin-right:auto;
-    Margin-bottom:0;
-    Margin-left:auto;
-}
+
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 
@@ -249,16 +244,27 @@ body, td {
 	font-size:24px;
 	color:$white;
 	text-transform:uppercase;
+    word-break: break-word;
+    word-wrap: break-word;
+    padding: 0;
+    Margin-right: 10px;
+    Margin-left: 10px;
 }
 .header__office {
 	font-family: $body--font;
 	font-size: 12px;
     font-style:italic;
 	color: $white;
+    word-break: break-word;
+    word-wrap: break-word;
+    padding: 0;
+    Margin-right: 10px;
+    Margin-left: 10px;
 }
-	.header__office p {
-		margin:0;
-	}
+//	.header__office p,
+//    .ExternalClass .ecxheader__office p {
+//		margin:0;
+//	}
 //.header-message {
 //	font-size: 12px;
 //	color: $white;
@@ -713,7 +719,7 @@ h1.section-title {
     #callout--title .article-content {
         font-size:21px !important;
     }
-    div[class=header-branding] {
+    div[class=header__branding] {
         font-size:20px !important;
     }
 }

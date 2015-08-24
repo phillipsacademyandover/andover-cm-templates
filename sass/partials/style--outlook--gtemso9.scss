@@ -1,8 +1,25 @@
 /* --- lt mso 9 --- */
+//.header__branding {
+//    word-break: break-word;
+//    word-wrap: break-word;
+//    padding: 0;
+//    Margin-left: 10px;
+//    Margin-right: 10px;
+//}
+//.header__office {
+//    word-break: break-word;
+//    word-wrap: break-word;
+//    padding: 0;
+//    Margin-top:6px;
+//    Margin-right: 10px;
+//    Margin-left: 10px;
+//}
+
+
 .title-purpose {
 	background:$white;
-	border-top:1px solid $brand--borderbg;
-	border-bottom:1px solid $brand--borderbg;
+	border-top:1px solid $pa-dkblue;
+	border-bottom:1px solid $pa-dkblue;
 }
 	.article-purpose {
 		color:$header--text;
