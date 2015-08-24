@@ -38,47 +38,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/ae-formal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-formal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/ae-master.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-master.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/ae-newsletter.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-newsletter.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/html\/ae-standard-abbot.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/html\/ae-standard-abbot.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/ae-standard.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-standard.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -173,47 +137,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/giving-formal.html": {
+	"\/html\/formal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-formal.html",
+		"inputAbbreviatedPath": "\/html\/formal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/giving-giftplanning.html": {
+	"\/html\/giftplanning.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-giftplanning.html",
+		"inputAbbreviatedPath": "\/html\/giftplanning.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/giving-master.html": {
+	"\/html\/hos.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-master.html",
+		"inputAbbreviatedPath": "\/html\/hos.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/giving-standard-abbot.html": {
+	"\/html\/hos__invite.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-standard-abbot.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/giving-standard.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-standard.html",
+		"inputAbbreviatedPath": "\/html\/hos__invite.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -236,6 +191,17 @@
 		"initialSize": 17805,
 		"inputAbbreviatedPath": "\/html\/images\/ae-head-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/ae-head-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/alumni-calendar-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3708,
+		"inputAbbreviatedPath": "\/html\/images\/alumni-calendar-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/alumni-calendar-2x-pablue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -350,6 +316,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/andover-wordmark-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8888,
+		"inputAbbreviatedPath": "\/html\/images\/andover-wordmark-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/andover-wordmark-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/andover-wordmark-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -357,6 +334,17 @@
 		"initialSize": 8070,
 		"inputAbbreviatedPath": "\/html\/images\/andover-wordmark-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/andover-wordmark-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/directory-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3708,
+		"inputAbbreviatedPath": "\/html\/images\/directory-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/directory-2x-pablue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -478,6 +466,17 @@
 		"initialSize": 57080,
 		"inputAbbreviatedPath": "\/html\/images\/header-parentbulletin-crop-50-2x.jpg",
 		"outputAbbreviatedPath": "\/html\/images\/header-parentbulletin-crop-50-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/linkedin-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2840,
+		"inputAbbreviatedPath": "\/html\/images\/linkedin-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/linkedin-2x-pablue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -647,11 +646,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/html\/index.html": {
+	"\/html\/minimal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/index.html",
+		"inputAbbreviatedPath": "\/html\/minimal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -710,6 +709,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/module--pa--footer-smi--personal.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/module--pa--footer-smi--personal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/module--pa--footer-smi--solicitation.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -755,11 +763,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-ae-minimal.html": {
+	"\/html\/ms2.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-ae-minimal.html",
+		"inputAbbreviatedPath": "\/html\/ms2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/html\/newsletter__ae.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/newsletter__ae.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/html\/newsletter__parentbulletin.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/newsletter__parentbulletin.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -782,38 +808,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-giving-minimal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-giving-minimal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/html\/pa-ice-standard.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/html\/pa-ice-standard.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/pa-invite-hos.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-invite-hos.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/pa-invite-master.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-invite-master.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -827,33 +826,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-ms2.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-ms2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/pa-newsletter-parentbulletin.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-newsletter-parentbulletin.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/pa-personal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-personal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/html\/pa-standard-2.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -863,20 +835,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-standard-hos.html": {
+	"\/html\/personal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-standard-hos.html",
+		"inputAbbreviatedPath": "\/html\/personal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-standard.html": {
+	"\/html\/seasonal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-standard.html",
+		"inputAbbreviatedPath": "\/html\/seasonal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -991,6 +963,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/standard.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/standard.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/style--abbot.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1027,33 +1008,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/ae-formal.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-formal.kit",
-		"outputAbbreviatedPath": "\/html\/ae-formal.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-master.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-master.kit",
-		"outputAbbreviatedPath": "\/html\/ae-master.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-newsletter.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-newsletter.kit",
-		"outputAbbreviatedPath": "\/html\/ae-newsletter.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kit\/pages\/ae-standard-abbot.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1063,57 +1017,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/ae-standard.kit": {
+	"\/kit\/pages\/formal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-standard.kit",
-		"outputAbbreviatedPath": "\/html\/ae-standard.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/formal.kit",
+		"outputAbbreviatedPath": "\/html\/formal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/giving-formal.kit": {
+	"\/kit\/pages\/giftplanning.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-formal.kit",
-		"outputAbbreviatedPath": "\/html\/giving-formal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/giftplanning.kit",
+		"outputAbbreviatedPath": "\/html\/giftplanning.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/giving-giftplanning.kit": {
+	"\/kit\/pages\/hos.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-giftplanning.kit",
-		"outputAbbreviatedPath": "\/html\/giving-giftplanning.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/hos.kit",
+		"outputAbbreviatedPath": "\/html\/hos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/giving-master.kit": {
+	"\/kit\/pages\/hos__invite.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-master.kit",
-		"outputAbbreviatedPath": "\/html\/giving-master.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-standard-abbot.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-standard-abbot.kit",
-		"outputAbbreviatedPath": "\/html\/giving-standard-abbot.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-standard.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-standard.kit",
-		"outputAbbreviatedPath": "\/html\/giving-standard.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/hos__invite.kit",
+		"outputAbbreviatedPath": "\/html\/hos__invite.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1126,12 +1062,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-ae-minimal.kit": {
+	"\/kit\/pages\/minimal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-ae-minimal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-ae-minimal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/minimal.kit",
+		"outputAbbreviatedPath": "\/html\/minimal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/ms2.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/ms2.kit",
+		"outputAbbreviatedPath": "\/html\/ms2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/newsletter__ae.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/newsletter__ae.kit",
+		"outputAbbreviatedPath": "\/html\/newsletter__ae.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/newsletter__parentbulletin.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/newsletter__parentbulletin.kit",
+		"outputAbbreviatedPath": "\/html\/newsletter__parentbulletin.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1144,48 +1107,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-formal.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-formal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-formal.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-giving-minimal.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-giving-minimal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-giving-minimal.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kit\/pages\/pa-ice-standard.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/pages\/pa-ice-standard.kit",
 		"outputAbbreviatedPath": "\/html\/pa-ice-standard.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-invite-hos.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-invite-hos.kit",
-		"outputAbbreviatedPath": "\/html\/pa-invite-hos.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-invite-master.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-invite-master.kit",
-		"outputAbbreviatedPath": "\/html\/pa-invite-master.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1198,57 +1125,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-ms2.kit": {
+	"\/kit\/pages\/personal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-ms2.kit",
-		"outputAbbreviatedPath": "\/html\/pa-ms2.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/personal.kit",
+		"outputAbbreviatedPath": "\/html\/personal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-newsletter-parentbulletin.kit": {
+	"\/kit\/pages\/seasonal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-newsletter-parentbulletin.kit",
-		"outputAbbreviatedPath": "\/html\/pa-newsletter-parentbulletin.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/seasonal.kit",
+		"outputAbbreviatedPath": "\/html\/seasonal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-personal.kit": {
+	"\/kit\/pages\/standard.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-personal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-personal.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-standard-2.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-standard-2.kit",
-		"outputAbbreviatedPath": "\/html\/pa-standard-2.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-standard-hos.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-standard-hos.kit",
-		"outputAbbreviatedPath": "\/html\/pa-standard-hos.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-standard.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-standard.kit",
-		"outputAbbreviatedPath": "\/html\/pa-standard.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard.kit",
+		"outputAbbreviatedPath": "\/html\/standard.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1263,7 +1163,7 @@
 		},
 	"\/kit\/partials\/default-outlook--pa--css.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default-outlook--pa--css.kit",
 		"outputAbbreviatedPath": "\/html\/default-outlook--pa--css.html",
@@ -1281,7 +1181,7 @@
 		},
 	"\/kit\/partials\/default__head.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__head.kit",
 		"outputAbbreviatedPath": "\/html\/default__head.html",
@@ -1308,7 +1208,7 @@
 		},
 	"\/kit\/partials\/default__module__alumni-giving--footer.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__alumni-giving--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__alumni-giving--footer.html",
@@ -1321,6 +1221,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__alumni-giving--header.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__alumni-giving--header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__andover--footer--personal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer--personal.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__andover--footer--personal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__andover--footer--wordmark.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer--wordmark.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__andover--footer--wordmark.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1362,7 +1280,7 @@
 		},
 	"\/kit\/partials\/module--ae-giving--footer-smi.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--ae-giving--footer-smi.kit",
 		"outputAbbreviatedPath": "\/html\/module--ae-giving--footer-smi.html",
@@ -1486,6 +1404,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/module--pa--footer-smi--personal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--pa--footer-smi--personal.kit",
+		"outputAbbreviatedPath": "\/html\/module--pa--footer-smi--personal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--pa--footer-smi.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -1506,7 +1433,7 @@
 		},
 	"\/kit\/partials\/module--rwdtwocols-sidebar-text.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols-sidebar-text.kit",
 		"outputAbbreviatedPath": "\/html\/module--rwdtwocols-sidebar-text.html",
@@ -1578,7 +1505,7 @@
 		},
 	"\/kit\/partials\/module--table--twocol-1-2-firstrow.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-firstrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-firstrow.html",
@@ -1587,7 +1514,7 @@
 		},
 	"\/kit\/partials\/module--table--twocol-1-2-lastrow.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-lastrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-lastrow.html",
@@ -1596,7 +1523,7 @@
 		},
 	"\/kit\/partials\/module--table--twocol-1-2-midrow.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-midrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-midrow.html",
@@ -1828,21 +1755,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/partials\/style--invite--pa.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/style--invite--pa.kit",
-		"outputAbbreviatedPath": "\/html\/style--invite--pa.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kit\/partials\/style--pa.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/style--pa.kit",
 		"outputAbbreviatedPath": "\/html\/style--pa.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/style--pa__invite.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/style--pa__invite.kit",
+		"outputAbbreviatedPath": "\/html\/style--pa__invite.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

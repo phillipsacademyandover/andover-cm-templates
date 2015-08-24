@@ -11,13 +11,13 @@
 /* --- PA Style Guide --- */
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
-  /* line 3, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=w0], td[class=w0] {
     width: 0 !important; }
-  /* line 6, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=w10], td[class=w10], img[class=w10] {
     width: 10px !important; }
-  /*table[class=w15], td[class=w15], img[class=w15] {
+
+    /*table[class=w15], td[class=w15], img[class=w15] {
         width:5px !important;
     }
     table[class=w30], td[class=w30], img[class=w30] {
@@ -91,64 +91,58 @@
         width:320px !important;
     }*/
   /*table[class=responsive], td[class=responsive], img[class=responsive] {
-        width:100% !important;
-    }
-    table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
-        width:5% !important;
-    }
-    table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
-        width:90% !important;
-    }*/
-  /* line 91, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+      width:100% !important;
+  }
+  table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
+      width:5% !important;
+  }
+  table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
+      width:90% !important;
+  }*/
   table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] {
     display: none !important; }
-  /* line 94, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class*=mobile], td[class*=mobile], img[class*=mobile], p[class*=mobile], span[class*=mobile] {
     display: block !important;
     width: 100% !important; }
-  /* line 95, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=h0], td[class=h0] {
     height: 0 !important; }
+
   /*table[class=h10], td[class=h10] {
-        height: 10px !important;
-        width:320px !important;
-    }*/
-  /* line 102, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+      height: 10px !important;
+      width:320px !important;
+  }*/
   p[class=footer-content-left] {
     text-align: center !important; }
-  /* line 105, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   #headline p {
     font-size: 30px !important; }
-  /* line 108, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   .article-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
-  /* line 112, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   .header-content, .footer-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
-  /* line 116, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   img {
     height: auto;
     line-height: 100%;
     Margin: 0 auto; } }
-
 /* Client-specific Styles */
-/* line 123, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #outlook a {
   padding: 0; }
 
 /* Force Outlook to provide a "view in browser" button. */
-/* line 126, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 body {
   width: 100% !important;
   min-width: 100%; }
 
-/* line 130, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .ReadMsgBody {
   width: 100%; }
 
-/* line 133, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .ExternalClass {
   width: 100%;
   display: block !important; }
@@ -156,50 +150,41 @@ body {
 /* Force Hotmail to display emails at full width */
 /* Reset Styles */
 /* Add 100px so mobile switch bar doesn't cover street address. */
-/* line 139, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 body {
   background-color: #ffffff;
   margin: 0;
   padding: 0; }
 
-/* line 144, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 img {
   outline: none;
   text-decoration: none;
   display: block; }
 
-/* line 149, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 br, strong br, b br, em br, i br {
   line-height: 100%; }
 
-/* line 152, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 100% !important;
   -webkit-font-smoothing: antialiased; }
 
-/* line 156, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 161, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
   color: red !important; }
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
-/* line 165, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
 /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
-/* line 171, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 table td, table tr {
   border-collapse: collapse; }
 
-/* line 174, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .yshortcuts, .yshortcuts a, .yshortcuts a:link, .yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
   color: black;
   text-decoration: none !important;
@@ -208,26 +193,21 @@ table td, table tr {
 
 /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
 /* This most probably won't work in all email clients. Don't include code blocks in email. */
-/* line 181, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 code {
   white-space: normal;
   word-break: break-all; }
 
-/* line 185, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #background-table {
   background-color: #ffffff; }
 
-/* line 189, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .mobile-block {
   display: inline; }
 
 /* Webkit Elements */
 /* Fonts and Content */
-/* line 213, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
-/* line 216, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #header, #footer {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
@@ -235,25 +215,21 @@ body, td {
 /* --- Helpers --- */
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
-/* line 227, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .preview__text {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 5px;
   color: #0058a0;
   height: 6px; }
 
-/* line 233, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .preview__text p {
   margin: 0 !important;
   font-size: 5px; }
 
-/* line 237, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .webversion__content a {
   font-weight: bold;
   color: #dee8f4;
   text-decoration: underline; }
 
-/* line 242, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .header__branding {
   font-family: Georgia, Times, serif;
   font-size: 24px;
@@ -265,7 +241,6 @@ body, td {
   Margin-right: 10px;
   Margin-left: 10px; }
 
-/* line 253, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .header__office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -277,14 +252,12 @@ body, td {
   Margin-right: 10px;
   Margin-left: 10px; }
 
-/* line 277, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .title-purpose {
   background: #003c7f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 283, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-purpose {
   font-size: 16px;
   line-height: 130%;
@@ -293,17 +266,14 @@ body, td {
   margin-top: 0px;
   margin-bottom: 0; }
 
-/* line 291, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-purpose a {
   color: #ffffff;
   text-decoration: underline; }
 
-/* line 295, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .newsletter-title {
   font-size: 54px;
   text-align: center; }
 
-/* line 299, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .section-title {
   font-size: 21px;
   line-height: 130%;
@@ -313,19 +283,16 @@ body, td {
   margin-bottom: 0;
   font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
 
-/* line 308, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .section-title a {
   font-weight: bold;
   color: #2a5b7d !important;
   text-decoration: underline; }
 
-/* line 313, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1.section-title {
   line-height: 100% !important; }
 
 /* --- END Header --- */
 /* --- Article --- */
-/* line 318, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-title {
   font-size: 21px;
   line-height: 130%;
@@ -334,17 +301,14 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 8px; }
 
-/* line 326, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-title a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 332, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-title.with-meta {
   margin-bottom: 0; }
 
-/* line 336, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title h1.article-title {
   font-size: 60px;
   color: #ffffff !important;
@@ -352,18 +316,15 @@ h1.section-title {
   text-align: center;
   margin-bottom: 5px; }
 
-/* line 343, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title h1.article-title a {
   color: #ffffff !important; }
 
-/* line 348, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #title--center h2.article-title {
   font-size: 28px;
   color: #4982bc !important;
   text-transform: uppercase;
   text-align: center; }
 
-/* line 362, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content {
   font-size: 15px;
   line-height: 130%;
@@ -371,27 +332,22 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 369, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .table-row .article-content {
   margin-bottom: 0; }
 
-/* line 372, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 377, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content a.white {
   color: #ffffff;
   font-weight: normal;
   text-decoration: underline; }
 
-/* line 382, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content img {
   max-width: 100%; }
 
-/* line 385, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content ol, .article-content ul {
   margin-top: 0px;
   margin-bottom: 15px;
@@ -399,65 +355,53 @@ h1.section-title {
   padding: 0;
   padding-left: 19px; }
 
-/* line 392, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content li {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
   margin-bottom: 9px; }
 
-/* line 398, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content li a {
   color: #0058a0;
   text-decoration: underline; }
 
-/* line 403, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content p {
   margin-top: 0;
   margin-bottom: 15px; }
 
-/* line 407, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .table-row .article-content p {
   margin-bottom: 5px; }
 
-/* line 412, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title .article-content {
   font-size: 28px;
   color: #ffffff !important;
   margin-bottom: 0; }
 
-/* line 417, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title .article-content p {
   margin-bottom: 0; }
 
-/* line 421, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title .article-content a,
 #callout--content .article-content a {
   color: #ffffff !important; }
 
-/* line 424, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--content .article-content {
   color: #ffffff !important;
   margin-bottom: 0; }
 
-/* line 429, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout .article-content {
   font-size: 30px;
   color: #4982bc !important; }
 
-/* line 433, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout .article-content a {
   color: #4982bc !important; }
 
 /* --- END Article --- */
 /* --- Button --- */
-/* line 461, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .pb-button__mso {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 466, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .pb-button__style {
   background-color: #0058a0;
   -webkit-border-radius: 4px;
@@ -475,7 +419,6 @@ h1.section-title {
   padding: 12px 18px;
   text-shadow: 0 1px 2px #003c7f; }
 
-/* line 484, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .pb-button a {
   font-size: 18px;
   color: #ffffff !important;
@@ -483,7 +426,6 @@ h1.section-title {
 
 /* --- END Button --- */
 /* --- Sidebar --- */
-/* line 493, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -494,7 +436,6 @@ h1.section-title {
   margin-bottom: 0;
   text-transform: uppercase; }
 
-/* line 503, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .sidebar-content {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -504,19 +445,16 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 0; }
 
-/* line 512, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .toc {
   list-style: none;
   padding-left: 0.5em;
   text-align: left; }
 
-/* line 517, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .toc a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 523, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-toc {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -524,7 +462,6 @@ h1.section-title {
   color: #333333;
   text-align: left; }
 
-/* line 530, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-toc a {
   font-weight: bold;
   color: #0058a0;
@@ -532,20 +469,16 @@ h1.section-title {
 
 /* --- END Sidebar --- */
 /* --- Footer --- */
-/* line 538, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #footer {
   color: #333333; }
 
-/* line 541, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #footer a {
   color: #0058a0;
   text-decoration: underline; }
 
-/* line 545, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #footer a.link {
   font-weight: bold; }
 
-/* line 548, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .footer-content {
   font-family: Georgia, Times, serif;
   font-size: 12px;
@@ -554,7 +487,6 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 556, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .footer-content--pref {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -563,27 +495,22 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 564, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .footer-content--pref a {
   font-weight: bold; }
 
-/* line 567, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #permission-reminder {
   white-space: normal; }
 
-/* line 570, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #street-address {
   font-family: Georgia, Times, serif;
   color: #333333;
   white-space: normal; }
 
-/* line 575, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #street-address a {
   color: #0058a0;
   text-decoration: underline;
   font-weight: bold; }
 
-/* line 581, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .whitelist-message,
 .webversion__content--footer {
   font-size: 12px;
@@ -591,7 +518,6 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 588, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .whitelist-message a,
 .webversion__content--footer a {
   font-weight: bold;
@@ -600,155 +526,141 @@ h1.section-title {
 
 /* --- END Footer --- */
 @media only screen and (min-width: 660px) {
-  /* line 596, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   .pb-button {
     max-width: 50%; } }
-
 @media only screen and (max-width: 660px) {
-  /* line 601, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   tr[id=webversion] {
     display: none !important; }
-  /* line 604, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=auto], td[class=auto], img[class=auto] {
     width: auto !important; }
-  /* line 609, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive], td[class=responsive], img[class=responsive],
   table[class=table-row], td[class=table-row], img[class=table-row] {
     width: 100% !important; }
-  /* line 612, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive-signature], td[class=responsive-signature], img[class=responsive-signature] {
     width: 100% !important;
     height: auto !important; }
-  /* line 616, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=table-col], td[class=table-col], img[class=table-col] {
     width: 20% !important; }
-  /* line 621, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=table-row-1], td[class=table-row-1], img[class=table-row-1],
   table[class=table-row-2], td[class=table-row-2], img[class=table-row-2] {
     width: 50% !important; }
-  /* line 624, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
-  /* line 627, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=r70], td[class=r70], img[class=r70] {
     width: 70% !important; }
-  /* line 630, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=r30], td[class=r30], img[class=r30] {
     width: 30% !important; }
-  /* line 633, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 75% !important; }
-  /* line 636, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 25% !important; }
-  /* line 640, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
-  /* line 643, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive-content-padding], td[class=responsive-content-padding], img[class=responsive-content-padding] {
     width: 97.5% !important; }
-  /* line 646, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
-  /* line 650, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
   table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
-  /* line 653, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
-  /* line 657, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=threecol], td[class=threecol], img[class=threecol],
   table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
     height: auto !important; }
-  /* line 661, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
     width: 95% !important;
     height: auto !important; }
-  /* line 665, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
     width: 95% !important; }
-  /* line 668, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   td[class=toc-padding] {
     width: 2.5% !important; }
-  /* line 671, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   div[id=date] {
     font-weight: bold !important; } }
-
 @media only screen and (max-width: 568px) {
-  /* line 676, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   span[class=mobile-block] {
     display: block !important; }
-  /* line 679, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   div[class=newsletter-title] {
     font-size: 36px; }
-  /* line 682, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 70% !important; }
-  /* line 685, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 30% !important; } }
-
 @media only screen and (max-width: 480px) {
-  /* line 693, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
   table[class=table-row] table[class=table-col2],
   table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
     width: 100% !important; }
-  /* line 696, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=w140], td[class=w140], img[class=w140] {
     width: 90px !important; }
-  /* line 697, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=w140-story], td[class=w140-story], img[class=w140-story] {
     width: 90px !important;
     height: auto !important; }
-  /* line 698, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=w170], td[class=w170], img[class=w170] {
     width: 100px !important; }
-  /* line 701, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=w0-phone], td[class=w0-phone] {
     width: 0 !important; }
-  /* line 704, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[id=threecol] img[class=responsive] {
     width: 100% !important;
     height: auto !important; }
-  /* line 708, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 65% !important; }
-  /* line 711, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 35% !important; } }
-
 @media only screen and (max-width: 414px) {
-  /* line 716, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   #callout--title h1.article-title {
     font-size: 45px !important; }
-  /* line 719, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   #callout--title .article-content {
     font-size: 21px !important; }
-  /* line 722, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   div[class=header__branding] {
     font-size: 20px !important; } }
-
 @media only screen and (max-width: 360px) {
-  /* line 727, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 62% !important; }
-  /* line 730, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 38% !important; } }
-
 @media only screen and (max-width: 320px) {
-  /* line 735, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 60% !important; }
-  /* line 738, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 40% !important; } }
-
-/*# sourceMappingURL=style--pa-master.css.map */    
+    
 </style>
 
 <!--[if lt mso 9]>
@@ -860,73 +772,18 @@ h1.section-title {
 </table>
 <!-- ------------ -->
 <!-- BRAND HEADER -->
-<!-- ------------ -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<!-- ------------ --><table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tbody>
 <tr style="border-collapse:collapse;">
 	<td class="responsive" align="center" bgcolor="#ffffff">
 		<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
 		<tbody>
-<!--
-		<tr id="webversion" style="border-collapse:collapse;">
-			<td class="responsive" align="center">
-				<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
-				<tbody>
-				<tr style="border-collapse:collapse;">
-					<td class="responsive" width="640" height="15" valign="middle" style="font-size:15px;line-height:15px;">&nbsp;</td>
-				</tr>
-				<tr style="border-collapse:collapse;">
-					<td class="responsive" width="640" valign="middle" align="center">
-						<div class="header-content">
-							<webversion>Web Version</webversion>
-						</div>
-					</td>
-				</tr>
-				</tbody>
-				</table>
-			</td>
-		</tr>
--->
-<!--
-		<tr style="border-collapse:collapse;">
-			<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-		</tr>
--->
-        <!-- seal & wordmark -->
-<!--
-        <tr style="border-collapse:collapse;">
-			<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-		</tr>
-        <tr style="border-collapse:collapse;">
-				<td class="responsive" width="640">
-					<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
-					<tr style="border-collapse:collapse;">
-						<td class="threecol" width="254"></td>
-						<td width="132" align="center" valign="middle">
-							<a href="http://www.andover.edu" target="_blank">
-								<img src="images/andover-sealwordmark-2x.png" alt="Phillips Academy" width="132" height="147" border="0" />
-							</a>
-						</td>
-						<td class="threecol" width="254"></td>
-					</tr>
-					</table>
-				</td>
-			</tr>
--->
         <!-- pa seasons -->
         <tr style="border-collapse:collapse;">
             <td class="responsive" width="640">
-                <img editable="false" label="Full-width Image" class="responsive" src="images/andover-head-samphil-summer-2x.jpg" width="640" height="200" border="0" alt="Samuel Phillips Hall in summer">
+                <img editable="false" label="Full-width Image" class="responsive" src="images/andover-head-samphil-summer-2x.jpg" width="640" height="200" border="0" alt="Samuel Phillips Hall in Summer">
 			</td>
         </tr>
-        <!-- hos image -->
-<!--
-		<tr style="border-collapse:collapse;">
-            <td class="responsive" width="640">
-                <img editable="false" label="Full-width Image" class="responsive" src="images/andover-head-samphil-twilight-2x.jpg" width="640" height="200" border="0" alt="Samuel Phillips Hall at twilight">
-            </td>
-        </tr>
--->
 		<tr style="border-collapse:collapse;">
 			<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
 		</tr>
@@ -1021,6 +878,25 @@ h1.section-title {
     </tr>
     </tbody>
     </table>
+</layout>                            <layout label="Full-width: 3 Images">
+    <table id="threecol" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="threecol">
+            <img editable="true" label="Image 1 of 3" class="responsive" src="" width="204" height="204" border="0">
+        </td>
+        <td class="threecol">
+            <img editable="true" label="Image 2 of 3" class="responsive" src="" width="204" height="204" border="0">
+        </td>
+        <td class="threecol">
+            <img editable="true" label="Image 3 of 3" class="responsive" src="" width="204" height="204" border="0">
+        </td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td colspan="3" class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
+    </tr>
+    </tbody>
+    </table>
 </layout>                            <layout label="Text + Left Image">
 <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
 <tbody>
@@ -1057,25 +933,42 @@ h1.section-title {
 </tr>
 </tbody>
 </table>
-</layout>                            <layout label="Full-width: 3 Images">
-    <table id="threecol" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="threecol">
-            <img editable="true" label="Image 1 of 3" class="responsive" src="" width="204" height="204" border="0">
-        </td>
-        <td class="threecol">
-            <img editable="true" label="Image 2 of 3" class="responsive" src="" width="204" height="204" border="0">
-        </td>
-        <td class="threecol">
-            <img editable="true" label="Image 3 of 3" class="responsive" src="" width="204" height="204" border="0">
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;">
-        <td colspan="3" class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
-    </tbody>
-    </table>
+</layout>                            <layout label="Text + Right Image">
+<table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr style="border-collapse:collapse;">
+
+    <td class="responsive" width="610">
+        <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+        <tr>
+            <td class="responsive" width="610" align="left" valign="top">
+                <table class="floatimg" width="200" cellpadding="0" cellspacing="0" border="0" align="right">
+                <tbody>
+                <tr>
+                    <td class="floatimg-padding" width="10"></td>
+                    <td class="floatimg-content" width="190" align="left" valign="top">
+                        <img editable="true" label="Image" class="floatimg-content" width="190" height="190" border="0" />
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td class="responsive" height="10" colspan="2" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                </tr>
+                </tbody>
+                </table>
+                <div align="left" class="article-content">
+                    <multiline label="Description">Enter your description</multiline>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+    </td>
+        
+</tr>
+</tbody>
+</table>
 </layout>                            <layout label="Full-width image">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1196,53 +1089,6 @@ h1.section-title {
     </tbody>
     </table>
 
-</layout>                            <layout label="Two RWD columns: content left, image right">
-
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 2 -->
-            <table class="responsive" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Enter your description</multiline>
-                        </div>
-                    </td>
-                </tr>
-                </tbody>
-                </table>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-            <!-- TABLE 1 -->
-            <table class="responsive" width="306" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="w0" width="10"></td>
-                <td class="responsive" width="300" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <img editable="true" label="Image" src="" width="300" height="auto" border="0" />
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" colspan="2" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-<!--
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
--->
-    </tbody>
-    </table>
-
 </layout>                            <layout label="Two RWD columns: content left, content right">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
@@ -1283,8 +1129,120 @@ h1.section-title {
     </tr></tbody>
     </table>
 
-</layout>                            <!-- include ../partials/module--story.kit -->
-                            <layout label="First Table Row: 2 Columns">
+</layout>                            <layout label="RWD Sidebar + Signature Layout">
+
+    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+<!--
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <div align="left" class="article-content">
+                <currentmonthname> <currentday>, <currentyear>
+            </div>
+        </td>
+    </tr>
+-->
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
+    </tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <!-- COL 1 - Text -->
+            <table class="responsive" width="404" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody>
+            <tr style="border-collapse:collapse;">
+                <td class="responsive" width="404" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    
+                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Enter your content</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            </table>
+            <!-- COL 2 - Sidebar -->
+            <table class="responsive" width="202" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody><tr style="border-collapse:collapse;">
+                <td class="w0" width="10"></td>
+                <td>
+                <table class="responsive" width="190" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#e8eef4" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                <tbody>
+                <tr style="border-collapse:collapse;">
+                    <td class="responsive" width="190" height="5" colspan="3" style="font-size:5px;line-height:5px;">&nbsp;</td>
+                </tr>
+                <tr style="border-collapse:collapse;">
+                    <td class="responsive-padding" width="5"></td>
+                    <td class="responsive-content" width="180">
+                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                            <multiline label="Description">Enter your sidebar content</multiline>
+                        </div>
+                    </td>
+                    <td class="responsive-padding" width="5"></td>
+                </tr>
+                <tr style="border-collapse:collapse;">
+                    <td class="responsive" width="180" height="15" colspan="3" style="font-size:15px;line-height:15px;">&nbsp;</td>
+                </tr>
+                </tbody></table>
+                </td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr></tbody>
+    </table>
+
+</layout>                            <layout label="Story: Post with Image">
+
+    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="middle">
+            <!-- TABLE 1 -->
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+            <tr style="border-collapse:collapse;">
+                <td class="auto" width="418">
+                    <table class="auto" width="418" cellpadding="0" cellspacing="0" border="0" align="left">
+                    <tbody>
+                    <tr style="border-collapse:collapse;">
+                        <td class="auto" width="418" align="left" valign="middle">
+                            <h2 align="left" class="article-title" style="padding-right:10px;">
+                                <singleline label="Title">Add a story title</singleline>
+                            </h2>
+                            <div align="left" class="article-content" style="padding-right:10px;">
+                                <multiline label="Description">Enter your description</multiline>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </td>
+
+                <!-- TABLE 2 -->
+                <td class="w170" width="192">
+                    <table class="w170" width="192" cellpadding="0" cellspacing="0" border="0" align="right">
+                    <tbody>
+                    <tr style="border-collapse:collapse;">
+                    <tr style="border-collapse:collapse;">
+                        <td width="10"></td>
+                        <td class="w140" width="182" align="right" valign="middle">
+                            <div align="right" class="article-content" style="border:1px solid #003c7f;">
+                                <img editable="true" label="Story Image" src="" width="180" height="115" border="0" class="w140-story" />
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </td>
+            </tr>
+            </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr style="border-collapse:collapse;"><td class="responsive" height="15" colspan="2" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
+    </tbody>
+    </table>
+
+</layout>                            <layout label="First Table Row: 2 Columns">
 
     <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1620,7 +1578,97 @@ h1.section-title {
     </tbody>
     </table>
 
-</layout>                            <layout label="One Signature">
+</layout>                            
+                            <layout label="First Table Row 1-2: 2 Columns">
+
+    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td></tr>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <!-- TABLE 1 -->
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody>
+            <tr style="border-collapse:collapse;">
+                <td class="table-col1" width="200" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Column 1: Multiline</multiline>
+                    </div>
+                </td>
+                <td class="responsive-padding" width="10"></td>
+                <td class="table-col1" width="400" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Column 2: Multiline</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
+    </tbody>
+    </table>
+
+</layout>                            <layout label="Table Row 1-2: 2 Columns">
+
+    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <!-- TABLE 1 -->
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody>
+            <tr style="border-collapse:collapse;">
+                <td class="table-col1" width="200" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Column 1: Multiline</multiline>
+                    </div>
+                </td>
+                <td class="responsive-padding" width="10"></td>
+                <td class="table-col1" width="400" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Column 2: Multiline</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
+    </tbody>
+    </table>
+
+</layout>                            <layout label="Last Table Row 1-2: 2 Columns">
+
+    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr style="border-collapse:collapse;">
+        <td class="responsive" width="610" valign="top">
+            <!-- TABLE 1 -->
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <tbody>
+            <tr style="border-collapse:collapse;">
+                <td class="table-col1" width="200" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Column 1: Multiline</multiline>
+                    </div>
+                </td>
+                <td class="responsive-padding" width="10"></td>
+                <td class="table-col1" width="400" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                        <multiline label="Description">Column 2: Multiline</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="25" style="font-size:25px;line-height:25px;">&nbsp;</td></tr>
+    </tbody>
+    </table>
+
+</layout>                            
+                            <layout label="One Signature">
 
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1708,81 +1756,7 @@ h1.section-title {
     </tr></tbody>
     </table>
 
-</layout>                            <!-- include ../partials/module--toc--toc-text.kit -->
-                            <layout label="TOC Title only">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610">
-            <h2 align="left" class="article-title">
-                <singleline label="Title" repeatertitle='true'>Add a title</singleline>
-            </h2>
-        </td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="TOC Title and Text only">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610">
-            <h2 align="left" class="article-title">
-                <singleline label="Title" repeatertitle='true'>Add a title</singleline>
-            </h2>
-            <div align="left" class="article-content">
-                <multiline label="Description">Enter your description</multiline>
-            </div>
-        </td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="TOC Section Title">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610">
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-            <tbody>
-            <tr bgcolor="#ffffff">
-                <td class="responsive" width="610" height="10" colspan="3" style="font-size:10px;line-height:10px;">&nbsp;</td>
-            </tr>
-            <tr bgcolor="#f1f5fa">
-                <td class="responsive" width="610" height="8" colspan="3" style="font-size:8px;line-height:8px;">&nbsp;</td>
-            </tr>
-            <tr bgcolor="#f1f5fa">
-                <td class="responsive-padding" width="10"></td>
-                <td class="responsive-content" width="590">
-                    <table class="responsive" width="590" cellpadding="0" cellspacing="0" border="0">
-                    <tbody>
-                    <tr>
-                        <td class="responsive" width="590">
-                            <h1 align="left" class="section-title">
-                                <singleline label="Title" repeatertitle='true'>Add a Section Title</singleline>
-                            </h1>
-                        </td>
-                    </tr>
-                    </tbody>
-                    </table>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-            </tr>
-            <tr bgcolor="#f1f5fa">
-                <td class="responsive" width="610" height="4" colspan="3" style="font-size:4px;line-height:4px;">&nbsp;</td>
-            </tr>
-            <tr bgcolor="#dee8f4">
-                <td class="responsive" width="610" height="2" colspan="3" style="font-size:2px;line-height:2px;">&nbsp;</td>
-            </tr>
-            <tr bgcolor="#ffffff">
-                <td class="responsive" width="610" height="10" colspan="3" style="font-size:10px;line-height:10px;">&nbsp;</td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <!-- include ../partials/module--toc--story.kit -->
-                        <!-- END Modules -->
+</layout>                        <!-- END Modules -->
 						</repeater>
                         
 					</td>
