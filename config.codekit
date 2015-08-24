@@ -173,6 +173,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/ice.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/ice.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/images\/abbot-seal-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -682,6 +691,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/module--ice--footer-preferences.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/module--ice--footer-preferences.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/module--ice--footer-smi.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1044,6 +1062,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/pages\/ice.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/ice.kit",
+		"outputAbbreviatedPath": "\/html\/ice.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/pages\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1095,15 +1122,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/pages\/pa-aechallenge.kit",
 		"outputAbbreviatedPath": "\/html\/pa-aechallenge.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/pa-ice-standard.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-ice-standard.kit",
-		"outputAbbreviatedPath": "\/html\/pa-ice-standard.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1251,6 +1269,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/default__module__ice--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__ice--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__ice--footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/default__module__whitelist.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -1359,9 +1386,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/module--ice--footer-preferences.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--ice--footer-preferences.kit",
+		"outputAbbreviatedPath": "\/html\/module--ice--footer-preferences.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--ice--footer-smi.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--ice--footer-smi.kit",
 		"outputAbbreviatedPath": "\/html\/module--ice--footer-smi.html",
