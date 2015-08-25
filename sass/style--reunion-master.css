@@ -11,8 +11,42 @@
 /*------------------------------------*    # Reunion Colors
 \*------------------------------------*/
 /* --- Tints --- */
+/*------------------------------------*    # Reunion Color Layout
+\*------------------------------------*/
 /*------------------------------------*    # Reunion Layout
 \*------------------------------------*/
+/* line 26, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+.reunion-purpose {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 130%;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-shadow: 0 2px 3px #347ea7;
+  text-transform: uppercase; }
+
+/* line 37, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+.reunion-purpose span {
+  font-weight: 300; }
+
+/* line 40, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+.reunion-date {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 130%;
+  color: #90caea;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-shadow: 0 2px 3px #01172c; }
+
+/* line 50, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+.reunion-date a {
+  color: #90caea !important;
+  text-decoration: none; }
+
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
   /* line 3, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
@@ -283,7 +317,7 @@ body, td {
 
 /* line 277, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .title-purpose {
-  background: #fdb913;
+  background: #eeab02;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -311,7 +345,7 @@ body, td {
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #fdb913 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
@@ -333,7 +367,7 @@ h1.section-title {
 .article-title {
   font-size: 21px;
   line-height: 130%;
-  color: #fdb913 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 8px; }

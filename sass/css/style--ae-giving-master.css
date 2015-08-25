@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$pa-blue".
+Error: Undefined variable: "$preview__text".
         on line 230 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss
         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--ae-giving-master.scss
 
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$pa-blue\".\A         on line 230 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss\A         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--ae-giving-master.scss"; }
+  content: "Error: Undefined variable: \"$preview__text\".\A         on line 230 of /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss\A         from line 4 of /Users/jkapaldo/GitHub/CM Templates/sass/style--ae-giving-master.scss"; }

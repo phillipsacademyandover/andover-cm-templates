@@ -1039,6 +1039,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/standard__abbot.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/standard__abbot.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/standard__adm.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1099,15 +1108,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/html\/style--pa.html",
 		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-standard-abbot.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-standard-abbot.kit",
-		"outputAbbreviatedPath": "\/html\/ae-standard-abbot.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1255,6 +1255,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/pages\/standard__abbot.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__abbot.kit",
+		"outputAbbreviatedPath": "\/html\/standard__abbot.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/pages\/standard__adm.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -1333,6 +1342,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module--pb-button.kit",
 		"outputAbbreviatedPath": "\/html\/default__module--pb-button.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__abbot--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__abbot--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__abbot--footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1923,7 +1941,7 @@
 		},
 	"\/kit\/partials\/style--abbot.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/style--abbot.kit",
 		"outputAbbreviatedPath": "\/html\/style--abbot.html",
@@ -2176,6 +2194,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/sass\/partials\/style--abbot.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/style--abbot.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/partials\/style--abbot.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2403,6 +2430,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/sass\/style--abbot-master.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style--abbot-master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/style--abbot-master.scss": {
 		"createSourceMap": 0,
