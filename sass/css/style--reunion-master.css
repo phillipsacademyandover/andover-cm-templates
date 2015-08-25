@@ -9,6 +9,45 @@
 /* --- Tints --- */
 /* --- PA --- */
 /* --- PA Style Guide --- */
+/* --- Reunion --- */
+/*------------------------------------*\
+    # Reunion Colors
+\*------------------------------------*/
+/* --- Tints --- */
+/*------------------------------------*\
+    # Reunion Color Layout
+\*------------------------------------*/
+/*------------------------------------*\
+    # Reunion Layout
+\*------------------------------------*/
+.reunion-purpose {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 130%;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-shadow: 0 2px 3px #347ea7;
+  text-transform: uppercase; }
+
+.reunion-purpose span {
+  font-weight: 300; }
+
+.reunion-date {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 130%;
+  color: #90caea;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-shadow: 0 2px 3px #01172c; }
+
+.reunion-date a {
+  color: #90caea !important;
+  text-decoration: none; }
+
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
   table[class=w0], td[class=w0] {
@@ -253,7 +292,7 @@ body, td {
   Margin-left: 10px; }
 
 .title-purpose {
-  background: #003c7f;
+  background: #eeab02;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }

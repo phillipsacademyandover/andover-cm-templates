@@ -2,16 +2,40 @@
 
 // Global
 $white: #ffffff;
-$pa-orange: #f37021;
-$pa-ltgreen: #8dc63f;
-$pa-green: #00ab4e;
-$pa-dkblue: #003c7f;
+$dkgrey:#333333;
+
+
+
+
+/*------------------------------------*\
+    # PA Primary Colors
+\*------------------------------------*/
+
 $pa-blue:#0058a0;
 $pa-blue-tint-70: #2d73b3;
 $pa-blue-tint-60: #4982bc;
 $pa-blue-tint-50: #6092c6;
 $pa-blue-tint-10: #dee8f4;
-$dkgrey:#333333;
+
+
+
+
+/*------------------------------------*\
+    # PA Secondary Colors
+\*------------------------------------*/
+
+$pa-butter: #ffe180;
+$pa-gold: #fdb913;
+$pa-orange: #f37021;
+$pa-ltgreen: #8dc63f;
+$pa-green: #00ab4e;
+$pa-dkblue: #003c7f;
+
+/* --- Tints --- */
+$pa-butter__tint-60: #ffedb3;
+
+
+
 
 /* --- PA --- */
 // Color
@@ -19,6 +43,7 @@ $header--text: $pa-dkblue;
 $footer--text: $dkgrey;
 $link: $pa-blue;
 $title: $pa-dkblue;
+$title-purpose: $pa-dkblue;
 $text: $dkgrey;
 
 
