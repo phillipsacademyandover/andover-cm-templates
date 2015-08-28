@@ -28,7 +28,7 @@
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0;
-  text-shadow: 0 2px 3px #347ea7;
+  text-shadow: 0 2px 4px #246e9e;
   text-transform: uppercase; }
 
 .reunion-purpose span {
@@ -38,11 +38,11 @@
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 130%;
-  color: #90caea;
+  color: #85bde3;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0;
-  text-shadow: 0 2px 3px #01172c; }
+  text-shadow: 0 2px 4px #0c2637; }
 
 .reunion-date a {
   color: #90caea !important;

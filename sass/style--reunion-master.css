@@ -15,7 +15,7 @@
 \*------------------------------------*/
 /*------------------------------------*    # Reunion Layout
 \*------------------------------------*/
-/* line 26, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+/* line 27, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
 .reunion-purpose {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -24,25 +24,25 @@
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0;
-  text-shadow: 0 2px 3px #347ea7;
+  text-shadow: 0 2px 4px #246e9e;
   text-transform: uppercase; }
 
-/* line 37, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+/* line 38, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
 .reunion-purpose span {
   font-weight: 300; }
 
-/* line 40, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+/* line 41, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
 .reunion-date {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 130%;
-  color: #90caea;
+  color: #85bde3;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0;
-  text-shadow: 0 2px 3px #01172c; }
+  text-shadow: 0 2px 4px #0c2637; }
 
-/* line 50, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
+/* line 51, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--reunion.scss */
 .reunion-date a {
   color: #90caea !important;
   text-decoration: none; }
