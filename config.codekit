@@ -1500,6 +1500,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/default__module__whitelist__ice.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__whitelist__ice.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__whitelist__ice.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--adm--footer-preferences.kit": {
 		"fileType": 2048,
 		"ignore": 1,
