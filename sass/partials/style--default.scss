@@ -218,8 +218,6 @@ body, td {
 	-ms-text-size-adjust: none;
 }
 
-/* --- Helpers --- */
-
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 
@@ -591,6 +589,16 @@ h1.section-title {
             text-decoration: underline;
         }
 /* --- END Footer --- */
+
+
+/* --- Helpers --- */
+.no__margin {
+    margin: 0;
+}
+.text--small {
+    font-size:12px;
+}
+
 
 @media only screen and (min-width: 660px) {
     .pb-button {

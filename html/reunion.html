@@ -258,7 +258,6 @@ body, td {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
 
-/* --- Helpers --- */
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
 .preview__text {
@@ -571,6 +570,13 @@ h1.section-title {
   text-decoration: underline; }
 
 /* --- END Footer --- */
+/* --- Helpers --- */
+.no__margin {
+  margin: 0; }
+
+.text--small {
+  font-size: 12px; }
+
 @media only screen and (min-width: 660px) {
   .pb-button {
     max-width: 50%; } }
@@ -800,7 +806,7 @@ h1.section-title {
         <table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
         <tbody>
         <tr style="border-collapse:collapse;">
-            <td width="100%" class="responsive" valign="middle" align="right">
+            <td width="640" class="responsive" valign="middle" align="right">
                 <div class="preview__text">
                     <multiline editable label="Preheader Text">Preheader Text Goes Here</multiline>
                 </div>
