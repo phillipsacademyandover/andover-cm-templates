@@ -1073,7 +1073,7 @@
 	"\/kit\/partials\/default__module__abbot--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__abbot--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__abbot--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1082,7 +1082,7 @@
 	"\/kit\/partials\/default__module__adm--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__adm--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__adm--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1091,7 +1091,7 @@
 	"\/kit\/partials\/default__module__alumni-giving--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__alumni-giving--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__alumni-giving--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1109,7 +1109,7 @@
 	"\/kit\/partials\/default__module__andover--footer--personal.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer--personal.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__andover--footer--personal.html",
 		"outputPathIsOutsideProject": 0,
@@ -1118,7 +1118,7 @@
 	"\/kit\/partials\/default__module__andover--footer--wordmark.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer--wordmark.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__andover--footer--wordmark.html",
 		"outputPathIsOutsideProject": 0,
@@ -1127,7 +1127,7 @@
 	"\/kit\/partials\/default__module__andover--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__andover--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1136,7 +1136,7 @@
 	"\/kit\/partials\/default__module__andover--header.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--header.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__andover--header.html",
 		"outputPathIsOutsideProject": 0,
@@ -1145,7 +1145,7 @@
 	"\/kit\/partials\/default__module__ice--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__ice--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__ice--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1154,7 +1154,7 @@
 	"\/kit\/partials\/default__module__pspa--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__pspa--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__pspa--footer.html",
 		"outputPathIsOutsideProject": 0,
