@@ -283,7 +283,7 @@ body, td {
 
 /* line 275, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .title-purpose {
-  background: #1986bc;
+  background: #297cb3;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -318,7 +318,7 @@ body, td {
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #1986bc !important;
+  color: #297cb3 !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
@@ -340,7 +340,7 @@ h1.section-title {
 .article-title {
   font-size: 21px;
   line-height: 130%;
-  color: #1986bc !important;
+  color: #297cb3 !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 8px; }
