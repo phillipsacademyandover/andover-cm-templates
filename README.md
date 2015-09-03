@@ -102,13 +102,23 @@ The Andover seal and wordmark must be used as provided. The Andover seal must no
 #### Andover Header
 The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header will need to be approved by Andover Communications.
 
-* Andover Header: <a href="/html/default__module__andover--header.html">HTML</a>, <a href="/kit/partials/default__module__andover--header.kit">KIT</a>
-* Alumni + Giving Header: <a href="/html/default__module__alumni-giving--header.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--header.kit">KIT</a>
+* Andover: <a href="/html/github__header__andover.html">HTML</a>, <a href="/kit/partials/github__header__andover.kit">KIT</a>
+* Abbot: <a href="/html/github__header__abbot.html">HTML</a>, <a href="/kit/partials/github__header__abbot.kit">KIT</a>
 
 
 
 #### Andover Footer
 The standard Andover footer should appear on all templates. The Andover branding logo, whether seal and wordmark or wordmark only, should not resize smaller on a mobile device. The footer copyright, org name and address, and org URL, must use the standard serif font stack. Any template without the standard footer will need to be approved by Andover Communications.
+
+* Andover: <a href="/html/github__footer__andover.html">HTML</a>, <a href="/kit/partials/github__footer__andover.kit">KIT</a>
+* Andover Wordmark: <a href="/html/github__footer__andover--wordmark.html">HTML</a>, <a href="/kit/partials/github__footer__andover--wordmark.kit">KIT</a>
+* Andover Personal: <a href="/html/github__footer__andover--personal.html">HTML</a>, <a href="/kit/partials/github__footer__andover--personal.kit">KIT</a>
+* Abbot: <a href="/html/github__footer__abbot.html">HTML</a>, <a href="/kit/partials/github__footer__abbot.kit">KIT</a>
+* Alumni + Giving: <a href="/html/github__footer__alumni-giving.html">HTML</a>, <a href="/kit/partials/github__footer__alumni-giving.kit">KIT</a>
+* Reunion: <a href="/html/github__footer__reunion.html">HTML</a>, <a href="/kit/partials/github__footer__reunion.kit">KIT</a>
+* Admission: <a href="/html/github__footer__admission.html">HTML</a>, <a href="/kit/partials/github__footer__admission.kit">KIT</a>
+* Ice Rink: <a href="/html/github__footer__ice.html">HTML</a>, <a href="/kit/partials/github__footer__ice.kit">KIT</a>
+
 
 ##### Social Media Icons
 The standard social media icons should appear on all templates. The standard social media icons for Phillips Academy are:
@@ -127,16 +137,6 @@ The standard social media icons for Alumni Engagement and Giving are:
 * Forward to a Friend
 
 The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
-
-##### Footers
-* Andover: <a href="/html/github__footer__andover.html">HTML</a>, <a href="/kit/partials/github__footer__andover.kit">KIT</a>
-* Andover Wordmark: <a href="/html/github__footer__andover--wordmark.html">HTML</a>, <a href="/kit/partials/github__footer__andover--wordmark.kit">KIT</a>
-* Andover Personal: <a href="/html/github__footer__andover--personal.html">HTML</a>, <a href="/kit/partials/github__footer__andover--personal.kit">KIT</a>
-* Abbot: <a href="/html/github__footer__abbot.html">HTML</a>, <a href="/kit/partials/github__footer__abbot.kit">KIT</a>
-* Alumni + Giving: <a href="/html/github__footer__alumni-giving.html">HTML</a>, <a href="/kit/partials/github__footer__alumni-giving.kit">KIT</a>
-* Reunion: <a href="/html/github__footer__reunion.html">HTML</a>, <a href="/kit/partials/github__footer__reunion.kit">KIT</a>
-* Admission: <a href="/html/github__footer__admission.html">HTML</a>, <a href="/kit/partials/github__footer__admission.kit">KIT</a>
-* Ice Rink: <a href="/html/github__footer__ice.html">HTML</a>, <a href="/kit/partials/github__footer__ice.kit">KIT</a>
 
 
 
