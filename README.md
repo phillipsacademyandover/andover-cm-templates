@@ -128,9 +128,16 @@ The standard social media icons for Alumni Engagement and Giving are:
 
 The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
 
-* Andover Footer: HTML, KIT
-* Alumni Engagement Footer: HTML, KIT
-* Admission Footer: HTML, KIT
+##### Footers
+* Andover: <a href="/html/github__footer__andover.html">HTML</a>, <a href="/kit/partials/github__footer__andover.kit">KIT</a>
+* Andover Wordmark: <a href="/html/github__footer__andover--wordmark.html">HTML</a>, <a href="/kit/partials/github__footer__andover--wordmark.kit">KIT</a>
+* Andover Personal: <a href="/html/github__footer__andover--personal.html">HTML</a>, <a href="/kit/partials/github__footer__andover--personal.kit">KIT</a>
+* Abbot: <a href="/html/github__footer__abbot.html">HTML</a>, <a href="/kit/partials/github__footer__abbot.kit">KIT</a>
+* Alumni + Giving: <a href="/html/github__footer__alumni-giving.html">HTML</a>, <a href="/kit/partials/github__footer__alumni-giving.kit">KIT</a>
+* Reunion: <a href="/html/github__footer__reunion.html">HTML</a>, <a href="/kit/partials/github__footer__reunion.kit">KIT</a>
+* Admission: <a href="/html/github__footer__admission.html">HTML</a>, <a href="/kit/partials/github__footer__admission.kit">KIT</a>
+* Ice Rink: <a href="/html/github__footer__ice.html">HTML</a>, <a href="/kit/partials/github__footer__ice.kit">KIT</a>
+
 
 
 ### Helpful Tools
