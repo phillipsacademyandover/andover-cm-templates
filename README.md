@@ -9,6 +9,7 @@ A custom email template system has been created to manage all templates. This de
 ### Applications Used
 * Adobe Brackets
 * Codekit 2.0
+* SASS and KIT
 * Based on Campaign Monitor template code
 
 
@@ -162,9 +163,9 @@ Currently, manage preferences button is a bulletproof button, which will need to
 
 **Border Button Resources:**
 
-Manage Preference Border Button: <a href="/html/module--pa--footer-preferences--border-button.html">HTML</a>, <a href="/kit/partials/module--pa--footer-preferences--border-button.kit">KIT</a>
+Manage Preference Border Button: <a href="/html/github__preferences__border-button.html">HTML</a>, <a href="/kit/partials/github__preferences__border-button.kit">KIT</a>
 
-Border Button: <a href="/html/default__module--border-button.html">HTML</a>, <a href="/kit/partials/default__module--border-button.kit">KIT</a>
+Border Button: <a href="/html/github__button__border.html">HTML</a>, <a href="/kit/partials/github__button__border.kit">KIT</a>
 
 
 #### Tablet body fix
@@ -192,12 +193,17 @@ Outlook adds 1px space to all table td elements. The fix, use border-collapse:co
 https://www.campaignmonitor.com/blog/post/3392/1px-borders-padding-on-table-cells-in-outlook-07/
 http://www.emailonacid.com/images/blog_images/downloads/2014/wp_outlook.pdf
 
-#### Background Image
-Instead of specifying a large image for use in the background, if the image can be created and repeated, use a repeatable image.
+#### Margin Trick - Outlook.com
+Outlook.com does support margin. To see margin working, use the same CSS margin notation, except capitalize the "M". Campaign Monitor uses this notation in their templates. I am slowing changing my code to use this trick.
 
-#### Specify block spacing - Outlook 2013
-Avoid using padding or margin to add row space. I am not referring to padding or margin using on paragraphs, but to rows. Instead, use font-size and line-height in table td to add block spacing. A table td alone will cause larger than expected spacing in Outlook 2013. 
+https://www.emailonacid.com/blog/article/email-development/outlook.com-does-support-margins
+
+#### Row Spacing - Outlook 2013
+For row spacing, use font-size and line-height in table td to add spacing. A table td alone will cause larger than expected spacing in Outlook 2013. 
 
     <td class="responsive" width="640" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
 
 Another example is how the social media icons were originally coded using padding. Depending on the email client, the padding was ignored. The solution was to center each social media image inside a larger td to add spacing between each image.
+
+#### Background Image
+Instead of specifying a large image for use in the background, if the image can be created and repeated, use a repeatable image.
