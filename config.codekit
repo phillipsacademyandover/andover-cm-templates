@@ -1630,7 +1630,7 @@
 		},
 	"\/kit\/partials\/module--rwdtwocols__image-text.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols__image-text.kit",
 		"outputAbbreviatedPath": "\/html\/module--rwdtwocols__image-text.html",
@@ -1639,7 +1639,7 @@
 		},
 	"\/kit\/partials\/module--rwdtwocols__text.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols__text.kit",
 		"outputAbbreviatedPath": "\/html\/module--rwdtwocols__text.html",
