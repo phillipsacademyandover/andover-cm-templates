@@ -313,7 +313,7 @@ h1.section-title {
   line-height: 130%;
   color: #297cb3 !important;
   font-weight: normal;
-  margin-top: 0px;
+  Margin-top: 15px;
   margin-bottom: 8px; }
 
 .article-title a {
@@ -345,7 +345,7 @@ h1.section-title {
   line-height: 130%;
   color: #333333;
   margin-top: 0px;
-  margin-bottom: 15px; }
+  Margin-bottom: 15px; }
 
 .table-row .article-content {
   margin-bottom: 0; }
@@ -365,7 +365,7 @@ h1.section-title {
 
 .article-content ol, .article-content ul {
   margin-top: 0px;
-  margin-bottom: 15px;
+  Margin-bottom: 10px;
   margin-left: 4px;
   padding: 0;
   padding-left: 19px; }
@@ -374,7 +374,7 @@ h1.section-title {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
-  margin-bottom: 9px; }
+  Margin-bottom: 9px; }
 
 .article-content li a {
   color: #0058a0;
@@ -546,6 +546,9 @@ h1.section-title {
 
 .text--small {
   font-size: 12px; }
+
+ul, ol {
+  Margin-bottom: 10px; }
 
 @media only screen and (min-width: 660px) {
   .pb-button {

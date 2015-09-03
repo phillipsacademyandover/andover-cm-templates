@@ -96,8 +96,8 @@ We like custom fonts. Feel free to use custom fonts in email as the design purpo
 #### Andover Seal & Wordmark
 The Andover seal and wordmark must be used as provided. The Andover seal must not be used alone, EVER. The Andover wordmark can be used on its own in the absence of the seal and wordmark or if the seal and wordmark is used elsewhere in the email.
 
-* Andover Seal & Wordmark: <a href="/html/images/andover-sealwordmark-2x.png">PNG</a>
-* Andover Wordmark: <a href="/html/images/andover-wordmark-2x.png">PNG</a>
+* Andover Seal & Wordmark: <a href="/html/images/andover-sealwordmark-2x-pablue.png">PNG</a>
+* Andover Wordmark: <a href="/html/images/andover-wordmark-2x-pablue.png">PNG</a>
 
 #### Andover Header
 The standard Andover header should appear on all templates. The branding element font must not be changed. Any template without the use of the standard header will need to be approved by Andover Communications.
@@ -128,8 +128,9 @@ The standard social media icons for Alumni Engagement and Giving are:
 
 The social media icons can be removed or the background color changed depending on the type of template being developed.These changes will need to be approved by Andover Communications.
 
-* Andover Footer: <a href="/html/default__module__andover--footer.html">HTML</a>, <a href="/kit/partials/default__module__andover--footer.kit">KIT</a>
-* Alumni + Giving Footer: <a href="/html/default__module__alumni-giving--footer.html">HTML</a>, <a href="/kit/partials/default__module__alumni-giving--footer.kit">KIT</a>
+* Andover Footer: HTML, KIT
+* Alumni Engagement Footer: HTML, KIT
+* Admission Footer: HTML, KIT
 
 
 ### Helpful Tools
