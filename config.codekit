@@ -2,200 +2,128 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19051",
 "files": {
-	"\/html\/0315-afpf-03.html": {
+	"\/html\/formal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/0315-afpf-03.html",
+		"inputAbbreviatedPath": "\/html\/formal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/0315-pf-03.html": {
+	"\/html\/github__button__border.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/0315-pf-03.html",
+		"inputAbbreviatedPath": "\/html\/github__button__border.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/1214-pf-solicitation-02.html": {
+	"\/html\/github__footer__abbot.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/1214-pf-solicitation-02.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__abbot.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/1214-solicitation-02.html": {
+	"\/html\/github__footer__admission.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/1214-solicitation-02.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__admission.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/ae-formal.html": {
+	"\/html\/github__footer__alumni-giving.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-formal.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__alumni-giving.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/ae-master.html": {
+	"\/html\/github__footer__andover--personal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-master.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__andover--personal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/ae-newsletter.html": {
+	"\/html\/github__footer__andover--wordmark.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-newsletter.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__andover--wordmark.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/ae-standard-abbot.html": {
+	"\/html\/github__footer__andover.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-standard-abbot.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__andover.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/ae-standard.html": {
+	"\/html\/github__footer__ice.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/ae-standard.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__ice.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/default-outlook-css.html": {
+	"\/html\/github__footer__reunion.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default-outlook-css.html",
+		"inputAbbreviatedPath": "\/html\/github__footer__reunion.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/default__module--border-button.html": {
+	"\/html\/github__header__abbot.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module--border-button.html",
+		"inputAbbreviatedPath": "\/html\/github__header__abbot.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/default__module--bp-button.html": {
+	"\/html\/github__header__andover.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module--bp-button.html",
+		"inputAbbreviatedPath": "\/html\/github__header__andover.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/default__module--pb-button.html": {
+	"\/html\/github__preferences__border-button.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module--pb-button.html",
+		"inputAbbreviatedPath": "\/html\/github__preferences__border-button.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/default__module__alumni-giving--footer.html": {
+	"\/html\/hos__invite.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module__alumni-giving--footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/default__module__alumni-giving--header.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module__alumni-giving--header.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/default__module__andover--footer.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module__andover--footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/default__module__andover--header.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/default__module__andover--header.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/giving-formal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-formal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/giving-giftplanning.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-giftplanning.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/giving-master.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-master.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/giving-standard-abbot.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-standard-abbot.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/giving-standard.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/giving-standard.html",
+		"inputAbbreviatedPath": "\/html\/hos__invite.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -218,6 +146,17 @@
 		"initialSize": 17805,
 		"inputAbbreviatedPath": "\/html\/images\/ae-head-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/ae-head-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/alumni-calendar-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3708,
+		"inputAbbreviatedPath": "\/html\/images\/alumni-calendar-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/alumni-calendar-2x-pablue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -299,6 +238,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/andover-sealwordmark-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34040,
+		"inputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/andover-sealwordmark-2x-padkblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34484,
+		"inputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x-padkblue.png",
+		"outputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x-padkblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/andover-sealwordmark-2x-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32718,
+		"inputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x-white.png",
+		"outputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/andover-sealwordmark-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -306,6 +278,17 @@
 		"initialSize": 21848,
 		"inputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/andover-sealwordmark-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/andover-wordmark-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8888,
+		"inputAbbreviatedPath": "\/html\/images\/andover-wordmark-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/andover-wordmark-2x-pablue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -321,189 +304,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/html\/images\/dev\/andover-sealwordmark-2x-pablue.png": {
+	"\/html\/images\/directory-2x-pablue.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 34040,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/andover-sealwordmark-2x-pablue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/andover-sealwordmark-2x-pablue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/andover-sealwordmark-2x-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32718,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/andover-sealwordmark-2x-white.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/andover-sealwordmark-2x-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/facebook-2x-pablue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2489,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/facebook-2x-pablue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/facebook-2x-pablue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/facebook-2x-padkblue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2525,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/facebook-2x-padkblue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/facebook-2x-padkblue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/facebook-2x-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2443,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/facebook-2x-white.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/facebook-2x-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/forwardtoafriend-2x-pablue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3804,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/forwardtoafriend-2x-pablue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/forwardtoafriend-2x-pablue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/forwardtoafriend-2x-padkblue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3867,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/forwardtoafriend-2x-padkblue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/forwardtoafriend-2x-padkblue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/forwardtoafriend-2x-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3658,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/forwardtoafriend-2x-white.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/forwardtoafriend-2x-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/smugmug-2x-pablue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3641,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/smugmug-2x-pablue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/smugmug-2x-pablue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/smugmug-2x-padkblue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3705,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/smugmug-2x-padkblue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/smugmug-2x-padkblue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/smugmug-2x-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3575,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/smugmug-2x-white.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/smugmug-2x-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/twitter-2x-pablue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3463,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/twitter-2x-pablue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/twitter-2x-pablue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/twitter-2x-padkblue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3551,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/twitter-2x-padkblue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/twitter-2x-padkblue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/twitter-2x-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3380,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/twitter-2x-white.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/twitter-2x-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/youtube-2x-pablue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3077,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/youtube-2x-pablue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/youtube-2x-pablue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/youtube-2x-padkblue.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3088,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/youtube-2x-padkblue.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/youtube-2x-padkblue.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/images\/dev\/youtube-2x-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2996,
-		"inputAbbreviatedPath": "\/html\/images\/dev\/youtube-2x-white.png",
-		"outputAbbreviatedPath": "\/html\/images\/dev\/youtube-2x-white.png",
+		"initialSize": 3708,
+		"inputAbbreviatedPath": "\/html\/images\/directory-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/directory-2x-pablue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -530,6 +337,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/facebook-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2489,
+		"inputAbbreviatedPath": "\/html\/images\/facebook-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/facebook-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/facebook-2x-padkblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2525,
+		"inputAbbreviatedPath": "\/html\/images\/facebook-2x-padkblue.png",
+		"outputAbbreviatedPath": "\/html\/images\/facebook-2x-padkblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/facebook-2x-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2443,
+		"inputAbbreviatedPath": "\/html\/images\/facebook-2x-white.png",
+		"outputAbbreviatedPath": "\/html\/images\/facebook-2x-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/facebook-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -537,6 +377,39 @@
 		"initialSize": 2492,
 		"inputAbbreviatedPath": "\/html\/images\/facebook-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/facebook-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/forwardtoafriend-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3804,
+		"inputAbbreviatedPath": "\/html\/images\/forwardtoafriend-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/forwardtoafriend-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/forwardtoafriend-2x-padkblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3867,
+		"inputAbbreviatedPath": "\/html\/images\/forwardtoafriend-2x-padkblue.png",
+		"outputAbbreviatedPath": "\/html\/images\/forwardtoafriend-2x-padkblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/forwardtoafriend-2x-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3658,
+		"inputAbbreviatedPath": "\/html\/images\/forwardtoafriend-2x-white.png",
+		"outputAbbreviatedPath": "\/html\/images\/forwardtoafriend-2x-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -563,6 +436,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/linkedin-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2840,
+		"inputAbbreviatedPath": "\/html\/images\/linkedin-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/linkedin-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/linkedin-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -585,6 +469,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/pspa-large-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23448,
+		"inputAbbreviatedPath": "\/html\/images\/pspa-large-2x.png",
+		"outputAbbreviatedPath": "\/html\/images\/pspa-large-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/reunion__header-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/html\/images\/reunion__header-2x.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/reunion__header-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/samsarah-seal-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -592,6 +498,39 @@
 		"initialSize": 75324,
 		"inputAbbreviatedPath": "\/html\/images\/samsarah-seal-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/samsarah-seal-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/smugmug-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3641,
+		"inputAbbreviatedPath": "\/html\/images\/smugmug-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/smugmug-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/smugmug-2x-padkblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3705,
+		"inputAbbreviatedPath": "\/html\/images\/smugmug-2x-padkblue.png",
+		"outputAbbreviatedPath": "\/html\/images\/smugmug-2x-padkblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/smugmug-2x-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3575,
+		"inputAbbreviatedPath": "\/html\/images\/smugmug-2x-white.png",
+		"outputAbbreviatedPath": "\/html\/images\/smugmug-2x-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -607,6 +546,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/trending-icon-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2398,
+		"inputAbbreviatedPath": "\/html\/images\/trending-icon-2x.png",
+		"outputAbbreviatedPath": "\/html\/images\/trending-icon-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/twitter-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3463,
+		"inputAbbreviatedPath": "\/html\/images\/twitter-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/twitter-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/twitter-2x-padkblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3551,
+		"inputAbbreviatedPath": "\/html\/images\/twitter-2x-padkblue.png",
+		"outputAbbreviatedPath": "\/html\/images\/twitter-2x-padkblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/twitter-2x-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3380,
+		"inputAbbreviatedPath": "\/html\/images\/twitter-2x-white.png",
+		"outputAbbreviatedPath": "\/html\/images\/twitter-2x-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/twitter-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -614,6 +597,39 @@
 		"initialSize": 3460,
 		"inputAbbreviatedPath": "\/html\/images\/twitter-2x.png",
 		"outputAbbreviatedPath": "\/html\/images\/twitter-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/youtube-2x-pablue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3077,
+		"inputAbbreviatedPath": "\/html\/images\/youtube-2x-pablue.png",
+		"outputAbbreviatedPath": "\/html\/images\/youtube-2x-pablue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/youtube-2x-padkblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3088,
+		"inputAbbreviatedPath": "\/html\/images\/youtube-2x-padkblue.png",
+		"outputAbbreviatedPath": "\/html\/images\/youtube-2x-padkblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/youtube-2x-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2996,
+		"inputAbbreviatedPath": "\/html\/images\/youtube-2x-white.png",
+		"outputAbbreviatedPath": "\/html\/images\/youtube-2x-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -629,119 +645,47 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/html\/index.html": {
+	"\/html\/master.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/index.html",
+		"inputAbbreviatedPath": "\/html\/master.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/module--border-button.html": {
+	"\/html\/minimal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--border-button.html",
+		"inputAbbreviatedPath": "\/html\/minimal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/module--donateimage--aechallenge.html": {
+	"\/html\/newsletter__ae.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--donateimage--aechallenge.html",
+		"inputAbbreviatedPath": "\/html\/newsletter__ae.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/module--footer-whitelist.html": {
+	"\/html\/newsletter__enews.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--footer-whitelist.html",
+		"inputAbbreviatedPath": "\/html\/newsletter__enews.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/module--ice--footer-smi.html": {
+	"\/html\/newsletter__parentbulletin.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--ice--footer-smi.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module--pa--footer-preferences--border-button.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--pa--footer-preferences--border-button.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module--pa--footer-preferences.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--pa--footer-preferences.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module--pa--footer-smi--solicitation.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--pa--footer-smi--solicitation.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module--text-leftimage.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--text-leftimage.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module--title--center.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--title--center.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module--toc--title-section.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module--toc--title-section.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/module__footer__whitelist.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/module__footer__whitelist.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/pa-ae-minimal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-ae-minimal.html",
+		"inputAbbreviatedPath": "\/html\/newsletter__parentbulletin.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -755,347 +699,138 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-formal.html": {
+	"\/html\/personal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-formal.html",
+		"inputAbbreviatedPath": "\/html\/personal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-giving-minimal.html": {
+	"\/html\/pspa.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-giving-minimal.html",
+		"inputAbbreviatedPath": "\/html\/pspa.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-ice-standard.html": {
+	"\/html\/reunion.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-ice-standard.html",
+		"inputAbbreviatedPath": "\/html\/reunion.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-invite-hos.html": {
+	"\/html\/seasonal.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-invite-hos.html",
+		"inputAbbreviatedPath": "\/html\/seasonal.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-invite-master.html": {
+	"\/html\/seasonal__adm.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-invite-master.html",
+		"inputAbbreviatedPath": "\/html\/seasonal__adm.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-master.html": {
+	"\/html\/seasonal__ice.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-master.html",
+		"inputAbbreviatedPath": "\/html\/seasonal__ice.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-ms2.html": {
+	"\/html\/standard.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-ms2.html",
+		"inputAbbreviatedPath": "\/html\/standard.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-newsletter-parentbulletin.html": {
+	"\/html\/standard__abbot.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-newsletter-parentbulletin.html",
+		"inputAbbreviatedPath": "\/html\/standard__abbot.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-personal.html": {
+	"\/html\/standard__adm.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-personal.html",
+		"inputAbbreviatedPath": "\/html\/standard__adm.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-standard-2.html": {
+	"\/html\/standard__giftplanning.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-standard-2.html",
+		"inputAbbreviatedPath": "\/html\/standard__giftplanning.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-standard-hos.html": {
+	"\/html\/standard__hos.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-standard-hos.html",
+		"inputAbbreviatedPath": "\/html\/standard__hos.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/pa-standard.html": {
+	"\/html\/standard__ice.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/pa-standard.html",
+		"inputAbbreviatedPath": "\/html\/standard__ice.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/solicitation-img\/bg-pf-2x1850.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1589,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/bg-pf-2x1850.jpg",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/bg-pf-2x1850.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/bg_1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28614,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/bg_1.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/bg_1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/bg_b_zpsigj7ftoy.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54575,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/bg_b_zpsigj7ftoy.JPG",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/bg_b_zpsigj7ftoy.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/facebook-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 806,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/facebook-2x.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/facebook-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/forwardtoafriend-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1163,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/forwardtoafriend-2x.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/forwardtoafriend-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/mountains-pf-1x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7389,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/mountains-pf-1x.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/mountains-pf-1x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/smugmug-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1216,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/smugmug-2x.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/smugmug-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/twitter-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1065,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/twitter-2x.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/twitter-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/video-2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57453,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/video-2x.jpg",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/video-2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/solicitation-img\/youtube-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 933,
-		"inputAbbreviatedPath": "\/html\/solicitation-img\/youtube-2x.png",
-		"outputAbbreviatedPath": "\/html\/solicitation-img\/youtube-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/html\/style--abbot.html": {
+	"\/html\/standard__ms2.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/style--abbot.html",
+		"inputAbbreviatedPath": "\/html\/standard__ms2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/style--ae-giving--solicitation.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/style--ae-giving--solicitation.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/style--invite--pa.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/style--invite--pa.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html\/style--pa.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/style--pa.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-formal.kit": {
+	"\/kit\/pages\/formal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-formal.kit",
-		"outputAbbreviatedPath": "\/html\/ae-formal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/formal.kit",
+		"outputAbbreviatedPath": "\/html\/formal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/ae-master.kit": {
+	"\/kit\/pages\/hos__invite.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-master.kit",
-		"outputAbbreviatedPath": "\/html\/ae-master.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-newsletter.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-newsletter.kit",
-		"outputAbbreviatedPath": "\/html\/ae-newsletter.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-standard-abbot.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-standard-abbot.kit",
-		"outputAbbreviatedPath": "\/html\/ae-standard-abbot.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/ae-standard.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/ae-standard.kit",
-		"outputAbbreviatedPath": "\/html\/ae-standard.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-formal.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-formal.kit",
-		"outputAbbreviatedPath": "\/html\/giving-formal.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-giftplanning.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-giftplanning.kit",
-		"outputAbbreviatedPath": "\/html\/giving-giftplanning.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-master.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-master.kit",
-		"outputAbbreviatedPath": "\/html\/giving-master.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-standard-abbot.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-standard-abbot.kit",
-		"outputAbbreviatedPath": "\/html\/giving-standard-abbot.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/pages\/giving-standard.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/giving-standard.kit",
-		"outputAbbreviatedPath": "\/html\/giving-standard.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/hos__invite.kit",
+		"outputAbbreviatedPath": "\/html\/hos__invite.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1108,12 +843,48 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-ae-minimal.kit": {
+	"\/kit\/pages\/master.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-ae-minimal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-ae-minimal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/master.kit",
+		"outputAbbreviatedPath": "\/html\/master.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/minimal.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/minimal.kit",
+		"outputAbbreviatedPath": "\/html\/minimal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/newsletter__ae.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/newsletter__ae.kit",
+		"outputAbbreviatedPath": "\/html\/newsletter__ae.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/newsletter__enews.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/newsletter__enews.kit",
+		"outputAbbreviatedPath": "\/html\/newsletter__enews.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/newsletter__parentbulletin.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/newsletter__parentbulletin.kit",
+		"outputAbbreviatedPath": "\/html\/newsletter__parentbulletin.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1126,118 +897,127 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-formal.kit": {
+	"\/kit\/pages\/personal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-formal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-formal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/personal.kit",
+		"outputAbbreviatedPath": "\/html\/personal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-giving-minimal.kit": {
+	"\/kit\/pages\/pspa.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-giving-minimal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-giving-minimal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/pspa.kit",
+		"outputAbbreviatedPath": "\/html\/pspa.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-ice-standard.kit": {
+	"\/kit\/pages\/reunion.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-ice-standard.kit",
-		"outputAbbreviatedPath": "\/html\/pa-ice-standard.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/reunion.kit",
+		"outputAbbreviatedPath": "\/html\/reunion.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-invite-hos.kit": {
+	"\/kit\/pages\/seasonal.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-invite-hos.kit",
-		"outputAbbreviatedPath": "\/html\/pa-invite-hos.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/seasonal.kit",
+		"outputAbbreviatedPath": "\/html\/seasonal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-invite-master.kit": {
+	"\/kit\/pages\/seasonal__adm.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-invite-master.kit",
-		"outputAbbreviatedPath": "\/html\/pa-invite-master.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/seasonal__adm.kit",
+		"outputAbbreviatedPath": "\/html\/seasonal__adm.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-master.kit": {
+	"\/kit\/pages\/seasonal__ice.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-master.kit",
-		"outputAbbreviatedPath": "\/html\/pa-master.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/seasonal__ice.kit",
+		"outputAbbreviatedPath": "\/html\/seasonal__ice.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-ms2.kit": {
+	"\/kit\/pages\/standard.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-ms2.kit",
-		"outputAbbreviatedPath": "\/html\/pa-ms2.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard.kit",
+		"outputAbbreviatedPath": "\/html\/standard.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-newsletter-parentbulletin.kit": {
+	"\/kit\/pages\/standard__abbot.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-newsletter-parentbulletin.kit",
-		"outputAbbreviatedPath": "\/html\/pa-newsletter-parentbulletin.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__abbot.kit",
+		"outputAbbreviatedPath": "\/html\/standard__abbot.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-personal.kit": {
+	"\/kit\/pages\/standard__adm.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-personal.kit",
-		"outputAbbreviatedPath": "\/html\/pa-personal.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__adm.kit",
+		"outputAbbreviatedPath": "\/html\/standard__adm.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-standard-2.kit": {
+	"\/kit\/pages\/standard__giftplanning.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-standard-2.kit",
-		"outputAbbreviatedPath": "\/html\/pa-standard-2.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__giftplanning.kit",
+		"outputAbbreviatedPath": "\/html\/standard__giftplanning.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-standard-hos.kit": {
+	"\/kit\/pages\/standard__hos.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-standard-hos.kit",
-		"outputAbbreviatedPath": "\/html\/pa-standard-hos.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__hos.kit",
+		"outputAbbreviatedPath": "\/html\/standard__hos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/pages\/pa-standard.kit": {
+	"\/kit\/pages\/standard__ice.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/pages\/pa-standard.kit",
-		"outputAbbreviatedPath": "\/html\/pa-standard.html",
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__ice.kit",
+		"outputAbbreviatedPath": "\/html\/standard__ice.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/pages\/standard__ms2.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/pages\/standard__ms2.kit",
+		"outputAbbreviatedPath": "\/html\/standard__ms2.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/partials\/default-outlook--ae-giving--css.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default-outlook--ae-giving--css.kit",
 		"outputAbbreviatedPath": "\/html\/default-outlook--ae-giving--css.html",
 		"outputPathIsOutsideProject": 0,
@@ -1245,7 +1025,7 @@
 		},
 	"\/kit\/partials\/default-outlook--pa--css.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default-outlook--pa--css.kit",
 		"outputAbbreviatedPath": "\/html\/default-outlook--pa--css.html",
@@ -1254,8 +1034,8 @@
 		},
 	"\/kit\/partials\/default-outlook-css.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default-outlook-css.kit",
 		"outputAbbreviatedPath": "\/html\/default-outlook-css.html",
 		"outputPathIsOutsideProject": 0,
@@ -1263,7 +1043,7 @@
 		},
 	"\/kit\/partials\/default__head.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__head.kit",
 		"outputAbbreviatedPath": "\/html\/default__head.html",
@@ -1272,17 +1052,44 @@
 		},
 	"\/kit\/partials\/default__module--border-button.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module--border-button.kit",
 		"outputAbbreviatedPath": "\/html\/default__module--border-button.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/default__module--pb-button.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module--pb-button.kit",
+		"outputAbbreviatedPath": "\/html\/default__module--pb-button.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__abbot--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__abbot--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__abbot--footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__adm--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__adm--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__adm--footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/default__module__alumni-giving--footer.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__alumni-giving--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__alumni-giving--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1290,17 +1097,35 @@
 		},
 	"\/kit\/partials\/default__module__alumni-giving--header.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__alumni-giving--header.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__alumni-giving--header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__andover--footer--personal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer--personal.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__andover--footer--personal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__andover--footer--wordmark.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer--wordmark.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__andover--footer--wordmark.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/partials\/default__module__andover--footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--footer.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__andover--footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -1309,9 +1134,36 @@
 	"\/kit\/partials\/default__module__andover--header.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/default__module__andover--header.kit",
 		"outputAbbreviatedPath": "\/html\/default__module__andover--header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__ice--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__ice--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__ice--footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__pspa--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__pspa--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__pspa--footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__reunion--footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__reunion--footer.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__reunion--footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1324,82 +1176,154 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/partials\/dev\/default__module--border-button.kit": {
+	"\/kit\/partials\/default__module__whitelist__adm.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__whitelist__adm.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__whitelist__adm.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/default__module__whitelist__ice.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/default__module__whitelist__ice.kit",
+		"outputAbbreviatedPath": "\/html\/default__module__whitelist__ice.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__button__border.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/default__module--border-button.kit",
-		"outputAbbreviatedPath": "\/html\/default__module--border-button.html",
+		"inputAbbreviatedPath": "\/kit\/partials\/github__button__border.kit",
+		"outputAbbreviatedPath": "\/html\/github__button__border.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/partials\/dev\/default__module--pb-button.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/default__module--pb-button.kit",
-		"outputAbbreviatedPath": "\/html\/default__module--pb-button.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/partials\/dev\/default__module__andover--footer.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/default__module__andover--footer.kit",
-		"outputAbbreviatedPath": "\/html\/default__module__andover--footer.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/partials\/dev\/module--fullwidthimage.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/module--fullwidthimage.kit",
-		"outputAbbreviatedPath": "\/html\/module--fullwidthimage.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/partials\/dev\/module--pa--footer-preferences.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/module--pa--footer-preferences.kit",
-		"outputAbbreviatedPath": "\/html\/module--pa--footer-preferences.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/partials\/dev\/module--pa--footer-smi.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/module--pa--footer-smi.kit",
-		"outputAbbreviatedPath": "\/html\/module--pa--footer-smi.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/partials\/dev\/module__footer__whitelist.kit": {
+	"\/kit\/partials\/github__footer__abbot.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/module__footer__whitelist.kit",
-		"outputAbbreviatedPath": "\/html\/module__footer__whitelist.html",
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__abbot.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__abbot.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/partials\/dev\/style--pa.kit": {
+	"\/kit\/partials\/github__footer__admission.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__admission.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__admission.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__footer__alumni-giving.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__alumni-giving.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__alumni-giving.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__footer__andover--personal.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__andover--personal.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__andover--personal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__footer__andover--wordmark.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__andover--wordmark.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__andover--wordmark.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__footer__andover.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__andover.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__andover.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__footer__ice.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__ice.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__ice.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__footer__reunion.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__footer__reunion.kit",
+		"outputAbbreviatedPath": "\/html\/github__footer__reunion.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__header__abbot.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__header__abbot.kit",
+		"outputAbbreviatedPath": "\/html\/github__header__abbot.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__header__andover.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__header__andover.kit",
+		"outputAbbreviatedPath": "\/html\/github__header__andover.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/github__preferences__border-button.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/github__preferences__border-button.kit",
+		"outputAbbreviatedPath": "\/html\/github__preferences__border-button.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--adm--footer-preferences.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/dev\/style--pa.kit",
-		"outputAbbreviatedPath": "\/html\/style--pa.html",
+		"inputAbbreviatedPath": "\/kit\/partials\/module--adm--footer-preferences.kit",
+		"outputAbbreviatedPath": "\/html\/module--adm--footer-preferences.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--adm--footer-smi.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--adm--footer-smi.kit",
+		"outputAbbreviatedPath": "\/html\/module--adm--footer-smi.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/partials\/module--ae-giving--footer-smi--solicitation.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--ae-giving--footer-smi--solicitation.kit",
 		"outputAbbreviatedPath": "\/html\/module--ae-giving--footer-smi--solicitation.html",
 		"outputPathIsOutsideProject": 0,
@@ -1407,7 +1331,7 @@
 		},
 	"\/kit\/partials\/module--ae-giving--footer-smi.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--ae-giving--footer-smi.kit",
 		"outputAbbreviatedPath": "\/html\/module--ae-giving--footer-smi.html",
@@ -1416,8 +1340,8 @@
 		},
 	"\/kit\/partials\/module--border-button.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--border-button.kit",
 		"outputAbbreviatedPath": "\/html\/module--border-button.html",
 		"outputPathIsOutsideProject": 0,
@@ -1425,8 +1349,8 @@
 		},
 	"\/kit\/partials\/module--callout--blue.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--callout--blue.kit",
 		"outputAbbreviatedPath": "\/html\/module--callout--blue.html",
 		"outputPathIsOutsideProject": 0,
@@ -1434,8 +1358,8 @@
 		},
 	"\/kit\/partials\/module--callout--content.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--callout--content.kit",
 		"outputAbbreviatedPath": "\/html\/module--callout--content.html",
 		"outputPathIsOutsideProject": 0,
@@ -1443,8 +1367,8 @@
 		},
 	"\/kit\/partials\/module--callout--title.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--callout--title.kit",
 		"outputAbbreviatedPath": "\/html\/module--callout--title.html",
 		"outputPathIsOutsideProject": 0,
@@ -1461,8 +1385,8 @@
 		},
 	"\/kit\/partials\/module--donateimage--aechallenge.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--donateimage--aechallenge.kit",
 		"outputAbbreviatedPath": "\/html\/module--donateimage--aechallenge.html",
 		"outputPathIsOutsideProject": 0,
@@ -1495,9 +1419,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/module--ice--footer-preferences.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--ice--footer-preferences.kit",
+		"outputAbbreviatedPath": "\/html\/module--ice--footer-preferences.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--ice--footer-smi.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--ice--footer-smi.kit",
 		"outputAbbreviatedPath": "\/html\/module--ice--footer-smi.html",
@@ -1515,8 +1448,8 @@
 		},
 	"\/kit\/partials\/module--pa--footer-preferences--border-button.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--pa--footer-preferences--border-button.kit",
 		"outputAbbreviatedPath": "\/html\/module--pa--footer-preferences--border-button.html",
 		"outputPathIsOutsideProject": 0,
@@ -1528,6 +1461,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--pa--footer-preferences.kit",
 		"outputAbbreviatedPath": "\/html\/module--pa--footer-preferences.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--pa--footer-smi--personal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--pa--footer-smi--personal.kit",
+		"outputAbbreviatedPath": "\/html\/module--pa--footer-smi--personal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1551,7 +1493,7 @@
 		},
 	"\/kit\/partials\/module--rwdtwocols-sidebar-text.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols-sidebar-text.kit",
 		"outputAbbreviatedPath": "\/html\/module--rwdtwocols-sidebar-text.html",
@@ -1573,6 +1515,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols-text.kit",
 		"outputAbbreviatedPath": "\/html\/module--rwdtwocols-text.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--rwdtwocols__image-text.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols__image-text.kit",
+		"outputAbbreviatedPath": "\/html\/module--rwdtwocols__image-text.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--rwdtwocols__text.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--rwdtwocols__text.kit",
+		"outputAbbreviatedPath": "\/html\/module--rwdtwocols__text.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1623,7 +1583,7 @@
 		},
 	"\/kit\/partials\/module--table--twocol-1-2-firstrow.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-firstrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-firstrow.html",
@@ -1632,7 +1592,7 @@
 		},
 	"\/kit\/partials\/module--table--twocol-1-2-lastrow.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-lastrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-lastrow.html",
@@ -1641,7 +1601,7 @@
 		},
 	"\/kit\/partials\/module--table--twocol-1-2-midrow.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--table--twocol-1-2-midrow.kit",
 		"outputAbbreviatedPath": "\/html\/module--table--twocol-1-2-midrow.html",
@@ -1704,10 +1664,19 @@
 		},
 	"\/kit\/partials\/module--text--button.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--text--button.kit",
 		"outputAbbreviatedPath": "\/html\/module--text--button.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--text--small.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--text--small.kit",
+		"outputAbbreviatedPath": "\/html\/module--text--small.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1749,8 +1718,8 @@
 		},
 	"\/kit\/partials\/module--title--center.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--title--center.kit",
 		"outputAbbreviatedPath": "\/html\/module--title--center.html",
 		"outputPathIsOutsideProject": 0,
@@ -1783,12 +1752,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/module--toc--image-title-text.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--toc--image-title-text.kit",
+		"outputAbbreviatedPath": "\/html\/module--toc--image-title-text.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/module--toc--story.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/module--toc--story.kit",
 		"outputAbbreviatedPath": "\/html\/module--toc--story.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/partials\/module--toc--title--trending.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module--toc--title--trending.kit",
+		"outputAbbreviatedPath": "\/html\/module--toc--title--trending.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1839,16 +1826,25 @@
 		},
 	"\/kit\/partials\/module__footer__whitelist.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/module__footer__whitelist.kit",
 		"outputAbbreviatedPath": "\/html\/module__footer__whitelist.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/partials\/module__reunion--header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/partials\/module__reunion--header.kit",
+		"outputAbbreviatedPath": "\/html\/module__reunion--header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/partials\/style--abbot.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/partials\/style--abbot.kit",
 		"outputAbbreviatedPath": "\/html\/style--abbot.html",
@@ -1857,8 +1853,8 @@
 		},
 	"\/kit\/partials\/style--ae-giving--solicitation.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/style--ae-giving--solicitation.kit",
 		"outputAbbreviatedPath": "\/html\/style--ae-giving--solicitation.html",
 		"outputPathIsOutsideProject": 0,
@@ -1866,19 +1862,10 @@
 		},
 	"\/kit\/partials\/style--ae-giving.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/kit\/partials\/style--ae-giving.kit",
 		"outputAbbreviatedPath": "\/html\/style--ae-giving.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/partials\/style--invite--pa.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/partials\/style--invite--pa.kit",
-		"outputAbbreviatedPath": "\/html\/style--invite--pa.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1891,57 +1878,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/solicitations\/0315-afpf-03.kit": {
+	"\/kit\/partials\/style--pa__invite.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/solicitations\/0315-afpf-03.kit",
-		"outputAbbreviatedPath": "\/html\/0315-afpf-03.html",
+		"inputAbbreviatedPath": "\/kit\/partials\/style--pa__invite.kit",
+		"outputAbbreviatedPath": "\/html\/style--pa__invite.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/kit\/solicitations\/0315-pf-03.kit": {
+	"\/kit\/partials\/style--reunion.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/solicitations\/0315-pf-03.kit",
-		"outputAbbreviatedPath": "\/html\/0315-pf-03.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/solicitations\/1214-solicitation-02.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/solicitations\/1214-solicitation-02.kit",
-		"outputAbbreviatedPath": "\/html\/1214-solicitation-02.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/solicitations\/partials\/module--solicitation--footer-smi.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/solicitations\/partials\/module--solicitation--footer-smi.kit",
-		"outputAbbreviatedPath": "\/html\/module--solicitation--footer-smi.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/solicitations\/partials\/module--title.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/solicitations\/partials\/module--title.kit",
-		"outputAbbreviatedPath": "\/html\/module--title.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kit\/solicitations\/partials\/style--0315-afpf-03.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kit\/solicitations\/partials\/style--0315-afpf-03.kit",
-		"outputAbbreviatedPath": "\/html\/style--0315-afpf-03.html",
+		"inputAbbreviatedPath": "\/kit\/partials\/style--reunion.kit",
+		"outputAbbreviatedPath": "\/html\/style--reunion.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2074,71 +2025,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sass\/dev\/dev--style--pa-master.css": {
+	"\/sass\/css\/style--pspa--default.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/dev\/dev--style--pa-master.css",
+		"inputAbbreviatedPath": "\/sass\/css\/style--pspa--default.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sass\/dev\/dev--style--pa-master.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/dev\/dev--style--pa-master.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/dev--style--pa-master.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/dev\/partials\/dev--style--default.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
+	"\/sass\/css\/style--pspa-master.css": {
+		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/dev\/partials\/dev--style--default.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/dev--style--default.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/dev\/partials\/dev--style--pa.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/dev\/partials\/dev--style--pa.css",
+		"inputAbbreviatedPath": "\/sass\/css\/style--pspa-master.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sass\/dev\/partials\/dev--style--pa.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
+	"\/sass\/css\/style--reunion-master.css": {
+		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/dev\/partials\/dev--style--pa.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/dev--style--pa.css",
+		"inputAbbreviatedPath": "\/sass\/css\/style--reunion-master.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/css\/style--reunion.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/css\/style--reunion.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/partials\/style--abbot.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/style--abbot.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/partials\/style--abbot.scss": {
 		"createSourceMap": 0,
@@ -2252,6 +2182,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/style--pa.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/style--pa.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/partials\/style--pa.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2268,71 +2207,64 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/solicitation-03\/style--ae-giving-master--solicitation.css": {
-		"fileType": 16,
+	"\/sass\/partials\/style--pspa--default.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--ae-giving-master--solicitation.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/style--pspa--default.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--pspa--default.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/style--pspa.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/style--pspa.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sass\/solicitation-03\/style--ae-giving-master--solicitation.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--ae-giving-master--solicitation.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/style--ae-giving-master--solicitation.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/solicitation-03\/style--default--solicitation.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--default--solicitation.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/style--default--solicitation.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/solicitation-03\/style--vars--solicitation.css": {
+	"\/sass\/partials\/style--reunion.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--vars--solicitation.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/style--reunion.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sass\/solicitation-03\/style--vars--solicitation.scss": {
+	"\/sass\/partials\/style--reunion.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/solicitation-03\/style--vars--solicitation.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/style--vars--solicitation.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/style--reunion.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--reunion.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/sass\/style--abbot-master.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style--abbot-master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/style--abbot-master.scss": {
 		"createSourceMap": 0,
@@ -2457,7 +2389,7 @@
 		},
 	"\/sass\/style--pa-master.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/style--pa-master.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2473,6 +2405,56 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/style--pa-master.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/style--pa-master.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/style--pspa-master.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style--pspa-master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/style--pspa-master.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style--pspa-master.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--pspa-master.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/style--reunion-master.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style--reunion-master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/style--reunion-master.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/style--reunion-master.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/style--reunion-master.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

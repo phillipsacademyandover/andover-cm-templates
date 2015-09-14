@@ -1,16 +1,23 @@
 /* --- Style --- */
 /* --- PA Style Guide --- */
+/*------------------------------------*\
+    # PA Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # PA Secondary Colors
+\*------------------------------------*/
+/* --- Tints --- */
 /* --- PA --- */
 /* --- PA Style Guide --- */
 /* --- lt mso 9 --- */
 .title-purpose {
   background: #ffffff;
-  border-top: 1px solid #91b7df;
-  border-bottom: 1px solid #91b7df; }
+  border-top: 1px solid #003c7f;
+  border-bottom: 1px solid #003c7f; }
 
 .article-purpose {
-  color: #01172c; }
+  color: #003c7f; }
 
 .article-purpose a {
-  color: #01172c;
+  color: #003c7f;
   text-decoration: underline; }

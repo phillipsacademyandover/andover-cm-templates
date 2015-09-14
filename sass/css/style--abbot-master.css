@@ -1,7 +1,24 @@
 /* --- Style --- */
-/* --- Abbot Style Guide --- */
+/* --- PA Style Guide --- */
+/*------------------------------------*\
+    # PA Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # PA Secondary Colors
+\*------------------------------------*/
+/* --- Tints --- */
+/* --- PA --- */
+/* --- PA Style Guide --- */
 /* --- Abbot --- */
-/* --- Abbot Style Guide --- */
+/*------------------------------------*\
+    # Abbot Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # Abbot Color Layout
+\*------------------------------------*/
+/*------------------------------------*\
+    # Abbot Layout
+\*------------------------------------*/
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
   table[class=w0], td[class=w0] {
@@ -122,7 +139,8 @@
 
   img {
     height: auto;
-    line-height: 100%; } }
+    line-height: 100%;
+    Margin: 0 auto; } }
 /* Client-specific Styles */
 #outlook a {
   padding: 0; }
@@ -160,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -169,7 +187,7 @@ h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -200,60 +218,51 @@ code {
 body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
-.header-content, .footer-content {
+#header, #footer {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
-.brand__name {
-  text-align: center; }
+.preview__text {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  color: #66addc;
+  height: 6px; }
 
-.whitelist-message {
-  font-size: 12px;
-  color: #ffffff;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+.preview__text p {
+  margin: 0 !important;
+  font-size: 5px; }
 
-.whitelist-message a {
+.webversion__content a {
   font-weight: bold;
-  color: #ffffff !important;
+  color: #dee8f4;
   text-decoration: underline; }
 
-.header-branding {
+.header__branding {
   font-family: Georgia, Times, serif;
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  Margin-right: 10px;
+  Margin-left: 10px; }
 
-.header-office {
+.header__office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color: #01172c; }
-
-.header-office p {
-  margin: 0; }
-
-.header-message {
-  font-size: 12px;
-  color: #ffffff; }
-
-.header-message a {
-  font-weight: bold;
+  font-style: italic;
   color: #ffffff;
-  text-decoration: underline; }
-
-.header-content {
-  font-size: 12px;
-  color: #01172c; }
-
-.header-content a {
-  font-weight: bold;
-  color: #0039a6;
-  text-decoration: underline; }
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  Margin-right: 10px;
+  Margin-left: 10px; }
 
 .title-purpose {
-  background: #6aadd2;
+  background: #297cb3;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -274,10 +283,16 @@ body, td {
   font-size: 54px;
   text-align: center; }
 
+.send-date {
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+  Margin-top: 5px; }
+
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #2c2c20 !important;
+  color: #297cb3 !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
@@ -294,15 +309,15 @@ h1.section-title {
 /* --- END Header --- */
 /* --- Article --- */
 .article-title {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 130%;
-  color: #4f79a5 !important;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 15px; }
+  color: #297cb3 !important;
+  font-weight: normal;
+  Margin-top: 15px;
+  margin-bottom: 8px; }
 
 .article-title a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -321,7 +336,7 @@ h1.section-title {
 
 #title--center h2.article-title {
   font-size: 28px;
-  color: #2d5781 !important;
+  color: #4982bc !important;
   text-transform: uppercase;
   text-align: center; }
 
@@ -330,13 +345,13 @@ h1.section-title {
   line-height: 130%;
   color: #333333;
   margin-top: 0px;
-  margin-bottom: 15px; }
+  Margin-bottom: 15px; }
 
 .table-row .article-content {
   margin-bottom: 0; }
 
 .article-content a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -350,7 +365,7 @@ h1.section-title {
 
 .article-content ol, .article-content ul {
   margin-top: 0px;
-  margin-bottom: 15px;
+  Margin-bottom: 10px;
   margin-left: 4px;
   padding: 0;
   padding-left: 19px; }
@@ -359,10 +374,10 @@ h1.section-title {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
-  margin-bottom: 9px; }
+  Margin-bottom: 9px; }
 
 .article-content li a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 .article-content p {
@@ -390,12 +405,41 @@ h1.section-title {
 
 #callout .article-content {
   font-size: 30px;
-  color: #2d5781 !important; }
+  color: #4982bc !important; }
 
 #callout .article-content a {
-  color: #2d5781 !important; }
+  color: #4982bc !important; }
 
 /* --- END Article --- */
+/* --- Button --- */
+.pb-button__mso {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.pb-button__style {
+  background-color: #0058a0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-top: 1px solid #0058a0;
+  border-right: 1px solid #0058a0;
+  border-bottom: 2px solid #003c7f;
+  border-left: 1px solid #0058a0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 12px 18px;
+  text-shadow: 0 1px 2px #003c7f; }
+
+.pb-button a {
+  font-size: 18px;
+  color: #ffffff !important;
+  text-decoration: none; }
+
+/* --- END Button --- */
 /* --- Sidebar --- */
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -422,7 +466,7 @@ h1.section-title {
   text-align: left; }
 
 .toc a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -435,16 +479,16 @@ h1.section-title {
 
 .article-toc a {
   font-weight: bold;
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 /* --- END Sidebar --- */
 /* --- Footer --- */
 #footer {
-  color: #01172c; }
+  color: #333333; }
 
 #footer a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 #footer a.link {
@@ -454,7 +498,7 @@ h1.section-title {
   font-family: Georgia, Times, serif;
   font-size: 12px;
   line-height: 130%;
-  color: #01172c;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 15px; }
 
@@ -462,24 +506,53 @@ h1.section-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 130%;
-  color: #01172c;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 15px; }
+
+.footer-content--pref a {
+  font-weight: bold; }
 
 #permission-reminder {
   white-space: normal; }
 
 #street-address {
   font-family: Georgia, Times, serif;
-  color: #01172c;
+  color: #333333;
   white-space: normal; }
 
 #street-address a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline;
   font-weight: bold; }
 
+.whitelist-message,
+.webversion__content--footer {
+  font-size: 12px;
+  color: #333333;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+.whitelist-message a,
+.webversion__content--footer a {
+  font-weight: bold;
+  color: #0058a0;
+  text-decoration: underline; }
+
 /* --- END Footer --- */
+/* --- Helpers --- */
+.no__margin {
+  margin: 0; }
+
+.text--small {
+  font-size: 12px; }
+
+ul, ol {
+  Margin-bottom: 10px; }
+
+@media only screen and (min-width: 660px) {
+  .pb-button {
+    max-width: 50%; } }
 @media only screen and (max-width: 660px) {
   tr[id=webversion] {
     display: none !important; }
@@ -505,8 +578,23 @@ h1.section-title {
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
 
+  table[class=r70], td[class=r70], img[class=r70] {
+    width: 70% !important; }
+
+  table[class=r30], td[class=r30], img[class=r30] {
+    width: 30% !important; }
+
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 75% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 25% !important; }
+
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
+
+  table[class=responsive-content-padding], td[class=responsive-content-padding], img[class=responsive-content-padding] {
+    width: 97.5% !important; }
 
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
@@ -540,7 +628,13 @@ h1.section-title {
     display: block !important; }
 
   div[class=newsletter-title] {
-    font-size: 36px; } }
+    font-size: 36px; }
+
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 70% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 30% !important; } }
 @media only screen and (max-width: 480px) {
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
@@ -563,10 +657,31 @@ h1.section-title {
 
   table[id=threecol] img[class=responsive] {
     width: 100% !important;
-    height: auto !important; } }
+    height: auto !important; }
+
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 65% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 35% !important; } }
 @media only screen and (max-width: 414px) {
   #callout--title h1.article-title {
     font-size: 45px !important; }
 
   #callout--title .article-content {
-    font-size: 21px !important; } }
+    font-size: 21px !important; }
+
+  div[class=header__branding] {
+    font-size: 20px !important; } }
+@media only screen and (max-width: 360px) {
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 62% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 38% !important; } }
+@media only screen and (max-width: 320px) {
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 60% !important; }
+
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 40% !important; } }

@@ -1,5 +1,10 @@
 /* --- Style --- */
 /* --- PA Style Guide --- */
+/*------------------------------------*    # PA Primary Colors
+\*------------------------------------*/
+/*------------------------------------*    # PA Secondary Colors
+\*------------------------------------*/
+/* --- Tints --- */
 /* --- PA --- */
 /* --- PA Style Guide --- */
 /* Mobile-specific Styles */
@@ -172,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 156, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -183,7 +188,7 @@ h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
 /* line 165, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
@@ -221,76 +226,62 @@ body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
 /* line 216, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-content, .footer-content {
+#header, #footer {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
 /* --- Header --- */
-/* line 223, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.brand__name {
-  text-align: center; }
+/* line 225, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.preview__text {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  color: #0058a0;
+  height: 6px; }
 
-/* line 242, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.whitelist-message {
-  font-size: 12px;
-  color: #ffffff;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+/* line 231, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.preview__text p {
+  margin: 0 !important;
+  font-size: 5px; }
 
-/* line 248, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.whitelist-message a {
+/* line 235, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.webversion__content a {
   font-weight: bold;
-  color: #0039a6;
+  color: #dee8f4;
   text-decoration: underline; }
 
-/* line 253, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-branding {
+/* line 240, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.header__branding {
   font-family: Georgia, Times, serif;
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  Margin-right: 10px;
+  Margin-left: 10px; }
 
-/* line 259, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-office {
+/* line 251, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.header__office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color: #01172c; }
-
-/* line 264, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-office p {
-  margin: 0; }
-
-/* line 267, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-message {
-  font-size: 12px;
-  color: #ffffff; }
-
-/* line 271, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-message a {
-  font-weight: bold;
+  font-style: italic;
   color: #ffffff;
-  text-decoration: underline; }
+  word-break: break-word;
+  word-wrap: break-word;
+  padding: 0;
+  Margin-right: 10px;
+  Margin-left: 10px; }
 
-/* line 276, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-content {
-  font-size: 12px;
-  color: #01172c; }
-
-/* line 280, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
-.header-content a {
-  font-weight: bold;
-  color: #0039a6;
-  text-decoration: underline; }
-
-/* line 285, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 275, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .title-purpose {
-  background: #01172c;
+  background: #003c7f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 291, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 281, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-purpose {
   font-size: 16px;
   line-height: 130%;
@@ -299,58 +290,65 @@ body, td {
   margin-top: 0px;
   margin-bottom: 0; }
 
-/* line 299, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 289, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-purpose a {
   color: #ffffff;
   text-decoration: underline; }
 
-/* line 303, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 293, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .newsletter-title {
   font-size: 54px;
   text-align: center; }
 
-/* line 307, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 297, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.send-date {
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+  Margin-top: 5px; }
+
+/* line 303, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #2c2c20 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
   font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
 
-/* line 316, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 312, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .section-title a {
   font-weight: bold;
   color: #2a5b7d !important;
   text-decoration: underline; }
 
-/* line 321, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 317, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 h1.section-title {
   line-height: 100% !important; }
 
 /* --- END Header --- */
 /* --- Article --- */
-/* line 326, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 322, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-title {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 130%;
-  color: #2d5781 !important;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 15px; }
+  color: #003c7f !important;
+  font-weight: normal;
+  Margin-top: 15px;
+  margin-bottom: 8px; }
 
-/* line 334, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 330, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-title a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 340, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 336, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-title.with-meta {
   margin-bottom: 0; }
 
-/* line 344, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 340, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title h1.article-title {
   font-size: 60px;
   color: #ffffff !important;
@@ -358,106 +356,138 @@ h1.section-title {
   text-align: center;
   margin-bottom: 5px; }
 
-/* line 351, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 347, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title h1.article-title a {
   color: #ffffff !important; }
 
-/* line 356, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 352, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #title--center h2.article-title {
   font-size: 28px;
-  color: #2d5781 !important;
+  color: #4982bc !important;
   text-transform: uppercase;
   text-align: center; }
 
-/* line 370, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 366, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
   margin-top: 0px;
-  margin-bottom: 15px; }
+  Margin-bottom: 15px; }
 
-/* line 377, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 373, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .table-row .article-content {
   margin-bottom: 0; }
 
-/* line 380, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 376, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 385, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 381, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content a.white {
   color: #ffffff;
   font-weight: normal;
   text-decoration: underline; }
 
-/* line 390, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 386, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content img {
   max-width: 100%; }
 
-/* line 393, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 389, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content ol, .article-content ul {
   margin-top: 0px;
-  margin-bottom: 15px;
+  Margin-bottom: 10px;
   margin-left: 4px;
   padding: 0;
   padding-left: 19px; }
 
-/* line 400, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 396, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content li {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
-  margin-bottom: 9px; }
+  Margin-bottom: 9px; }
 
-/* line 406, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 402, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content li a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
-/* line 411, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 407, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-content p {
   margin-top: 0;
   margin-bottom: 15px; }
 
-/* line 415, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 411, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .table-row .article-content p {
   margin-bottom: 5px; }
 
-/* line 420, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 416, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title .article-content {
   font-size: 28px;
   color: #ffffff !important;
   margin-bottom: 0; }
 
-/* line 425, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 421, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title .article-content p {
   margin-bottom: 0; }
 
-/* line 429, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 425, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--title .article-content a,
 #callout--content .article-content a {
   color: #ffffff !important; }
 
-/* line 432, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 428, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout--content .article-content {
   color: #ffffff !important;
   margin-bottom: 0; }
 
-/* line 437, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 433, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout .article-content {
   font-size: 30px;
-  color: #2d5781 !important; }
+  color: #4982bc !important; }
 
-/* line 441, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 437, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout .article-content a {
-  color: #2d5781 !important; }
+  color: #4982bc !important; }
 
 /* --- END Article --- */
+/* --- Button --- */
+/* line 465, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.pb-button__mso {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+/* line 470, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.pb-button__style {
+  background-color: #0058a0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-top: 1px solid #0058a0;
+  border-right: 1px solid #0058a0;
+  border-bottom: 2px solid #003c7f;
+  border-left: 1px solid #0058a0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 12px 18px;
+  text-shadow: 0 1px 2px #003c7f; }
+
+/* line 488, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.pb-button a {
+  font-size: 18px;
+  color: #ffffff !important;
+  text-decoration: none; }
+
+/* --- END Button --- */
 /* --- Sidebar --- */
-/* line 447, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 497, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -468,7 +498,7 @@ h1.section-title {
   margin-bottom: 0;
   text-transform: uppercase; }
 
-/* line 457, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 507, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .sidebar-content {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -478,19 +508,19 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 0; }
 
-/* line 466, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 516, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .toc {
   list-style: none;
   padding-left: 0.5em;
   text-align: left; }
 
-/* line 471, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 521, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .toc a {
-  color: #0039a6;
+  color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 477, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 527, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-toc {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -498,158 +528,241 @@ h1.section-title {
   color: #333333;
   text-align: left; }
 
-/* line 484, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 534, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .article-toc a {
   font-weight: bold;
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
 /* --- END Sidebar --- */
 /* --- Footer --- */
-/* line 492, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 542, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #footer {
-  color: #01172c; }
+  color: #333333; }
 
-/* line 495, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 545, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #footer a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline; }
 
-/* line 499, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 549, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #footer a.link {
   font-weight: bold; }
 
-/* line 502, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 552, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .footer-content {
   font-family: Georgia, Times, serif;
   font-size: 12px;
   line-height: 130%;
-  color: #01172c;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 510, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 560, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .footer-content--pref {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 130%;
-  color: #01172c;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 518, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 568, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.footer-content--pref a {
+  font-weight: bold; }
+
+/* line 571, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #permission-reminder {
   white-space: normal; }
 
-/* line 521, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 574, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #street-address {
   font-family: Georgia, Times, serif;
-  color: #01172c;
+  color: #333333;
   white-space: normal; }
 
-/* line 526, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+/* line 579, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #street-address a {
-  color: #0039a6;
+  color: #0058a0;
   text-decoration: underline;
   font-weight: bold; }
 
+/* line 585, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.whitelist-message,
+.webversion__content--footer {
+  font-size: 12px;
+  color: #333333;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+/* line 592, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.whitelist-message a,
+.webversion__content--footer a {
+  font-weight: bold;
+  color: #0058a0;
+  text-decoration: underline; }
+
 /* --- END Footer --- */
+/* --- Helpers --- */
+/* line 601, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.no__margin {
+  margin: 0; }
+
+/* line 604, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+.text--small {
+  font-size: 12px; }
+
+/* line 608, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+ul, ol {
+  Margin-bottom: 10px; }
+
+@media only screen and (min-width: 660px) {
+  /* line 614, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  .pb-button {
+    max-width: 50%; } }
+
 @media only screen and (max-width: 660px) {
-  /* line 546, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 619, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   tr[id=webversion] {
     display: none !important; }
-  /* line 549, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 622, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=auto], td[class=auto], img[class=auto] {
     width: auto !important; }
-  /* line 554, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 627, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=responsive], td[class=responsive], img[class=responsive],
   table[class=table-row], td[class=table-row], img[class=table-row] {
     width: 100% !important; }
-  /* line 557, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 630, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=responsive-signature], td[class=responsive-signature], img[class=responsive-signature] {
     width: 100% !important;
     height: auto !important; }
-  /* line 561, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 634, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=table-col], td[class=table-col], img[class=table-col] {
     width: 20% !important; }
-  /* line 566, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 639, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=table-row-1], td[class=table-row-1], img[class=table-row-1],
   table[class=table-row-2], td[class=table-row-2], img[class=table-row-2] {
     width: 50% !important; }
-  /* line 569, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 642, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
-  /* line 572, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 645, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=r70], td[class=r70], img[class=r70] {
+    width: 70% !important; }
+  /* line 648, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=r30], td[class=r30], img[class=r30] {
+    width: 30% !important; }
+  /* line 651, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 75% !important; }
+  /* line 654, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 25% !important; }
+  /* line 658, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
-  /* line 575, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 661, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=responsive-content-padding], td[class=responsive-content-padding], img[class=responsive-content-padding] {
+    width: 97.5% !important; }
+  /* line 664, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
-  /* line 579, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 668, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
   table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
-  /* line 582, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 671, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
-  /* line 586, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 675, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=threecol], td[class=threecol], img[class=threecol],
   table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
     height: auto !important; }
-  /* line 590, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 679, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
     width: 95% !important;
     height: auto !important; }
-  /* line 594, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 683, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
     width: 95% !important; }
-  /* line 597, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 686, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   td[class=toc-padding] {
     width: 2.5% !important; }
-  /* line 600, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 689, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   div[id=date] {
     font-weight: bold !important; } }
 
 @media only screen and (max-width: 568px) {
-  /* line 605, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 694, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   span[class=mobile-block] {
     display: block !important; }
-  /* line 608, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 697, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   div[class=newsletter-title] {
-    font-size: 36px; } }
+    font-size: 36px; }
+  /* line 700, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 70% !important; }
+  /* line 703, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 30% !important; } }
 
 @media only screen and (max-width: 480px) {
-  /* line 616, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 711, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
   table[class=table-row] table[class=table-col2],
   table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
     width: 100% !important; }
-  /* line 619, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 714, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=w140], td[class=w140], img[class=w140] {
     width: 90px !important; }
-  /* line 620, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 715, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=w140-story], td[class=w140-story], img[class=w140-story] {
     width: 90px !important;
     height: auto !important; }
-  /* line 621, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 716, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=w170], td[class=w170], img[class=w170] {
     width: 100px !important; }
-  /* line 624, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 719, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[class=w0-phone], td[class=w0-phone] {
     width: 0 !important; }
-  /* line 627, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 722, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   table[id=threecol] img[class=responsive] {
     width: 100% !important;
-    height: auto !important; } }
+    height: auto !important; }
+  /* line 726, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 65% !important; }
+  /* line 729, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 35% !important; } }
 
 @media only screen and (max-width: 414px) {
-  /* line 633, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 734, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   #callout--title h1.article-title {
     font-size: 45px !important; }
-  /* line 636, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  /* line 737, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
   #callout--title .article-content {
-    font-size: 21px !important; } }
+    font-size: 21px !important; }
+  /* line 740, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  div[class=header__branding] {
+    font-size: 20px !important; } }
+
+@media only screen and (max-width: 360px) {
+  /* line 745, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 62% !important; }
+  /* line 748, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 38% !important; } }
+
+@media only screen and (max-width: 320px) {
+  /* line 753, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__office], td[class=branding__office], img[class=branding__office] {
+    width: 60% !important; }
+  /* line 756, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
+  table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
+    width: 40% !important; } }
 
 /*# sourceMappingURL=style--pa-master.css.map */

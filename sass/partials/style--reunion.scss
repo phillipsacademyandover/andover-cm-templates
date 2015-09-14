@@ -1,0 +1,54 @@
+/*------------------------------------*\
+    # Reunion Colors
+\*------------------------------------*/
+
+/* --- Tints --- */
+$pa-butter__tint-60: #ffedb3;
+$pa-gold__darken-3: #fdb603;
+$pa-gold__darken-6: #eeab02;
+$pa-gold__darken-10: #da9c02;
+$abbot-blue__tint-80: #85bde3;
+
+
+
+/*------------------------------------*\
+    # Reunion Color Layout
+\*------------------------------------*/
+
+$title: $pa-dkblue;
+$title-purpose: $pa-gold__darken-6;
+
+
+
+
+/*------------------------------------*\
+    # Reunion Layout
+\*------------------------------------*/
+.reunion-purpose {
+	font-family:$san-serif;
+	font-size: 32px;
+	line-height:130%;
+	color: $white;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:0;
+	text-shadow:0 2px 4px darken($abbot-blue, 25%);
+	text-transform:uppercase;
+}
+	.reunion-purpose span {
+		font-weight:300;
+	}
+.reunion-date {
+	font-family:$san-serif;
+	font-size: 24px;
+	line-height:130%;
+	color: $abbot-blue__tint-80;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:0;
+	text-shadow:0 2px 4px darken($abbot-blue, 50%);
+}
+	.reunion-date a {
+		color:#90caea !important;
+		text-decoration: none;
+	}

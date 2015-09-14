@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "style--abbot.css",
+  "sources": [
+    "style--abbot.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAAA;wCAEwC;AAMxC;wCAEwC;AAOxC;wCAEwC",
+  "names": []
+}

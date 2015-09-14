@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "style--pa.css",
+  "sources": [
+    "style--pa.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAAA,4BAA4B;AAS5B;wCAEwC;AAWxC;wCAEwC;AAUxC,mBAAmB;AAMnB,gBAAgB;AAiBhB,4BAA4B",
+  "names": []
+}
