@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    # eNews Layout
+\*------------------------------------*/
+
+body, td {
+	font-family: $brand--font;
+}
+
+.newsletter__head {
+    border-top:2px solid $white;
+}
+    .send-date {
+        color:$white;
+        font-size:12px;
+    }
+
+    .newsletter__headline {
+        font-size: 42px;
+        color:$white;
+        Margin-top:20px;
+    }
+
+
+.enews__footer {
+    border-top:1px solid $pa-blue-tint-50;
+    border-bottom:1px solid $pa-blue-tint-50;
+}
+
+@media only screen and (max-width: 568px) {
+    .newsletter__headline {
+        font-size: 36px;
+    }
+}

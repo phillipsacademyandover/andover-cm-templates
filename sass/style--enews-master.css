@@ -7,13 +7,6 @@
 /* --- Tints --- */
 /* --- PA --- */
 /* --- PA Style Guide --- */
-/* --- Abbot --- */
-/*------------------------------------*    # Abbot Colors
-\*------------------------------------*/
-/*------------------------------------*    # Abbot Color Layout
-\*------------------------------------*/
-/*------------------------------------*    # Abbot Layout
-\*------------------------------------*/
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
   /* line 3, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
@@ -243,7 +236,7 @@ body, td {
 .preview__text {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 5px;
-  color: #66addc;
+  color: #0058a0;
   height: 6px; }
 
 /* line 231, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
@@ -283,7 +276,7 @@ body, td {
 
 /* line 275, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 .title-purpose {
-  background: #297cb3;
+  background: #003c7f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -318,7 +311,7 @@ body, td {
 .section-title {
   font-size: 21px;
   line-height: 130%;
-  color: #297cb3 !important;
+  color: #003c7f !important;
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0;
@@ -340,7 +333,7 @@ h1.section-title {
 .article-title {
   font-size: 21px;
   line-height: 130%;
-  color: #297cb3 !important;
+  color: #003c7f !important;
   font-weight: normal;
   Margin-top: 15px;
   margin-bottom: 8px; }
@@ -773,4 +766,35 @@ ul, ol {
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 40% !important; } }
 
-/*# sourceMappingURL=style--abbot-master.css.map */
+/* --- eNews --- */
+/*------------------------------------*    # eNews Layout
+\*------------------------------------*/
+/* line 5, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--enews--default.scss */
+body, td {
+  font-family: Georgia, Times, serif; }
+
+/* line 9, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--enews--default.scss */
+.newsletter__head {
+  border-top: 2px solid #ffffff; }
+
+/* line 12, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--enews--default.scss */
+.send-date {
+  color: #ffffff;
+  font-size: 12px; }
+
+/* line 17, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--enews--default.scss */
+.newsletter__headline {
+  font-size: 42px;
+  color: #ffffff;
+  Margin-top: 20px; }
+
+/* line 24, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--enews--default.scss */
+.enews__footer {
+  border-top: 2px solid #6092c6; }
+
+@media only screen and (max-width: 568px) {
+  /* line 29, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--enews--default.scss */
+  .newsletter__headline {
+    font-size: 36px; } }
+
+/*# sourceMappingURL=style--enews-master.css.map */

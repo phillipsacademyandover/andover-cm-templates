@@ -1,7 +1,7 @@
 <!-- @include ../partials/default__head.kit -->
 <style type="text/css">
     
-    <!-- @include ../../sass/css/style--pa-master.css -->
+    <!-- @include ../../sass/css/style--enews-master.css -->
     
 </style>
 
@@ -17,6 +17,29 @@
 	<td class="responsive" align="center" bgcolor="<!--$bgcolor-->">
 		<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
 		<tbody>
+		<!-- enews header -->
+        <tr>
+            <td background="images/andover-enews-header.gif" bgcolor="#01172c" width="640" height="94" valign="top" class="responsive newsletter__head" align="center">
+                <!--[if gte mso 9]>
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px;height:94px;">
+                    <v:fill type="tile" src="http://enews.andover.edu/newsletter/cmm/template/images/andover-enews-header.gif" color="#01172c" />
+                    <v:textbox inset="0,0,0,0">
+                <![endif]-->
+                <!--[if gte mso 9]>
+                    <br />
+                <![endif]-->
+                <div>
+                    <div class="send-date">
+                        <singleline label="Send Date">Send Date</singleline>
+                    </div>
+                    <div class="newsletter__headline">Andover eNews</div>
+                </div>
+                <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                <![endif]-->
+            </td>
+        </tr>
 		<tr style="border-collapse:collapse;">
 			<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
 		</tr>
@@ -30,7 +53,6 @@
 					
                         <repeater>
 						<!-- Modules Goes Here -->
-                            <!-- @include ../partials/module--title-messagepurpose.kit -->
                             <!-- @include ../partials/module--toc--title.kit -->
                             <!-- @include ../partials/module--toc--title-text.kit -->
                             <!-- @include ../partials/module--toc--image-title-text.kit -->
@@ -44,7 +66,7 @@
 						</repeater>
                         
 					</td>
-					<td class="responsive-padding" width="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
+					<td class="responsive-padding" width="15">&nbsp;</td>
 				</tr>
 				</tbody>
 				</table>
@@ -59,6 +81,7 @@
 </tr>
 </tbody>
 </table>
+<!-- @include ../partials/default__module__enews--footer.kit -->
 <!-- @include ../partials/default__module__andover--footer.kit -->
 </body>
 </html>
