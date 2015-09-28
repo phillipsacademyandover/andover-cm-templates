@@ -687,7 +687,8 @@ ul, ol {
 /*------------------------------------*\
     # eNews Layout
 \*------------------------------------*/
-body, td {
+body, td,
+.article-title {
   font-family: Georgia, Times, serif; }
 
 .newsletter__head {
@@ -700,7 +701,14 @@ body, td {
 .newsletter__headline {
   font-size: 42px;
   color: #ffffff;
-  Margin-top: 20px; }
+  Margin-top: 20px;
+  text-align: center; }
+
+.image__fullwidth {
+  border: 1px solid #003c7f; }
+
+.title__trending {
+  Margin-top: 8px; }
 
 .enews__footer {
   border-top: 1px solid #6092c6;
@@ -769,6 +777,11 @@ body, td {
   margin: 0 0 0 24px;
   padding: 0;
   list-style-position: inside; }
+
+.toc-content .toc {
+  Margin: 0 0 0 24px;
+  padding: 0;
+  list-style: none; }
 </style>
 <![endif]-->
 <!--[if gte mso 15]>
@@ -857,7 +870,7 @@ body, td {
                 <!--[if gte mso 9]>
                     <br />
                 <![endif]-->
-                <div>
+                <div align="center" class="responsive">
                     <div class="send-date">
                         <singleline label="Send Date">Send Date</singleline>
                     </div>
@@ -909,12 +922,12 @@ body, td {
     </tr>
     </tbody>
     </table>
-</layout>                            <layout label="TOC Title and Text only">
+</layout>                            <layout label="TOC Image, Title, Text only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
-        <td align="center" class="responsive" width="610">
-            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0">
+        <td align="center" class="responsive image__fullwidth" width="610">
+            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0" style="Margin:0 auto;">
         </td>
     </tr>
     <tr style="border-collapse:collapse;">
@@ -985,11 +998,11 @@ body, td {
     <tbody>
     <tr style="border-collapse:collapse;">
         <td width="34">
-            <img src="images/trending-icon-2x.png" width="34" height="24" border="0" />
+            <img src="images/trending-icon-2x.png" width="34" height="24" border="0" class="icon__trending" align="absmiddle" />
         </td>
         <td class="responsive-padding" width="10"></td>
         <td class="responsive-content" width="566">
-            <h2 align="left" class="article-title no__margin">
+            <h2 align="left" class="article-title title__trending">
                 <singleline label="Title" repeatertitle='true'>Add a title</singleline>
             </h2>
         </td>
@@ -1007,7 +1020,7 @@ body, td {
                 <td class="responsive" width="610" valign="top">
 
                     <!-- TABLE 1 -->
-                    <table class="auto" width="388" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#ffffff" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                    <table class="responsive" width="388" cellpadding="0" cellspacing="0" border="0" align="left" bgcolor="#ffffff" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
                     <tbody>
                     <tr style="border-collapse:collapse;">
                         <td class="auto" width="378">
@@ -1139,7 +1152,7 @@ body, td {
 <tbody>
 <tr style="border-collapse:collapse;">
     <td align="center">
-        <table width="640" cellpadding="0" cellspacing="0" border="0">
+        <table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
         <tbody>
         <tr style="border-collapse:collapse;">
             <td class="responsive-padding" width="15"></td>

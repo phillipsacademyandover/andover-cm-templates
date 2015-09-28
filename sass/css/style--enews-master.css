@@ -680,7 +680,8 @@ ul, ol {
 /*------------------------------------*\
     # eNews Layout
 \*------------------------------------*/
-body, td {
+body, td,
+.article-title {
   font-family: Georgia, Times, serif; }
 
 .newsletter__head {
@@ -693,7 +694,14 @@ body, td {
 .newsletter__headline {
   font-size: 42px;
   color: #ffffff;
-  Margin-top: 20px; }
+  Margin-top: 20px;
+  text-align: center; }
+
+.image__fullwidth {
+  border: 1px solid #003c7f; }
+
+.title__trending {
+  Margin-top: 8px; }
 
 .enews__footer {
   border-top: 1px solid #6092c6;

@@ -2,7 +2,8 @@
     # eNews Layout
 \*------------------------------------*/
 
-body, td {
+body, td,
+.article-title {
 	font-family: $brand--font;
 }
 
@@ -18,9 +19,15 @@ body, td {
         font-size: 42px;
         color:$white;
         Margin-top:20px;
+        text-align: center;
     }
 
-
+.image__fullwidth {
+    border:1px solid $pa-dkblue;
+}
+.title__trending {
+    Margin-top:8px;
+}
 .enews__footer {
     border-top:1px solid $pa-blue-tint-50;
     border-bottom:1px solid $pa-blue-tint-50;
