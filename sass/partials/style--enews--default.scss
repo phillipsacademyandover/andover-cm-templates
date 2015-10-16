@@ -1,15 +1,25 @@
+$bg: #f5f4f0;
+$body-bg: #edece6;
+$story-hover: #dcdace;
+$story-hover-2: #d4d1c2;
+
+
 /*------------------------------------*\
     # eNews Layout
 \*------------------------------------*/
-
+body {
+    background-color:$bg;
+}
 body, td,
 .article-title {
 	font-family: $brand--font;
 }
-
-.newsletter__head {
-    border-top:2px solid $white;
+#enews__body {
+    background-color:$body-bg;
 }
+//.newsletter__head {
+//    
+//}
     .send-date {
         color:$white;
         font-size:12px;
@@ -23,15 +33,40 @@ body, td,
     }
 
 .image__fullwidth {
-    border:1px solid $pa-dkblue;
+    border:1px solid $pa-navy;
+}
+
+.article-title a {
+    font-weight:normal;
+    
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+#section__trending,
+#enews__story {
+    &:hover,
+    &:focus {
+        background-color: $story-hover-2;
+    }
+}
+
+.section__trending__title {
+    background-color:#dfdcca;
+    border-bottom: 1px solid #c4c1b3;
 }
 .title__trending {
-    Margin-top:8px;
+//    Margin-top:8px;
 }
 .enews__footer {
-    border-top:1px solid $pa-blue-tint-50;
-    border-bottom:1px solid $pa-blue-tint-50;
+    background-color: $pa-blue__tint-30;
 }
+
+#footer {
+    background-color:$pa-blue__tint-20;
+}
+
 
 @media only screen and (max-width: 568px) {
     .newsletter__headline {

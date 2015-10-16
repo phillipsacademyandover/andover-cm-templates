@@ -7,22 +7,22 @@
 
 <!-- @include ../partials/default-outlook--pa--css.kit -->
 
-<!-- @include ../partials/style--pa.kit -->
+<!-- @include ../partials/style--pa__enews.kit -->
 </head>
 <body>
-<!-- @include ../partials/default__module__andover--header.kit -->
+<!-- include ../partials/default__module__andover--header.kit -->
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tbody>
 <tr style="border-collapse:collapse;">
-	<td class="responsive" align="center" bgcolor="<!--$bgcolor-->">
+	<td class="responsive" align="center">
 		<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
 		<tbody>
 		<!-- enews header -->
-        <tr>
-            <td background="images/andover-enews-header.gif" bgcolor="#01172c" width="640" height="94" valign="top" class="responsive newsletter__head" align="center">
+        <tr class="newsletter__head" style="border-collapse:collapse;">
+            <td class="responsive" background="images/andover-enews-header.gif" bgcolor="<!--$pa-navy-->" width="640" height="94" valign="top" align="center">
                 <!--[if gte mso 9]>
                     <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px;height:94px;">
-                    <v:fill type="tile" src="http://enews.andover.edu/newsletter/cmm/template/images/andover-enews-header.gif" color="#01172c" />
+                    <v:fill type="tile" src="https://enews.andover.edu/newsletter/cmm/template/images/andover-enews-header.gif" color="#003c7f" />
                     <v:textbox inset="0,0,0,0">
                 <![endif]-->
                 <!--[if gte mso 9]>
@@ -30,7 +30,7 @@
                 <![endif]-->
                 <div align="center" class="responsive">
                     <div class="send-date">
-                        <singleline label="Send Date">Send Date</singleline>
+                        Phillips Academy | <singleline label="Send Date">Send Date</singleline>
                     </div>
                     <div class="newsletter__headline">Andover eNews</div>
                 </div>
@@ -40,41 +40,84 @@
                 <![endif]-->
             </td>
         </tr>
+<!--
 		<tr style="border-collapse:collapse;">
 			<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
 		</tr>
-		<tr id="simple-content-row">
+-->
+		<tr id="enews__body">
 			<td class="responsive" width="640">
 				<table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
 				<tbody>
 				<tr style="border-collapse:collapse;">
-					<td class="responsive-padding" width="15"></td>
-					<td class="responsive-content" width="610">
+					<td class="responsive" width="640">
 					
                         <repeater>
 						<!-- Modules Goes Here -->
-                            <!-- @include ../partials/module--toc--title.kit -->
-                            <!-- @include ../partials/module--toc--title-text.kit -->
-                            <!-- @include ../partials/module--toc--image-title-text.kit -->
-                            <!-- @include ../partials/module--toc--story.kit -->
-                            <!-- @include ../partials/module--toc--title--trending.kit -->
-                            <!-- @include ../partials/module--toc--toc-text.kit -->
-                            <!-- @include ../partials/module--title.kit -->    
-                            <!-- @include ../partials/module--text.kit -->
-                            <!-- @include ../partials/module--text--small.kit -->
+                            <!-- @include ../partials/enews__story-image.kit -->
+                            <!-- @include ../partials/enews__story.kit -->
+                            <!-- @include ../partials/enews__title-text.kit -->
+                            <!-- @include ../partials/enews__image-title-text.kit -->
+                            <!-- @include ../partials/enews__title.kit -->
+                            <!-- @include ../partials/enews__text.kit -->
+                            <!-- @include ../partials/enews__text--small.kit -->
                         <!-- END Modules -->
 						</repeater>
                         
 					</td>
-					<td class="responsive-padding" width="15">&nbsp;</td>
+				</tr>
+				<tr id="section__trending" style="border-collapse:collapse;">
+					<td class="responsive" width="640">
+					    <table class="section__trending__title" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                        <tr style="border-collapse:collapse;">
+                            <td class="responsive" colspan="3" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                        </tr>
+                        <tr style="border-collapse:collapse;">
+                            <td class="responsive-padding" width="10"></td>
+                            <td class="responsive-content" width="620" valign="middle">
+                                <table class="responsive" width="620" cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                <tr style="border-collapse:collapse;border-bottom:1px solid #000000;">
+                                    <td width="34">
+                                        <img src="images/new-trending-icon-2x.png" width="50" height="28" border="0" class="icon__trending" align="absmiddle" />
+                                    </td>
+                                    <td class="responsive-padding" width="10"></td>
+                                    <td class="responsive-content" width="100%">
+                                        <h2 align="left" class="article-title title__trending">
+                                            <singleline label="Title" repeatertitle='true'>Add a title</singleline>
+                                        </h2>
+                                    </td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </td>
+                            <td class="responsive-padding" width="10"></td>
+                        </tr>
+                        <tr style="border-collapse:collapse;">
+                            <td class="responsive" colspan="3" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        <repeater>
+						<!-- Modules Goes Here -->
+                            <!-- @include ../partials/enews__title.kit -->
+                            <!-- @include ../partials/enews__text.kit -->
+                            <!-- @include ../partials/enews__text--small.kit -->
+                        <!-- END Modules -->
+						</repeater>
+                        
+					</td>
 				</tr>
 				</tbody>
 				</table>
 			</td>
 		</tr>
+<!--
 		<tr style="border-collapse:collapse;">
 			<td class="responsive" width="640" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
 		</tr>
+-->
 		</tbody>
 		</table>
 	</td>

@@ -326,7 +326,7 @@ h1.section-title {
 
 #title--center h2.article-title {
   font-size: 28px;
-  color: #4982bc !important;
+  color: #6092c6 !important;
   text-transform: uppercase;
   text-align: center; }
 
@@ -395,10 +395,10 @@ h1.section-title {
 
 #callout .article-content {
   font-size: 30px;
-  color: #4982bc !important; }
+  color: #6092c6 !important; }
 
 #callout .article-content a {
-  color: #4982bc !important; }
+  color: #6092c6 !important; }
 
 /* --- END Article --- */
 /* --- Button --- */
@@ -680,12 +680,15 @@ ul, ol {
 /*------------------------------------*\
     # eNews Layout
 \*------------------------------------*/
+body {
+  background-color: #f5f4f0; }
+
 body, td,
 .article-title {
   font-family: Georgia, Times, serif; }
 
-.newsletter__head {
-  border-top: 2px solid #ffffff; }
+#enews__body {
+  background-color: #edece6; }
 
 .send-date {
   color: #ffffff;
@@ -700,12 +703,25 @@ body, td,
 .image__fullwidth {
   border: 1px solid #003c7f; }
 
-.title__trending {
-  Margin-top: 8px; }
+.article-title a {
+  font-weight: normal; }
+  .article-title a:hover, .article-title a:focus {
+    text-decoration: underline; }
+
+#section__trending:hover, #section__trending:focus,
+#enews__story:hover,
+#enews__story:focus {
+  background-color: #d4d1c2; }
+
+.section__trending__title {
+  background-color: #dfdcca;
+  border-bottom: 1px solid #c4c1b3; }
 
 .enews__footer {
-  border-top: 1px solid #6092c6;
-  border-bottom: 1px solid #6092c6; }
+  background-color: #a7c5e3; }
+
+#footer {
+  background-color: #c2d6ec; }
 
 @media only screen and (max-width: 568px) {
   .newsletter__headline {

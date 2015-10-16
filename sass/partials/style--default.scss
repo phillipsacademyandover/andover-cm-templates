@@ -234,7 +234,7 @@ body, td {
     }
 	.webversion__content a {
 		font-weight: bold;
-		color: $pa-blue-tint-10;
+		color: $pa-blue__tint-10;
 		text-decoration: underline;
 	}
 .header__branding {
@@ -338,7 +338,7 @@ h1.section-title {
 // Centered Title
 #title--center h2.article-title {
     font-size:28px;
-    color: $pa-blue-tint-60 !important;
+    color: $pa-blue__tint-60 !important;
     text-transform: uppercase;
     text-align: center;
 }
@@ -419,10 +419,10 @@ h1.section-title {
 
 #callout .article-content {
     font-size:30px;
-    color: $pa-blue-tint-60 !important;
+    color: $pa-blue__tint-60 !important;
 }
 #callout .article-content a {
-    color: $pa-blue-tint-60 !important;
+    color: $pa-blue__tint-60 !important;
 }
 /* --- END Article --- */
 
@@ -441,7 +441,7 @@ h1.section-title {
 //    font-size: 18px;
 //    font-family: $body--font;
 //    font-weight:normal;
-//    text-shadow: 0 1px 2px $pa-dkblue;
+//    text-shadow: 0 1px 2px $pa-navy;
 //}
 //    .border-button a {
 //        font-size: 18px;
@@ -461,7 +461,7 @@ h1.section-title {
         border-radius: 4px;
         border-top: 1px solid $pa-blue;
         border-right: 1px solid $pa-blue;
-        border-bottom: 2px solid $pa-dkblue;
+        border-bottom: 2px solid $pa-navy;
         border-left: 1px solid $pa-blue;
         color: $white;
         display: inline-block;
@@ -469,7 +469,7 @@ h1.section-title {
         font-family: $body--font;
         font-weight:normal;
         padding: 12px 18px;
-        text-shadow: 0 1px 2px $pa-dkblue;
+        text-shadow: 0 1px 2px $pa-navy;
 //        width:300px;
     }
         .pb-button a {

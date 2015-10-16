@@ -403,7 +403,7 @@ h1.section-title {
 /* line 339, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #title--center h2.article-title {
   font-size: 28px;
-  color: #4982bc !important;
+  color: #6092c6 !important;
   text-transform: uppercase;
   text-align: center; }
 
@@ -487,11 +487,11 @@ h1.section-title {
 /* line 420, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout .article-content {
   font-size: 30px;
-  color: #4982bc !important; }
+  color: #6092c6 !important; }
 
 /* line 424, /Users/jkapaldo/GitHub/CM Templates/sass/partials/style--default.scss */
 #callout .article-content a {
-  color: #4982bc !important; }
+  color: #6092c6 !important; }
 
 /* --- END Article --- */
 /* --- Button --- */
