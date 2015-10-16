@@ -711,23 +711,25 @@ body, td,
   border: 1px solid #003c7f; }
 
 .article-title a {
-  font-weight: normal; }
-  .article-title a:hover, .article-title a:focus {
-    text-decoration: underline; }
+  color: #003c7f;
+  font-weight: normal;
+  text-decoration: none !important; }
 
 #section__trending:hover, #section__trending:focus,
 #enews__story:hover,
 #enews__story:focus {
-  background-color: #d4d1c2; }
+  background-color: #d4d1c2 !important; }
+  #section__trending:hover .section__trending__title, #section__trending:focus .section__trending__title,
+  #enews__story:hover .section__trending__title,
+  #enews__story:focus .section__trending__title {
+    background-color: #d4d1c2 !important;
+    border-color: #d4d1c2 !important; }
 
 .section__trending__title {
   background-color: #dfdcca;
   border-bottom: 1px solid #c4c1b3; }
 
 .enews__footer {
-  background-color: #a7c5e3; }
-
-#footer {
   background-color: #c2d6ec; }
 
 @media only screen and (max-width: 568px) {
@@ -867,17 +869,17 @@ body, td,
     <tbody>
     <tr><td class="responsive" height="10" colspan="3"></td></tr>
     <tr>
-        <td class="responsive-padding" width="10"></td>
-        <td class="responsive-content" width="620" valign="middle">
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="610" valign="middle">
             <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
             <tbody>
             <tr style="border-collapse:collapse;">
                 <!-- TABLE 1 -->
-                <td class="auto" width="418">
-                    <table class="auto" width="418" cellpadding="0" cellspacing="0" border="0" align="left">
+                <td class="auto" width="408">
+                    <table class="auto" width="408" cellpadding="0" cellspacing="0" border="0" align="left">
                     <tbody>
                     <tr style="border-collapse:collapse;">
-                        <td class="auto" width="418" align="left" valign="middle">
+                        <td class="auto" width="408" align="left" valign="middle">
                             <h2 align="left" class="article-title" style="padding-right:10px;">
                                 <singleline label="Title" repeatertitle='true'>Add a story title</singleline>
                             </h2>
@@ -909,7 +911,7 @@ body, td,
             </tbody>
             </table>
         </td>
-        <td class="responsive-padding" width="10"></td>
+        <td class="responsive-padding" width="15"></td>
     </tr>
     <tr><td class="responsive" height="10" colspan="3"></td></tr>
     </tbody>
@@ -944,53 +946,24 @@ body, td,
     </tbody>
     </table>
 
-</layout>                            <layout label="Title with text block">
+</layout>                            <layout label="Story: Post with Full-width Image">
 						
     <table id="enews__story" class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr><td class="responsive" height="10" colspan="3"></td></tr>
     <tr>
-        <td class="responsive-padding" width="10"></td>
-        <td class="responsive-content" width="620" valign="middle">
-            <table class="responsive" width="620" cellpadding="0" cellspacing="0" border="0" align="left">
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="610" valign="middle">
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left">
             <tbody>
             <tr>
-                <td class="responsive" width="620" align="left" valign="middle">
-                    <h1 align="left" class="article-title">
-                        <singleline label="Title" repeatertitle='true'>Add a title</singleline>
-                    </h1>
-                    <div align="left" class="article-content">
-                        <multiline label="Description">Enter your description</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-        <td class="responsive-padding" width="10"></td>
-    </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Title, Full-width image with text block">
-						
-    <table id="enews__story" class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
-    <tr>
-        <td class="responsive-padding" width="10"></td>
-        <td class="responsive-content" width="620" valign="middle">
-            <table class="responsive" width="620" cellpadding="0" cellspacing="0" border="0" align="left">
-            <tbody>
-            <tr>
-                <td class="responsive" width="620" style="border:1px solid  #003c7f;"><img editable="true" label="Image" class="responsive" width="620" border="0"></td>
+                <td class="responsive" width="610" style="border:1px solid  #003c7f;"><img editable="true" label="Image" class="responsive" width="610" border="0"></td>
             </tr>
             <tr>
-                <td class="responsive" width="620" height="5"></td>
+                <td class="responsive" width="610" height="5"></td>
             </tr>
             <tr>
-                <td class="responsive" width="620" align="left" valign="middle">
+                <td class="responsive" width="610" align="left" valign="middle">
                     <h1 align="left" class="article-title">
                         <singleline label="Title">Add a title</singleline>
                     </h1>
@@ -1002,9 +975,38 @@ body, td,
             </tbody>
             </table>
         </td>
-        <td class="responsive-padding" width="10"></td>
+        <td class="responsive-padding" width="15"></td>
     </tr>
     <tr><td class="responsive" height="10" colspan="3"></td></tr>
+    </tbody>
+    </table>
+
+</layout>                            <layout label="Title with text block">
+						
+    <table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+    <tr>
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="610" valign="middle">
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left">
+            <tbody>
+            <tr>
+                <td class="responsive" width="610" align="left" valign="middle">
+                    <h1 align="left" class="article-title">
+                        <singleline label="Title" repeatertitle='true'>Add a title</singleline>
+                    </h1>
+                    <div align="left" class="article-content">
+                        <multiline label="Description">Enter your description</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            </table>
+        </td>
+        <td class="responsive-padding" width="15"></td>
+    </tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1028,7 +1030,7 @@ body, td,
         </td>
         <td class="responsive-padding" width="10"></td>
     </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1054,7 +1056,7 @@ body, td,
         </td>
         <td class="responsive-padding" width="10"></td>
     </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1080,7 +1082,7 @@ body, td,
         </td>
         <td class="responsive-padding" width="10"></td>
     </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1094,22 +1096,20 @@ body, td,
 					    <table class="section__trending__title" width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tbody>
                         <tr style="border-collapse:collapse;">
-                            <td class="responsive" colspan="3" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                            <td class="responsive" colspan="3" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
                         </tr>
                         <tr style="border-collapse:collapse;">
                             <td class="responsive-padding" width="10"></td>
                             <td class="responsive-content" width="620" valign="middle">
                                 <table class="responsive" width="620" cellpadding="0" cellspacing="0" border="0">
                                 <tbody>
-                                <tr style="border-collapse:collapse;border-bottom:1px solid #000000;">
+                                <tr style="border-collapse:collapse;">
                                     <td width="34">
                                         <img src="images/new-trending-icon-2x.png" width="50" height="28" border="0" class="icon__trending" align="absmiddle" />
                                     </td>
                                     <td class="responsive-padding" width="10"></td>
-                                    <td class="responsive-content" width="100%">
-                                        <h2 align="left" class="article-title title__trending">
-                                            <singleline label="Title" repeatertitle='true'>Add a title</singleline>
-                                        </h2>
+                                    <td class="responsive-content">
+                                        <h2 align="left" class="article-title title__trending">Trending Now</h2>
                                     </td>
                                 </tr>
                                 </tbody>
@@ -1118,13 +1118,42 @@ body, td,
                             <td class="responsive-padding" width="10"></td>
                         </tr>
                         <tr style="border-collapse:collapse;">
-                            <td class="responsive" colspan="3" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td>
+                            <td class="responsive" colspan="3" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
                         </tr>
                         </tbody>
                         </table>
                         <repeater>
 						<!-- Modules Goes Here -->
-                            <layout label="Title only">
+                            <layout label="Title with text block">
+						
+    <table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+    <tr>
+        <td class="responsive-padding" width="15"></td>
+        <td class="responsive-content" width="610" valign="middle">
+            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left">
+            <tbody>
+            <tr>
+                <td class="responsive" width="610" align="left" valign="middle">
+                    <h1 align="left" class="article-title">
+                        <singleline label="Title" repeatertitle='true'>Add a title</singleline>
+                    </h1>
+                    <div align="left" class="article-content">
+                        <multiline label="Description">Enter your description</multiline>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            </table>
+        </td>
+        <td class="responsive-padding" width="15"></td>
+    </tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
+    </tbody>
+    </table>
+
+</layout>                            <layout label="Title only">
 						
     <table class="responsive" width="640" cellpadding="0" cellspacing="0" border="0">
     <tbody>
@@ -1144,7 +1173,7 @@ body, td,
         </td>
         <td class="responsive-padding" width="10"></td>
     </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1170,7 +1199,7 @@ body, td,
         </td>
         <td class="responsive-padding" width="10"></td>
     </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1196,7 +1225,7 @@ body, td,
         </td>
         <td class="responsive-padding" width="10"></td>
     </tr>
-    <tr><td class="responsive" height="10" colspan="3"></td></tr>
+<!--    <tr><td class="responsive" height="10" colspan="3"></td></tr>-->
     </tbody>
     </table>
 
@@ -1234,7 +1263,7 @@ body, td,
                 <tr style="border-collapse:collapse;">
                     <td class="responsive" width="610" valign="top">
                         <!-- TABLE 2 -->
-                        <table class="responsive" width="298" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #a7c5e3;">
+                        <table class="responsive" width="298" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #c2d6ec;">
                         <tbody>
                         <tr style="border-collapse:collapse;">
                             <td class="responsive" width="298" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
@@ -1248,11 +1277,11 @@ body, td,
                         </tr>
                         </tbody></table>
                         <!-- TABLE 1 -->
-                        <table class="responsive" width="308" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #a7c5e3;">
+                        <table class="responsive" width="308" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #c2d6ec;">
                         <tbody><tr style="border-collapse:collapse;">
                             <td class="w0" width="10"></td>
                             <td>
-                                <table class="responsive" width="298" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #a7c5e3;">
+                                <table class="responsive" width="298" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #c2d6ec;">
                                 <tbody>
                                 <tr style="border-collapse:collapse;">
                                     <td class="responsive" width="298">

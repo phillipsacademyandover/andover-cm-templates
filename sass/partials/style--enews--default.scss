@@ -1,8 +1,6 @@
 $bg: #f5f4f0;
 $body-bg: #edece6;
-$story-hover: #dcdace;
-$story-hover-2: #d4d1c2;
-
+$story-hover: #d4d1c2;
 
 /*------------------------------------*\
     # eNews Layout
@@ -17,9 +15,6 @@ body, td,
 #enews__body {
     background-color:$body-bg;
 }
-//.newsletter__head {
-//    
-//}
     .send-date {
         color:$white;
         font-size:12px;
@@ -37,18 +32,20 @@ body, td,
 }
 
 .article-title a {
+    color:$title;
     font-weight:normal;
-    
-    &:hover,
-    &:focus {
-        text-decoration: underline;
-    }
+    text-decoration: none !important;
 }
 #section__trending,
 #enews__story {
     &:hover,
     &:focus {
-        background-color: $story-hover-2;
+        background-color: $story-hover !important;
+        
+        .section__trending__title {
+            background-color: $story-hover !important;
+            border-color: $story-hover !important;
+        }
     }
 }
 
@@ -56,15 +53,17 @@ body, td,
     background-color:#dfdcca;
     border-bottom: 1px solid #c4c1b3;
 }
+
+
 .title__trending {
 //    Margin-top:8px;
 }
 .enews__footer {
-    background-color: $pa-blue__tint-30;
+    background-color: $pa-blue__tint-20;
 }
 
 #footer {
-    background-color:$pa-blue__tint-20;
+//    background-color:$pa-blue__tint-20;
 }
 
 
