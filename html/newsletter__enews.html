@@ -685,21 +685,26 @@ ul, ol {
     width: 40% !important; } }
 /* --- eNews --- */
 /*------------------------------------*\
+    # eNews Colors
+\*------------------------------------*/
+/*------------------------------------*\
     # eNews Layout
 \*------------------------------------*/
 body {
-  background-color: #f5f4f0; }
+  background-color: #fffbec; }
 
 body, td,
 .article-title {
   font-family: Georgia, Times, serif; }
 
 #enews__body {
-  background-color: #edece6; }
+  background-color: #f5efdd; }
 
 .send-date {
   color: #ffffff;
   font-size: 12px; }
+  .send-date a {
+    color: #ffffff; }
 
 .newsletter__headline {
   font-size: 42px;
@@ -711,26 +716,48 @@ body, td,
   border: 1px solid #003c7f; }
 
 .article-title a {
-  color: #003c7f;
   font-weight: normal;
   text-decoration: none !important; }
+
+#section__trending {
+  background-color: #ece7d5; }
+  #section__trending > td {
+    border-top: 1px solid #ddd7c7;
+    border-bottom: 1px solid #ddd7c7; }
+
+#enews__story {
+  border-bottom: 1px solid #ddd7c7; }
 
 #section__trending:hover, #section__trending:focus,
 #enews__story:hover,
 #enews__story:focus {
-  background-color: #d4d1c2 !important; }
+  background-color: #e1dccb !important; }
   #section__trending:hover .section__trending__title, #section__trending:focus .section__trending__title,
   #enews__story:hover .section__trending__title,
   #enews__story:focus .section__trending__title {
-    background-color: #d4d1c2 !important;
-    border-color: #d4d1c2 !important; }
+    background-color: #e1dccb !important;
+    border-color: #e1dccb !important; }
 
-.section__trending__title {
-  background-color: #dfdcca;
-  border-bottom: 1px solid #c4c1b3; }
+.title__trending {
+  color: #333333 !important;
+  font-size: 24px;
+  Margin-top: 8px; }
 
 .enews__footer {
   background-color: #c2d6ec; }
+
+#footer {
+  background-color: #00244c; }
+
+#street-address,
+.footer-content--pref,
+.whitelist-message,
+.webversion__content--footer {
+  color: #ffffff; }
+
+#footer a,
+#street-address a {
+  color: #c2d6ec; }
 
 @media only screen and (max-width: 568px) {
   .newsletter__headline {
@@ -831,7 +858,7 @@ body, td,
             <td class="responsive" background="images/andover-enews-header.gif" bgcolor="#003c7f" width="640" height="94" valign="top" align="center">
                 <!--[if gte mso 9]>
                     <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px;height:94px;">
-                    <v:fill type="tile" src="https://enews.andover.edu/newsletter/cmm/template/images/andover-enews-header.gif" color="#003c7f" />
+                    <v:fill type="tile" src="https://enews.andover.edu/newsletter/cmm/template/images/new-andover-enews-header.gif" color="#003c7f" />
                     <v:textbox inset="0,0,0,0">
                 <![endif]-->
                 <!--[if gte mso 9]>
@@ -885,6 +912,7 @@ body, td,
                             </h2>
                             <div align="left" class="article-content" style="padding-right:10px;">
                                 <multiline label="Description">Enter your description</multiline>
+                                <singleline label="Story Link">Read More &raquo;</singleline>
                             </div>
                         </td>
                     </tr>
@@ -934,6 +962,7 @@ body, td,
                     </h2>
                     <div align="left" class="article-content">
                         <multiline label="Description">Enter your description</multiline>
+                        <singleline label="Story Link">Read More &raquo;</singleline>
                     </div>
                 </td>
             </tr>
@@ -969,6 +998,7 @@ body, td,
                     </h1>
                     <div align="left" class="article-content">
                         <multiline label="Description">Enter your description</multiline>
+                        <singleline label="Story Link">Read More &raquo;</singleline>
                     </div>
                 </td>
             </tr>
@@ -1326,7 +1356,7 @@ body, td,
 						<td class="threecol" width="254"></td>
 						<td width="132" align="center" valign="middle">
 							<a href="http://www.andover.edu" target="_blank">
-								<img src="images/andover-sealwordmark-2x-pablue.png" alt="Phillips Academy" width="132" height="149" border="0" />
+								<img src="images/andover-sealwordmark-2x-white.png" alt="Phillips Academy" width="132" height="149" border="0" />
 							</a>
 						</td>
 						<td class="threecol" width="254"></td>
@@ -1434,7 +1464,7 @@ body, td,
 </tr>
 <tr style="border-collapse:collapse;">
     <td align="center" class="responsive" width="640">
-        <p class="footer-content--pref" style="padding: 0;word-break: break-word;word-wrap: break-word;Margin-left: 10px;Margin-right: 10px;text-align:left;">To customize the kinds of communications you receive from Phillips Academy, please click on <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="link">Manage Preferences</a>. If you would like to stop receiving all e-mail from Phillips Academy, including event invitations, e-newsletters, development news, class news, reunion information, and special messages from the Head of School, click on <unsubscribe>unsubscribe</unsubscribe>.</p>
+        <p class="footer-content--pref" style="padding: 0;word-break: break-word;word-wrap: break-word;Margin-left: 15px;Margin-right: 15px;text-align:left;">To customize the kinds of communications you receive from Phillips Academy, please click on <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="link">Manage Preferences</a>. If you would like to stop receiving all e-mail from Phillips Academy, including event invitations, e-newsletters, development news, class news, reunion information, and special messages from the Head of School, click on <unsubscribe>unsubscribe</unsubscribe>.</p>
     </td>
 </tr>
 <tr style="border-collapse:collapse;">
@@ -1451,7 +1481,7 @@ body, td,
                             <tr>
                                 <td valign="top" align="left" class="r70" width="384">
                                     
-                                    <div style="word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 10px;Margin-right: 10px">
+                                    <div style="word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 15px;Margin-right: 15px">
                                         
                                         <p class="whitelist-message">To ensure continued receipt of Phillips Academy messages, please <a href="https://www.campaignmonitor.com/resources/guides/whitelisting/" target="_blank">“white list”</a> us.</p>                                        
                                     </div>
@@ -1459,7 +1489,7 @@ body, td,
                                 </td>
                                 <td valign="top" align="left" class="r30" width="256">
                                    
-                                    <div style="word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 10px;Margin-right: 10px">
+                                    <div style="word-break: break-word;word-wrap: break-word;padding: 0;Margin-left: 15px;Margin-right: 15px">
                                         
                                         <div class="webversion__content--footer" style="text-align:right;">
                                             <webversion>Web Version</webversion>

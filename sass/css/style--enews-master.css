@@ -678,21 +678,26 @@ ul, ol {
     width: 40% !important; } }
 /* --- eNews --- */
 /*------------------------------------*\
+    # eNews Colors
+\*------------------------------------*/
+/*------------------------------------*\
     # eNews Layout
 \*------------------------------------*/
 body {
-  background-color: #f5f4f0; }
+  background-color: #fffbec; }
 
 body, td,
 .article-title {
   font-family: Georgia, Times, serif; }
 
 #enews__body {
-  background-color: #edece6; }
+  background-color: #f5efdd; }
 
 .send-date {
   color: #ffffff;
   font-size: 12px; }
+  .send-date a {
+    color: #ffffff; }
 
 .newsletter__headline {
   font-size: 42px;
@@ -704,26 +709,48 @@ body, td,
   border: 1px solid #003c7f; }
 
 .article-title a {
-  color: #003c7f;
   font-weight: normal;
   text-decoration: none !important; }
+
+#section__trending {
+  background-color: #ece7d5; }
+  #section__trending > td {
+    border-top: 1px solid #ddd7c7;
+    border-bottom: 1px solid #ddd7c7; }
+
+#enews__story {
+  border-bottom: 1px solid #ddd7c7; }
 
 #section__trending:hover, #section__trending:focus,
 #enews__story:hover,
 #enews__story:focus {
-  background-color: #d4d1c2 !important; }
+  background-color: #e1dccb !important; }
   #section__trending:hover .section__trending__title, #section__trending:focus .section__trending__title,
   #enews__story:hover .section__trending__title,
   #enews__story:focus .section__trending__title {
-    background-color: #d4d1c2 !important;
-    border-color: #d4d1c2 !important; }
+    background-color: #e1dccb !important;
+    border-color: #e1dccb !important; }
 
-.section__trending__title {
-  background-color: #dfdcca;
-  border-bottom: 1px solid #c4c1b3; }
+.title__trending {
+  color: #333333 !important;
+  font-size: 24px;
+  Margin-top: 8px; }
 
 .enews__footer {
   background-color: #c2d6ec; }
+
+#footer {
+  background-color: #00244c; }
+
+#street-address,
+.footer-content--pref,
+.whitelist-message,
+.webversion__content--footer {
+  color: #ffffff; }
+
+#footer a,
+#street-address a {
+  color: #c2d6ec; }
 
 @media only screen and (max-width: 568px) {
   .newsletter__headline {
