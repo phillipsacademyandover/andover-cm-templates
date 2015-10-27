@@ -638,131 +638,134 @@ ul, ol {
     width: 100% !important;
     height: auto !important; }
   /* line 622, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  td[class=responsive-signature] img {
+    Margin: 0 !important; }
+  /* line 625, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=table-col], td[class=table-col], img[class=table-col] {
     width: 20% !important; }
-  /* line 627, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 630, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=table-row-1], td[class=table-row-1], img[class=table-row-1],
   table[class=table-row-2], td[class=table-row-2], img[class=table-row-2] {
     width: 50% !important; }
-  /* line 630, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 633, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
-  /* line 633, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 636, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=r70], td[class=r70], img[class=r70] {
     width: 70% !important; }
-  /* line 636, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 639, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=r30], td[class=r30], img[class=r30] {
     width: 30% !important; }
-  /* line 639, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 642, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 75% !important; }
-  /* line 642, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 645, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 25% !important; }
-  /* line 646, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 649, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
-  /* line 649, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 652, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=responsive-content-padding], td[class=responsive-content-padding], img[class=responsive-content-padding] {
     width: 97.5% !important; }
-  /* line 652, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 655, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
-  /* line 656, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 659, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
   table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
-  /* line 659, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 662, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
-  /* line 663, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 666, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=threecol], td[class=threecol], img[class=threecol],
   table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
     height: auto !important; }
-  /* line 667, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 670, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
     width: 95% !important;
     height: auto !important; }
-  /* line 671, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 674, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
     width: 95% !important; }
-  /* line 674, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 677, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   td[class=toc-padding] {
     width: 2.5% !important; }
-  /* line 677, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 680, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   div[id=date] {
     font-weight: bold !important; } }
 
 @media only screen and (max-width: 568px) {
-  /* line 682, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 685, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   span[class=mobile-block] {
     display: block !important; }
-  /* line 685, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 688, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   div[class=newsletter-title] {
     font-size: 36px; }
-  /* line 688, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 691, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 70% !important; }
-  /* line 691, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 694, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 30% !important; } }
 
 @media only screen and (max-width: 480px) {
-  /* line 699, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 702, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
   table[class=table-row] table[class=table-col2],
   table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
     width: 100% !important; }
-  /* line 702, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 705, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=w140], td[class=w140], img[class=w140] {
     width: 90px !important; }
-  /* line 703, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 706, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=w140-story], td[class=w140-story], img[class=w140-story] {
     width: 90px !important;
     height: auto !important; }
-  /* line 704, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 707, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=w170], td[class=w170], img[class=w170] {
     width: 100px !important; }
-  /* line 707, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 710, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=w0-phone], td[class=w0-phone] {
     width: 0 !important; }
-  /* line 710, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 713, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[id=threecol] img[class=responsive] {
     width: 100% !important;
     height: auto !important; }
-  /* line 714, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 717, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 65% !important; }
-  /* line 717, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 720, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 35% !important; } }
 
 @media only screen and (max-width: 414px) {
-  /* line 722, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 725, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   #callout--title h1.article-title {
     font-size: 45px !important; }
-  /* line 725, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 728, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   #callout--title .article-content {
     font-size: 21px !important; }
-  /* line 728, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 731, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   div[class=header__branding] {
     font-size: 20px !important; } }
 
 @media only screen and (max-width: 360px) {
-  /* line 733, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 736, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 62% !important; }
-  /* line 736, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 739, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 38% !important; } }
 
 @media only screen and (max-width: 320px) {
-  /* line 741, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 744, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 60% !important; }
-  /* line 744, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  /* line 747, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 40% !important; } }
 
@@ -773,7 +776,7 @@ ul, ol {
 \*------------------------------------*/
 /* line 25, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 body {
-  background-color: #fffbec; }
+  background-color: #f5f4f0; }
 
 /* line 29, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 body, td,
@@ -782,7 +785,7 @@ body, td,
 
 /* line 32, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #enews__body {
-  background-color: #f5efdd; }
+  background-color: #edece6; }
 
 /* line 35, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .send-date {
@@ -810,29 +813,29 @@ body, td,
 
 /* line 60, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #section__trending {
-  background-color: #ece7d5; }
+  background-color: #e7e5dc; }
   /* line 62, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
   #section__trending > td {
-    border-top: 1px solid #ddd7c7;
-    border-bottom: 1px solid #ddd7c7; }
+    border-top: 1px solid #dcdace;
+    border-bottom: 1px solid #dcdace; }
 
 /* line 67, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #enews__story {
-  border-bottom: 1px solid #ddd7c7; }
+  border-bottom: 1px solid #dcdace; }
 
 /* line 73, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #section__trending:hover,
 #section__trending:focus,
 #enews__story:hover,
 #enews__story:focus {
-  background-color: #e1dccb !important; }
+  background-color: #dcdace !important; }
   /* line 76, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
   #section__trending:hover .section__trending__title,
   #section__trending:focus .section__trending__title,
   #enews__story:hover .section__trending__title,
   #enews__story:focus .section__trending__title {
-    background-color: #e1dccb !important;
-    border-color: #e1dccb !important; }
+    background-color: #dcdace !important;
+    border-color: #dcdace !important; }
 
 /* line 89, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .title__trending {

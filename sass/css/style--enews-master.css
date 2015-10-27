@@ -559,6 +559,9 @@ ul, ol {
     width: 100% !important;
     height: auto !important; }
 
+  td[class=responsive-signature] img {
+    Margin: 0 !important; }
+
   table[class=table-col], td[class=table-col], img[class=table-col] {
     width: 20% !important; }
 
@@ -684,14 +687,14 @@ ul, ol {
     # eNews Layout
 \*------------------------------------*/
 body {
-  background-color: #fffbec; }
+  background-color: #f5f4f0; }
 
 body, td,
 .article-title {
   font-family: Georgia, Times, serif; }
 
 #enews__body {
-  background-color: #f5efdd; }
+  background-color: #edece6; }
 
 .send-date {
   color: #ffffff;
@@ -713,23 +716,23 @@ body, td,
   text-decoration: none !important; }
 
 #section__trending {
-  background-color: #ece7d5; }
+  background-color: #e7e5dc; }
   #section__trending > td {
-    border-top: 1px solid #ddd7c7;
-    border-bottom: 1px solid #ddd7c7; }
+    border-top: 1px solid #dcdace;
+    border-bottom: 1px solid #dcdace; }
 
 #enews__story {
-  border-bottom: 1px solid #ddd7c7; }
+  border-bottom: 1px solid #dcdace; }
 
 #section__trending:hover, #section__trending:focus,
 #enews__story:hover,
 #enews__story:focus {
-  background-color: #e1dccb !important; }
+  background-color: #dcdace !important; }
   #section__trending:hover .section__trending__title, #section__trending:focus .section__trending__title,
   #enews__story:hover .section__trending__title,
   #enews__story:focus .section__trending__title {
-    background-color: #e1dccb !important;
-    border-color: #e1dccb !important; }
+    background-color: #dcdace !important;
+    border-color: #dcdace !important; }
 
 .title__trending {
   color: #333333 !important;
