@@ -693,19 +693,24 @@ body, td,
 .article-title {
   font-family: Georgia, Times, serif; }
 
+.preview__text {
+  background: #003c7f;
+  color: #003c7f; }
+
 #enews__body {
   background-color: #edece6; }
 
 .send-date {
   color: #ffffff;
-  font-size: 12px; }
+  font-size: 12px;
+  Margin-top: 0; }
   .send-date a {
     color: #ffffff; }
 
 .newsletter__headline {
   font-size: 42px;
   color: #ffffff;
-  Margin-top: 20px;
+  Margin-top: 25px;
   text-align: center; }
 
 .image__fullwidth {

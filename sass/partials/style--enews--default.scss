@@ -29,12 +29,17 @@ body, td,
 .article-title {
 	font-family: $brand--font;
 }
+.preview__text {
+    background: $pa-navy;
+    color:$pa-navy;
+}
 #enews__body {
     background-color:$body-bg;
 }
     .send-date {
         color:$white;
         font-size:12px;
+        Margin-top:0;
         
         a {
             color:$white;
@@ -44,7 +49,7 @@ body, td,
     .newsletter__headline {
         font-size: 42px;
         color:$white;
-        Margin-top:20px;
+        Margin-top:25px;
         text-align: center;
     }
 
@@ -79,12 +84,6 @@ body, td,
         }
     }
 }
-
-.section__trending__title {
-//    background-color:$story-hover;
-//    border-bottom: 1px solid $story-border;
-}
-
 
 .title__trending {
     color:$text !important;

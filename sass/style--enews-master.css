@@ -784,52 +784,58 @@ body, td,
   font-family: Georgia, Times, serif; }
 
 /* line 32, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+.preview__text {
+  background: #003c7f;
+  color: #003c7f; }
+
+/* line 36, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #enews__body {
   background-color: #edece6; }
 
-/* line 35, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 39, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .send-date {
   color: #ffffff;
-  font-size: 12px; }
-  /* line 39, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+  font-size: 12px;
+  Margin-top: 0; }
+  /* line 44, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
   .send-date a {
     color: #ffffff; }
 
-/* line 44, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 49, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .newsletter__headline {
   font-size: 42px;
   color: #ffffff;
-  Margin-top: 20px;
+  Margin-top: 25px;
   text-align: center; }
 
-/* line 51, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 56, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .image__fullwidth {
   border: 1px solid #003c7f; }
 
-/* line 55, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 60, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .article-title a {
   font-weight: normal;
   text-decoration: none !important; }
 
-/* line 60, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 65, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #section__trending {
   background-color: #e7e5dc; }
-  /* line 62, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+  /* line 67, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
   #section__trending > td {
     border-top: 1px solid #dcdace;
     border-bottom: 1px solid #dcdace; }
 
-/* line 67, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 72, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #enews__story {
   border-bottom: 1px solid #dcdace; }
 
-/* line 73, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 78, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #section__trending:hover,
 #section__trending:focus,
 #enews__story:hover,
 #enews__story:focus {
   background-color: #dcdace !important; }
-  /* line 76, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+  /* line 81, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
   #section__trending:hover .section__trending__title,
   #section__trending:focus .section__trending__title,
   #enews__story:hover .section__trending__title,
@@ -837,34 +843,34 @@ body, td,
     background-color: #dcdace !important;
     border-color: #dcdace !important; }
 
-/* line 89, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 88, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .title__trending {
   color: #333333 !important;
   font-size: 24px;
   Margin-top: 8px; }
 
-/* line 94, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 93, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 .enews__footer {
   background-color: #c2d6ec; }
 
-/* line 98, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 97, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #footer {
   background-color: #00244c; }
 
-/* line 104, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 103, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #street-address,
 .footer-content--pref,
 .whitelist-message,
 .webversion__content--footer {
   color: #ffffff; }
 
-/* line 109, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+/* line 108, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
 #footer a,
 #street-address a {
   color: #c2d6ec; }
 
 @media only screen and (max-width: 568px) {
-  /* line 115, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
+  /* line 114, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--enews--default.scss */
   .newsletter__headline {
     font-size: 36px; } }
 

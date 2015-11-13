@@ -700,19 +700,24 @@ body, td,
 .article-title {
   font-family: Georgia, Times, serif; }
 
+.preview__text {
+  background: #003c7f;
+  color: #003c7f; }
+
 #enews__body {
   background-color: #edece6; }
 
 .send-date {
   color: #ffffff;
-  font-size: 12px; }
+  font-size: 12px;
+  Margin-top: 0; }
   .send-date a {
     color: #ffffff; }
 
 .newsletter__headline {
   font-size: 42px;
   color: #ffffff;
-  Margin-top: 20px;
+  Margin-top: 25px;
   text-align: center; }
 
 .image__fullwidth {
@@ -849,8 +854,31 @@ body, td,
         
 <!-- END KIT --></head>
 <body>
-<!-- include ../partials/default__module__andover--header.kit -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<!-- ------------ -->
+<!-- BRAND HEADER -->
+<!-- ------------ -->
+<table id="header" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr style="border-collapse:collapse;" bgcolor="">
+    <td align="center" class="responsive">
+        <table class="responsive" width="640" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style="border-collapse:collapse;">
+            <td width="640" class="responsive" valign="middle" align="right">
+                <div class="preview__text">
+                    <multiline editable label="Preheader Text">Preheader Text Goes Here</multiline>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+    </td>
+</tr>
+</tbody>
+</table>
+<!-- ------------ -->
+<!-- BRAND HEADER -->
+<!-- ------------ --><table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tbody>
 <tr style="border-collapse:collapse;">
 	<td class="responsive" align="center">
