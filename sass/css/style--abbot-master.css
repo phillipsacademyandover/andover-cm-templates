@@ -210,11 +210,9 @@ code {
 #background-table {
   background-color: #ffffff; }
 
-.mobile-block {
-  display: inline; }
-
-/* Webkit Elements */
-/* Fonts and Content */
+/*------------------------------------*\
+    # FONTS AND CONTENT
+\*------------------------------------*/
 body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
@@ -223,7 +221,9 @@ body, td {
   -ms-text-size-adjust: none; }
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
-/* --- Header --- */
+/*------------------------------------*\
+    # HEADER
+\*------------------------------------*/
 .preview__text {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 5px;
@@ -306,8 +306,9 @@ body, td {
 h1.section-title {
   line-height: 100% !important; }
 
-/* --- END Header --- */
-/* --- Article --- */
+/*------------------------------------*\
+    # ARTICLE
+\*------------------------------------*/
 .article-title {
   font-size: 21px;
   line-height: 130%;
@@ -334,6 +335,9 @@ h1.section-title {
 #callout--title h1.article-title a {
   color: #ffffff !important; }
 
+/*------------------------------------*\
+    # CENTERED TITLE
+\*------------------------------------*/
 #title--center h2.article-title {
   font-size: 28px;
   color: #6092c6 !important;
@@ -387,6 +391,9 @@ h1.section-title {
 .table-row .article-content p {
   margin-bottom: 5px; }
 
+/*------------------------------------*\
+    # CALLOUT
+\*------------------------------------*/
 #callout--title .article-content {
   font-size: 28px;
   color: #ffffff !important;
@@ -410,8 +417,9 @@ h1.section-title {
 #callout .article-content a {
   color: #6092c6 !important; }
 
-/* --- END Article --- */
-/* --- Button --- */
+/*------------------------------------*\
+    # BUTTON
+\*------------------------------------*/
 .pb-button__mso {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -439,8 +447,9 @@ h1.section-title {
   color: #ffffff !important;
   text-decoration: none; }
 
-/* --- END Button --- */
-/* --- Sidebar --- */
+/*------------------------------------*\
+    # SIDEBAR
+\*------------------------------------*/
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -482,8 +491,9 @@ h1.section-title {
   color: #0058a0;
   text-decoration: underline; }
 
-/* --- END Sidebar --- */
-/* --- Footer --- */
+/*------------------------------------*\
+    # FOOTER
+\*------------------------------------*/
 #footer {
   color: #333333; }
 
@@ -540,8 +550,9 @@ h1.section-title {
   color: #0058a0;
   text-decoration: underline; }
 
-/* --- END Footer --- */
-/* --- Helpers --- */
+/*------------------------------------*\
+    # HELPERS
+\*------------------------------------*/
 .no__margin {
   margin: 0; }
 
@@ -551,6 +562,15 @@ h1.section-title {
 ul, ol {
   Margin-bottom: 10px; }
 
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+/*------------------------------------*\
+    # MEDIA QUERIES
+\*------------------------------------*/
 @media only screen and (min-width: 660px) {
   .pb-button {
     max-width: 50%; } }
@@ -628,8 +648,13 @@ ul, ol {
   div[id=date] {
     font-weight: bold !important; } }
 @media only screen and (max-width: 568px) {
-  span[class=mobile-block] {
+  br[class=block--med],
+  span[class=block--med] {
     display: block !important; }
+
+  br[class=inline--med],
+  span[class=inline--med] {
+    display: none !important; }
 
   div[class=newsletter-title] {
     font-size: 36px; }
@@ -640,6 +665,14 @@ ul, ol {
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 30% !important; } }
 @media only screen and (max-width: 480px) {
+  br[class=block--small],
+  span[class=block--small] {
+    display: block !important; }
+
+  br[class=inline--small],
+  span[class=inline--small] {
+    display: none !important; }
+
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
   table[class=table-row] table[class=table-col2],
