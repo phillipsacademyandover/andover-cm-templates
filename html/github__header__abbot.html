@@ -576,6 +576,18 @@ ul, ol {
   display: block; }
 
 /*------------------------------------*\
+    # APPLE LINK NORMALIZATION
+    # https://litmus.com/blog/wait-what-just-happened-to-my-email-webinar-qa
+\*------------------------------------*/
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important; }
+
+/*------------------------------------*\
     # MEDIA QUERIES
 \*------------------------------------*/
 @media only screen and (min-width: 660px) {

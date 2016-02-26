@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    # WELLNESS COLORS
+\*------------------------------------*/
+
+$well-yellow:#fc9822;
+$well-lighttan:#fff8e7;
+$well-dkblue:#004e94;
+
+
+
+
+
+/*------------------------------------*\
+    # WELLNESS LAYOUT
+\*------------------------------------*/
+
+body {
+    background-color:$well-lighttan;
+}
+
+.social-media {
+    background-color:$pa-butter;
+}
+
+#footer a,
+.whitelist-message a,
+.webversion__content--footer a,
+#street-address a {
+    color:$pa-blue__tint-30;
+}
+
+#street-address,
+.footer-content--pref,
+.whitelist-message,
+.webversion__content--footer {
+    color:$white;
+}
