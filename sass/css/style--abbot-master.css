@@ -183,7 +183,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: underline; }
 
 h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
-  color: red !important; }
+  color: #0058a0 !important; }
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
