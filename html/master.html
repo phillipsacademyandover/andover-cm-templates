@@ -7,22 +7,24 @@
     
     /* --- Style --- */
 /* --- PA Style Guide --- */
-/*------------------------------------*    # PA Primary Colors
+/*------------------------------------*\
+    # PA Primary Colors
 \*------------------------------------*/
-/*------------------------------------*    # PA Secondary Colors
+/*------------------------------------*\
+    # PA Secondary Colors
 \*------------------------------------*/
 /* --- Tints --- */
 /* --- PA --- */
 /* --- PA Style Guide --- */
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
-  /* line 3, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=w0], td[class=w0] {
     width: 0 !important; }
-  /* line 6, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=w10], td[class=w10], img[class=w10] {
     width: 10px !important; }
-  /*table[class=w15], td[class=w15], img[class=w15] {
+
+    /*table[class=w15], td[class=w15], img[class=w15] {
         width:5px !important;
     }
     table[class=w30], td[class=w30], img[class=w30] {
@@ -96,64 +98,58 @@
         width:320px !important;
     }*/
   /*table[class=responsive], td[class=responsive], img[class=responsive] {
-        width:100% !important;
-    }
-    table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
-        width:5% !important;
-    }
-    table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
-        width:90% !important;
-    }*/
-  /* line 91, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+      width:100% !important;
+  }
+  table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
+      width:5% !important;
+  }
+  table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
+      width:90% !important;
+  }*/
   table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] {
     display: none !important; }
-  /* line 94, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class*=mobile], td[class*=mobile], img[class*=mobile], p[class*=mobile], span[class*=mobile] {
     display: block !important;
     width: 100% !important; }
-  /* line 95, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=h0], td[class=h0] {
     height: 0 !important; }
+
   /*table[class=h10], td[class=h10] {
-        height: 10px !important;
-        width:320px !important;
-    }*/
-  /* line 102, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+      height: 10px !important;
+      width:320px !important;
+  }*/
   p[class=footer-content-left] {
     text-align: center !important; }
-  /* line 105, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   #headline p {
     font-size: 30px !important; }
-  /* line 108, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   .article-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
-  /* line 112, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   .header-content, .footer-content {
     -webkit-text-size-adjust: 100% !important;
     -ms-text-size-adjust: 100% !important; }
-  /* line 116, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   img {
     height: auto;
     line-height: 100%;
     Margin: 0 auto; } }
-
 /* Client-specific Styles */
-/* line 123, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #outlook a {
   padding: 0; }
 
 /* Force Outlook to provide a "view in browser" button. */
-/* line 126, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 body {
   width: 100% !important;
   min-width: 100%; }
 
-/* line 130, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .ReadMsgBody {
   width: 100%; }
 
-/* line 133, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .ExternalClass {
   width: 100%;
   display: block !important; }
@@ -161,50 +157,41 @@ body {
 /* Force Hotmail to display emails at full width */
 /* Reset Styles */
 /* Add 100px so mobile switch bar doesn't cover street address. */
-/* line 139, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 body {
   background-color: #ffffff;
   margin: 0;
   padding: 0; }
 
-/* line 144, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 img {
   outline: none;
   text-decoration: none;
   display: block; }
 
-/* line 149, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 br, strong br, b br, em br, i br {
   line-height: 100%; }
 
-/* line 152, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 100% !important;
   -webkit-font-smoothing: antialiased; }
 
-/* line 156, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 161, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
-  color: red !important; }
+  color: #0058a0 !important; }
 
 /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
-/* line 165, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
 /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
-/* line 171, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 table td, table tr {
   border-collapse: collapse; }
 
-/* line 174, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .yshortcuts, .yshortcuts a, .yshortcuts a:link, .yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
   color: black;
   text-decoration: none !important;
@@ -213,51 +200,42 @@ table td, table tr {
 
 /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
 /* This most probably won't work in all email clients. Don't include code blocks in email. */
-/* line 181, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 code {
   white-space: normal;
   word-break: break-all; }
 
-/* line 185, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #background-table {
   background-color: #ffffff; }
 
-/* line 189, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
-.mobile-block {
-  display: inline; }
-
-/* Webkit Elements */
-/* Fonts and Content */
-/* line 213, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # FONTS AND CONTENT
+\*------------------------------------*/
 body, td {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
-/* line 216, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #header, #footer {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none; }
 
 /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
-/* --- Header --- */
-/* line 225, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # HEADER
+\*------------------------------------*/
 .preview__text {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 5px;
   color: #0058a0;
   height: 6px; }
 
-/* line 231, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .preview__text p {
   margin: 0 !important;
   font-size: 5px; }
 
-/* line 235, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .webversion__content a {
   font-weight: bold;
   color: #dee8f4;
   text-decoration: underline; }
 
-/* line 240, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .header__branding {
   font-family: Georgia, Times, serif;
   font-size: 24px;
@@ -269,7 +247,6 @@ body, td {
   Margin-right: 10px;
   Margin-left: 10px; }
 
-/* line 251, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .header__office {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -281,14 +258,12 @@ body, td {
   Margin-right: 10px;
   Margin-left: 10px; }
 
-/* line 262, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .title-purpose {
   background: #003c7f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 268, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-purpose {
   font-size: 16px;
   line-height: 130%;
@@ -297,24 +272,20 @@ body, td {
   margin-top: 0px;
   margin-bottom: 0; }
 
-/* line 276, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-purpose a {
   color: #ffffff;
   text-decoration: underline; }
 
-/* line 280, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .newsletter-title {
   font-size: 54px;
   text-align: center; }
 
-/* line 284, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .send-date {
   color: #333333;
   font-size: 14px;
   text-align: center;
   Margin-top: 5px; }
 
-/* line 290, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .section-title {
   font-size: 21px;
   line-height: 130%;
@@ -324,19 +295,17 @@ body, td {
   margin-bottom: 0;
   font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
 
-/* line 299, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .section-title a {
   font-weight: bold;
   color: #2a5b7d !important;
   text-decoration: underline; }
 
-/* line 304, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 h1.section-title {
   line-height: 100% !important; }
 
-/* --- END Header --- */
-/* --- Article --- */
-/* line 309, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # ARTICLE
+\*------------------------------------*/
 .article-title {
   font-size: 21px;
   line-height: 130%;
@@ -345,17 +314,14 @@ h1.section-title {
   Margin-top: 15px;
   margin-bottom: 8px; }
 
-/* line 317, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-title a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 323, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-title.with-meta {
   margin-bottom: 0; }
 
-/* line 327, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout--title h1.article-title {
   font-size: 60px;
   color: #ffffff !important;
@@ -363,18 +329,18 @@ h1.section-title {
   text-align: center;
   margin-bottom: 5px; }
 
-/* line 334, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout--title h1.article-title a {
   color: #ffffff !important; }
 
-/* line 339, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # CENTERED TITLE
+\*------------------------------------*/
 #title--center h2.article-title {
   font-size: 28px;
   color: #6092c6 !important;
   text-transform: uppercase;
   text-align: center; }
 
-/* line 353, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content {
   font-size: 15px;
   line-height: 130%;
@@ -382,27 +348,22 @@ h1.section-title {
   margin-top: 0px;
   Margin-bottom: 15px; }
 
-/* line 360, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .table-row .article-content {
   margin-bottom: 0; }
 
-/* line 363, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 368, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content a.white {
   color: #ffffff;
   font-weight: normal;
   text-decoration: underline; }
 
-/* line 373, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content img {
   max-width: 100%; }
 
-/* line 376, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content ol, .article-content ul {
   margin-top: 0px;
   Margin-bottom: 10px;
@@ -410,65 +371,57 @@ h1.section-title {
   padding: 0;
   padding-left: 19px; }
 
-/* line 383, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content li {
   font-size: 15px;
   line-height: 130%;
   color: #333333;
   Margin-bottom: 9px; }
 
-/* line 389, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content li a {
   color: #0058a0;
   text-decoration: underline; }
 
-/* line 394, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-content p {
   margin-top: 0;
   margin-bottom: 15px; }
 
-/* line 398, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .table-row .article-content p {
   margin-bottom: 5px; }
 
-/* line 403, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # CALLOUT
+\*------------------------------------*/
 #callout--title .article-content {
   font-size: 28px;
   color: #ffffff !important;
   margin-bottom: 0; }
 
-/* line 408, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout--title .article-content p {
   margin-bottom: 0; }
 
-/* line 412, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout--title .article-content a,
 #callout--content .article-content a {
   color: #ffffff !important; }
 
-/* line 415, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout--content .article-content {
   color: #ffffff !important;
   margin-bottom: 0; }
 
-/* line 420, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout .article-content {
   font-size: 30px;
   color: #6092c6 !important; }
 
-/* line 424, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #callout .article-content a {
   color: #6092c6 !important; }
 
-/* --- END Article --- */
-/* --- Button --- */
-/* line 452, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # BUTTON
+\*------------------------------------*/
 .pb-button__mso {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 457, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .pb-button__style {
   background-color: #0058a0;
   -webkit-border-radius: 4px;
@@ -486,15 +439,14 @@ h1.section-title {
   padding: 12px 18px;
   text-shadow: 0 1px 2px #003c7f; }
 
-/* line 475, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .pb-button a {
   font-size: 18px;
   color: #ffffff !important;
   text-decoration: none; }
 
-/* --- END Button --- */
-/* --- Sidebar --- */
-/* line 484, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # SIDEBAR
+\*------------------------------------*/
 .sidebar-title {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -505,7 +457,6 @@ h1.section-title {
   margin-bottom: 0;
   text-transform: uppercase; }
 
-/* line 494, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .sidebar-content {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -515,19 +466,16 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 0; }
 
-/* line 503, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .toc {
   list-style: none;
   padding-left: 0.5em;
   text-align: left; }
 
-/* line 508, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .toc a {
   color: #0058a0;
   font-weight: bold;
   text-decoration: underline; }
 
-/* line 514, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-toc {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -535,28 +483,24 @@ h1.section-title {
   color: #333333;
   text-align: left; }
 
-/* line 521, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .article-toc a {
   font-weight: bold;
   color: #0058a0;
   text-decoration: underline; }
 
-/* --- END Sidebar --- */
-/* --- Footer --- */
-/* line 529, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # FOOTER
+\*------------------------------------*/
 #footer {
   color: #333333; }
 
-/* line 532, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #footer a {
   color: #0058a0;
   text-decoration: underline; }
 
-/* line 536, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #footer a.link {
   font-weight: bold; }
 
-/* line 539, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .footer-content {
   font-family: Georgia, Times, serif;
   font-size: 12px;
@@ -565,7 +509,6 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 547, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .footer-content--pref {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -574,27 +517,22 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 555, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .footer-content--pref a {
   font-weight: bold; }
 
-/* line 558, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #permission-reminder {
   white-space: normal; }
 
-/* line 561, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #street-address {
   font-family: Georgia, Times, serif;
   color: #333333;
   white-space: normal; }
 
-/* line 566, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 #street-address a {
   color: #0058a0;
   text-decoration: underline;
   font-weight: bold; }
 
-/* line 572, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .whitelist-message,
 .webversion__content--footer {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -603,182 +541,205 @@ h1.section-title {
   margin-top: 0px;
   margin-bottom: 15px; }
 
-/* line 580, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .whitelist-message a,
 .webversion__content--footer a {
   font-weight: bold;
   color: #0058a0;
   text-decoration: underline; }
 
-/* --- END Footer --- */
-/* --- Helpers --- */
-/* line 589, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+/*------------------------------------*\
+    # HELPERS
+\*------------------------------------*/
 .no__margin {
   margin: 0; }
 
-/* line 592, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 .text--small {
   font-size: 12px; }
 
-/* line 596, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
 ul, ol {
   Margin-bottom: 10px; }
 
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+/*------------------------------------*\
+    # APPLE LINK NORMALIZATION
+    # https://litmus.com/blog/wait-what-just-happened-to-my-email-webinar-qa
+\*------------------------------------*/
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important; }
+
+/*------------------------------------*\
+    # MEDIA QUERIES
+\*------------------------------------*/
 @media only screen and (min-width: 660px) {
-  /* line 602, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   .pb-button {
     max-width: 50%; } }
-
 @media only screen and (max-width: 660px) {
-  /* line 607, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  #three-cols__parent #three-cols .responsive {
+    width: 100% !important;
+    display: table; }
+    #three-cols__parent #three-cols .responsive img {
+      width: 100% !important; }
+
   tr[id=webversion] {
     display: none !important; }
-  /* line 610, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=auto], td[class=auto], img[class=auto] {
     width: auto !important; }
-  /* line 615, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive], td[class=responsive], img[class=responsive],
   table[class=table-row], td[class=table-row], img[class=table-row] {
     width: 100% !important; }
-  /* line 618, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive-signature], td[class=responsive-signature], img[class=responsive-signature] {
     width: 100% !important;
     height: auto !important; }
-  /* line 622, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   td[class=responsive-signature] img {
     Margin: 0 !important; }
-  /* line 625, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=table-col], td[class=table-col], img[class=table-col] {
     width: 20% !important; }
-  /* line 630, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=table-row-1], td[class=table-row-1], img[class=table-row-1],
   table[class=table-row-2], td[class=table-row-2], img[class=table-row-2] {
     width: 50% !important; }
-  /* line 633, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=table-col1], td[class=table-col1], img[class=table-col1] {
     width: 47.5% !important; }
-  /* line 636, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=r70], td[class=r70], img[class=r70] {
     width: 70% !important; }
-  /* line 639, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=r30], td[class=r30], img[class=r30] {
     width: 30% !important; }
-  /* line 642, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 75% !important; }
-  /* line 645, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 25% !important; }
-  /* line 649, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive-padding], td[class=responsive-padding], img[class=responsive-padding] {
     width: 2.5% !important; }
-  /* line 652, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive-content-padding], td[class=responsive-content-padding], img[class=responsive-content-padding] {
     width: 97.5% !important; }
-  /* line 655, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive-content], td[class=responsive-content], img[class=responsive-content] {
     width: 95% !important; }
-  /* line 659, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive-callout--padding], td[class=responsive-callout--padding], img[class=responsive-callout--padding],
   table[class=floatimg-padding], td[class=floatimg-padding], img[class=floatimg-padding] {
     width: 5% !important; }
-  /* line 662, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=responsive-callout--content], td[class=responsive-callout--content], img[class=responsive-callout--content] {
     width: 90% !important; }
-  /* line 666, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=threecol], td[class=threecol], img[class=threecol],
   table[class=floatimg], td[class=floatimg], img[class=floatimg] {
     width: 33% !important;
     height: auto !important; }
-  /* line 670, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=floatimg-content], td[class=floatimg-content], img[class=floatimg-content] {
     width: 95% !important;
     height: auto !important; }
-  /* line 674, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=toc-content], td[class=toc-content], img[class=toc-content] {
     width: 95% !important; }
-  /* line 677, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   td[class=toc-padding] {
     width: 2.5% !important; }
-  /* line 680, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   div[id=date] {
     font-weight: bold !important; } }
-
 @media only screen and (max-width: 568px) {
-  /* line 685, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
-  span[class=mobile-block] {
+  br[class=block--med],
+  span[class=block--med] {
     display: block !important; }
-  /* line 688, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
+  br[class=inline--med],
+  span[class=inline--med] {
+    display: none !important; }
+
   div[class=newsletter-title] {
     font-size: 36px; }
-  /* line 691, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 70% !important; }
-  /* line 694, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 30% !important; } }
-
 @media only screen and (max-width: 480px) {
-  /* line 702, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+  br[class=block--small],
+  span[class=block--small] {
+    display: block !important; }
+
+  br[class=inline--small],
+  span[class=inline--small] {
+    display: none !important; }
+
   table[class=table-row] table[class=table-row-1],
   table[class=table-row] table[class=table-row-2],
   table[class=table-row] table[class=table-col2],
   table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
-    width: 100% !important; }
-  /* line 705, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+    width: 100% !important;
+    display: block !important; }
+
   table[class=w140], td[class=w140], img[class=w140] {
     width: 90px !important; }
-  /* line 706, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=w140-story], td[class=w140-story], img[class=w140-story] {
     width: 90px !important;
     height: auto !important; }
-  /* line 707, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=w170], td[class=w170], img[class=w170] {
     width: 100px !important; }
-  /* line 710, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=w0-phone], td[class=w0-phone] {
     width: 0 !important; }
-  /* line 713, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[id=threecol] img[class=responsive] {
     width: 100% !important;
     height: auto !important; }
-  /* line 717, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 65% !important; }
-  /* line 720, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 35% !important; } }
-
 @media only screen and (max-width: 414px) {
-  /* line 725, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   #callout--title h1.article-title {
     font-size: 45px !important; }
-  /* line 728, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   #callout--title .article-content {
     font-size: 21px !important; }
-  /* line 731, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   div[class=header__branding] {
     font-size: 20px !important; } }
-
 @media only screen and (max-width: 360px) {
-  /* line 736, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 62% !important; }
-  /* line 739, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 38% !important; } }
-
 @media only screen and (max-width: 320px) {
-  /* line 744, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
   table[class=branding__office], td[class=branding__office], img[class=branding__office] {
     width: 60% !important; }
-  /* line 747, /Users/jkapaldo/GitHub/CM-Templates/sass/partials/style--default.scss */
+
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 40% !important; } }
-
-/*# sourceMappingURL=style--pa-master.css.map */    
+    
 </style>
-
 <!--[if lt mso 9]>
 <style _tmplitem="201">
     /* --- Style --- */
@@ -966,11 +927,13 @@ ul, ol {
 			</tr>
 -->
         <!-- pa seasons -->
+<!--
         <tr style="border-collapse:collapse;">
             <td class="responsive" width="640">
                 <img editable="false" label="Full-width Image" class="responsive" src="images/andover-head-samphil-summer-2x.jpg" width="640" height="200" border="0" alt="Samuel Phillips Hall in summer">
 			</td>
         </tr>
+-->
         <!-- hos image -->
 <!--
 		<tr style="border-collapse:collapse;">
@@ -992,36 +955,7 @@ ul, ol {
 					
                         <repeater>
 						<!-- Modules Goes Here -->
-                            <layout label="Title - Message Purpose">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" align="center">
-            <table class="title-purpose" cellpadding="0" cellspacing="0" border="0">
-            <tr style="border-collapse:collapse;">
-                <td colspan="3" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td width="15"></td>
-                <td>
-                    <div align="center" class="article-purpose">
-                        <singleline label="Title">Email Message Purpose</singleline>
-                    </div>
-                </td>
-                <td width="15"></td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td colspan="3" height="6" style="font-size:6px;line-height:6px;">&nbsp;</td>
-            </tr>
-            </table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="Text only">
+                            <layout label="Text only">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1033,150 +967,14 @@ ul, ol {
     </tr>
     </tbody>
     </table>
-</layout>                            <layout label="Indented Text only">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive-padding" width="15"></td>
-        <td class="responsive-content" width="595">
-            <div align="left" class="article-content">
-                <multiline label="Description">Enter your description</multiline>
-            </div>
-        </td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="Title only">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610">
-            <h2 align="left" class="article-title">
-                <singleline label="Title">Add a title</singleline>
-            </h2>
-        </td>
-    </tr>
-<!--
-    
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
--->
-
-    </tbody>
-    </table>
-</layout>                            <layout label="Title and Text only">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610">
-            <h2 align="left" class="article-title">
-                <singleline label="Title" repeatertitle='true'>Add a title</singleline>
-            </h2>
-            <div align="left" class="article-content">
-                <multiline label="Description">Enter your description</multiline>
-            </div>
-        </td>
-    </tr>
-<!--
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
--->
-    </tbody>
-    </table>
-</layout>                            <layout label="Text + Left Image">
-<table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-<tbody>
-<tr style="border-collapse:collapse;">
-
-    <td class="responsive" width="610">
-        <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-        <tbody>
-        <tr>
-            <td class="responsive" width="610" align="left" valign="top">
-                <table class="floatimg" width="200" cellpadding="0" cellspacing="0" border="0" align="left">
-                <tbody>
-                <tr>
-
-                    <td class="floatimg-content" width="190" align="left" valign="top">
-                        <img editable="true" label="Image" class="floatimg-content" width="190" height="190" border="0" />
-                    </td>
-                    <td class="floatimg-padding" width="10"></td>
-                </tr>
-                <tr>
-                    <td class="responsive" height="10" colspan="2" style="font-size:10px;line-height:10px;">&nbsp;</td>
-                </tr>
-                </tbody>
-                </table>
-                <div align="left" class="article-content">
-                    <multiline label="Description">Enter your description</multiline>
-                </div>
-            </td>
-        </tr>
-        </tbody>
-        </table>
-    </td>
-        
-</tr>
-</tbody>
-</table>
-</layout>                            <layout label="Text + Right Image">
-<table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-<tbody>
-<tr style="border-collapse:collapse;">
-
-    <td class="responsive" width="610">
-        <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-        <tbody>
-        <tr>
-            <td class="responsive" width="610" align="left" valign="top">
-                <table class="floatimg" width="200" cellpadding="0" cellspacing="0" border="0" align="right">
-                <tbody>
-                <tr>
-                    <td class="floatimg-padding" width="10"></td>
-                    <td class="floatimg-content" width="190" align="left" valign="top">
-                        <img editable="true" label="Image" class="floatimg-content" width="190" height="190" border="0" />
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td class="responsive" height="10" colspan="2" style="font-size:10px;line-height:10px;">&nbsp;</td>
-                </tr>
-                </tbody>
-                </table>
-                <div align="left" class="article-content">
-                    <multiline label="Description">Enter your description</multiline>
-                </div>
-            </td>
-        </tr>
-        </tbody>
-        </table>
-    </td>
-        
-</tr>
-</tbody>
-</table>
-</layout>                            <layout label="Full-width: 3 Images">
-    <table id="threecol" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="threecol">
-            <img editable="true" label="Image 1 of 3" class="responsive" src="" width="204" height="204" border="0">
-        </td>
-        <td class="threecol">
-            <img editable="true" label="Image 2 of 3" class="responsive" src="" width="204" height="204" border="0">
-        </td>
-        <td class="threecol">
-            <img editable="true" label="Image 3 of 3" class="responsive" src="" width="204" height="204" border="0">
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;">
-        <td colspan="3" class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="Full-width image">
+</layout>                            <!-- include ../partials/module--title-messagepurpose.kit -->
+                            <!-- include ../partials/module--indentedtext.kit -->
+                            <!-- include ../partials/module--title.kit -->
+                            <!-- include ../partials/module--title-text.kit -->
+                            <!-- include ../partials/module--text-leftimage.kit -->
+                            <!-- include ../partials/module--text-rightimage.kit -->
+                            <!-- include ../partials/module--threeimages.kit -->
+                            <layout label="Full-width image">
     <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
@@ -1189,29 +987,9 @@ ul, ol {
     </tr>
     </tbody>
     </table>
-</layout>                            <layout label="Centered image">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-        <tbody>
-        <tr style="border-collapse:collapse;">
-            <td class="responsive" width="610" style="text-align:center;"><img editable="true" label="Centered Image" src="" width="200" height="auto" border="0" style="display:inline-block;"></td>
-        </tr>
-        <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="Donate image">
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" style="text-align:center;">
-            <img editable="true" label="Donate Image" src="" width="254" height="auto" border="0" style="display:inline-block;">
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
-    </tbody>
-    </table>
-</layout>                            <layout label="Custom Button">    
+</layout>                            <!-- include ../partials/module--centeredimage.kit -->
+                            <!-- include ../partials/module--donateimage.kit -->
+                            <layout label="Custom Button">    
     <table class="responsive" width="610" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td align="center">
@@ -1253,701 +1031,190 @@ ul, ol {
 <!--        <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>-->
     </tbody>
     </table>
-</layout>                            <layout label="Two RWD columns: image left, content right">
+</layout>                            <layout label="Two Column: Image + Text">
 
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <table class="responsive" align="center" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
         <td class="responsive" width="610" valign="top">
-            <!-- TABLE 2 -->
-            <table class="responsive" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="300" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <img editable="true" label="Image" src="" width="300" height="auto" border="0" />
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;"><td class="responsive" width="306" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-            </tbody>
-            </table>
             <!-- TABLE 1 -->
-            <table class="responsive" width="306" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <table class="responsive" width="298" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
             <tbody>
             <tr style="border-collapse:collapse;">
-                <td class="w0" width="10"></td>
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Enter your description</multiline>
-                        </div>
-                    </td>
-                </tr>
-<!--                <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>-->
-                </tbody>
-                </table>
+                <td class="responsive" width="298" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <img editable="true" label="Image" src="" width="298" height="auto" border="0" class="responsive" />
                 </td>
             </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Two RWD columns: content left, image right">
-
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 2 -->
-            <table class="responsive" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
             <tr style="border-collapse:collapse;">
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Enter your description</multiline>
-                        </div>
-                    </td>
-                </tr>
-                </tbody>
-                </table>
-                </td>
+                <td class="responsive" width="298" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
             </tr>
-            </tbody>
-            </table>
-            <!-- TABLE 1 -->
-            <table class="responsive" width="306" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
             <tr style="border-collapse:collapse;">
-                <td class="w0" width="10"></td>
-                <td class="responsive" width="300" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <img editable="true" label="Image" src="" width="300" height="auto" border="0" />
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" colspan="2" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-<!--
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
--->
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Two RWD columns: content left, content right">
-
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 2 -->
-            <table class="responsive" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="300" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                <td class="responsive" width="298" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
                     <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
                             <multiline label="Description">Enter your description</multiline>
                         </div>
                 </td>
             </tr>
-<!--            <tr style="border-collapse:collapse;"><td class="responsive" width="306" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>-->
             </tbody></table>
-            <!-- TABLE 1 -->
-            <table class="responsive" width="306" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+            <!-- TABLE 2 -->
+            <table class="responsive" width="308" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
             <tbody><tr style="border-collapse:collapse;">
                 <td class="w0" width="10"></td>
                 <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Enter your description</multiline>
-                        </div>
-                    </td>
-                </tr>
-<!--                <tr style="border-collapse:collapse;"><td class="responsive" width="296" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>-->
-                </tbody></table>
+                    <table class="responsive" width="298" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                    <tbody>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="298" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                            <img editable="true" label="Image" src="" width="298" height="auto" border="0" class="responsive" />
+                        </td>
+                    </tr>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="298" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
+                    </tr>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="298">
+                            <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                                <multiline label="Description">Enter your description</multiline>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody></table>
                 </td>
             </tr>
             </tbody></table>
         </td>
-    </tr></tbody>
+    </tr>
+    </tbody>
     </table>
 
-</layout>                            <layout label="Story: Post with Image">
+</layout>                            <layout label="Three Column: Image + Text">
 
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+    <table id="three-cols__parent" class="responsive" align="center" width="610" cellpadding="0" cellspacing="0" border="0">
     <tbody>
     <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="middle">
+        <td class="responsive" width="610" valign="top">
             <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+            <table id="three-cols" class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse;max-width:610px;">
             <tbody>
             <tr style="border-collapse:collapse;">
-                <td class="auto" width="418">
-                    <table class="auto" width="418" cellpadding="0" cellspacing="0" border="0" align="left">
+                <td class="responsive" valign="top" width="194">
+                    
+                    <table class="responsive" width="194" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
                     <tbody>
                     <tr style="border-collapse:collapse;">
-                        <td class="auto" width="418" align="left" valign="middle">
-                            <h2 align="left" class="article-title" style="padding-right:10px;">
-                                <singleline label="Title">Add a story title</singleline>
-                            </h2>
-                            <div align="left" class="article-content" style="padding-right:10px;">
+                        <td class="responsive" width="194" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                            <img editable="true" label="Image" src="" width="194" height="auto" border="0" class="responsive" />
+                        </td>
+                    </tr>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="194" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
+                    </tr>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="194">
+                            <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
                                 <multiline label="Description">Enter your description</multiline>
                             </div>
                         </td>
                     </tr>
                     </tbody>
                     </table>
+                    
+                    
                 </td>
-
-                <!-- TABLE 2 -->
-                <td class="w170" width="192">
-                    <table class="w170" width="192" cellpadding="0" cellspacing="0" border="0" align="right">
-                    <tbody>
-                    <tr style="border-collapse:collapse;">
-                    <tr style="border-collapse:collapse;">
-                        <td width="10"></td>
-                        <td class="w140" width="182" align="right" valign="middle">
-                            <div align="right" class="article-content" style="border:1px solid #003c7f;">
-                                <img editable="true" label="Story Image" src="" width="180" height="115" border="0" class="w140-story" />
-                            </div>
+                <td class="responsive" valign="top" width="205">
+                    
+                    <table class="responsive" width="205" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                    <tbody><tr style="border-collapse:collapse;">
+                        <td class="w0" width="11"></td>
+                        <td>
+                            <table class="responsive" width="194" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                            <tbody>
+                            <tr style="border-collapse:collapse;">
+                                <td class="responsive" width="194" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                                    <img editable="true" label="Image" src="" width="194" height="auto" border="0" class="responsive" />
+                                </td>
+                            </tr>
+                            <tr style="border-collapse:collapse;">
+                                <td class="responsive" width="194" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
+                            </tr>
+                            <tr style="border-collapse:collapse;">
+                                <td class="responsive" width="194">
+                                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                                        <multiline label="Description">Enter your description</multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                            </table>
                         </td>
                     </tr>
                     </tbody>
                     </table>
+                    
+                    
                 </td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" height="15" colspan="2" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="First Table Row: 2 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td></tr>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Table Row: 2 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Last Table Row: 2 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="25" style="font-size:25px;line-height:25px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="First Table Row: 2 Columns with border">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td></tr>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top" style="border-bottom:1px solid #dee8f4;">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Table Row: 2 Columns with border">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top" style="border-bottom:1px solid #dee8f4;">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Last Table Row: 2 Columns with border">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top" style="border-bottom:2px solid #dee8f4;">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="300" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
+                <td class="responsive" valign="top" width="205">
+                    
+                    <table class="responsive" width="205" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                    <tbody><tr style="border-collapse:collapse;">
+                        <td class="w0" width="11"></td>
+                        <td>
+                            <table class="responsive" width="194" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
+                            <tbody>
+                            <tr style="border-collapse:collapse;">
+                                <td class="responsive" width="194" align="center" style="mso-table-lspace:0;mso-table-rspace:0;">
+                                    <img editable="true" label="Image" src="" width="194" height="auto" border="0" class="responsive" />
+                                </td>
+                            </tr>
+                            <tr style="border-collapse:collapse;">
+                                <td class="responsive" width="194" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
+                            </tr>
+                            <tr style="border-collapse:collapse;">
+                                <td class="responsive" width="194">
+                                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
+                                        <multiline label="Description">Enter your description</multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    
+                    
                 </td>
             </tr>
             </tbody></table>
             <!-- TABLE 2 -->
-            <!--<table class="table-row-2" width="306" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody><tr style="border-collapse:collapse;">
-                <td class="w0-phone" width="10"></td>
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Column 3: Multiline</multiline>
-                        </div>
-                    </td>
-                </tr>
-                </tbody></table>
-                </td>
-            </tr>
-            </tbody>
-            </table>-->
+
+            <!-- TABLE 3 -->
+
         </td>
     </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="25" style="font-size:25px;line-height:25px;">&nbsp;</td></tr>
     </tbody>
     </table>
 
-</layout>                            <layout label="First Table Row: 3 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td></tr>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top" style="border-bottom:1px solid #dee8f4;">
-            <!-- TABLE 1 -->
-            <table class="table-row-1" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="150" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <singleline label="Date">Column 1: Singleline</singleline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="150" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <singleline label="City">Column 2: Singleline</singleline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-            <!-- TABLE 2 -->
-            <table class="table-row-2" width="306" cellpadding="0" cellspacing="0" border="0" align="left" valign="top" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody><tr style="border-collapse:collapse;">
-                <td class="w0-phone" width="10"></td>
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Column 3: Multiline</multiline>
-                        </div>
-                    </td>
-                </tr>
-                </tbody></table>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Table Row: 3 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top" style="border-bottom:1px solid #dee8f4;">
-            <!-- TABLE 1 -->
-            <table class="table-row-1" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="150" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <singleline label="Date">Column 1: Singleline</singleline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="150" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <singleline label="City">Column 2: Singleline</singleline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-            <!-- TABLE 2 -->
-            <table class="table-row-2" width="306" cellpadding="0" cellspacing="0" border="0" align="left" valign="top" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody><tr style="border-collapse:collapse;">
-                <td class="w0-phone" width="10"></td>
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Column 3: Multiline</multiline>
-                        </div>
-                    </td>
-                </tr>
-                </tbody></table>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Last Table Row: 3 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top" style="border-bottom:2px solid #dee8f4;">
-            <!-- TABLE 1 -->
-            <table class="table-row-1" width="300" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="150" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <singleline label="Date">Column 1: Singleline</singleline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="150" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <singleline label="City">Column 2: Singleline</singleline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-            <!-- TABLE 2 -->
-            <table class="table-row-2" width="306" cellpadding="0" cellspacing="0" border="0" align="left"  valign="top" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody><tr style="border-collapse:collapse;">
-                <td class="w0-phone" width="10"></td>
-                <td>
-                <table class="responsive" width="296" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody><tr style="border-collapse:collapse;">
-                    <td class="responsive" width="296">
-                        <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                            <multiline label="Description">Column 3: Multiline</multiline>
-                        </div>
-                    </td>
-                </tr>
-                </tbody></table>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="25" style="font-size:25px;line-height:25px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="First Table Row 1-2: 2 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="10" style="font-size:10px;line-height:10px;">&nbsp;</td></tr>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="200" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="400" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Table Row 1-2: 2 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="200" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="400" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="Last Table Row 1-2: 2 Columns">
-
-    <table class="table-row" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="table-col1" width="200" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div id="date" align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 1: Multiline</multiline>
-                    </div>
-                </td>
-                <td class="responsive-padding" width="10"></td>
-                <td class="table-col1" width="400" align="center" valign="top" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Column 2: Multiline</multiline>
-                    </div>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-    <tr style="border-collapse:collapse;"><td class="responsive" width="610" height="25" style="font-size:25px;line-height:25px;">&nbsp;</td></tr>
-    </tbody>
-    </table>
-
-</layout>                            <layout label="One Signature">
-
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="303" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive-signature" width="303" height="50" align="left" valign="middle" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <img editable="true" label="Image" src="" width="200" height="50" border="0" />
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="303" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="303" align="left">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Enter your description</multiline>
-                    </div>
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;"><td class="responsive" width="303" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-            </tbody></table>
-
-        </td>
-    </tr></tbody>
-    </table>
-
-</layout>                            <layout label="Two columns: Signatures">
-
-    <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
-    <tbody>
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" valign="top">
-            <!-- TABLE 1 -->
-            <table class="responsive" width="303" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive-signature" width="303" height="50" align="left" valign="middle" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <img editable="true" label="Image" src="" width="200" height="50" border="0" />
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="303" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="303" align="left">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Enter your description</multiline>
-                    </div>
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;"><td class="responsive" width="303" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-            </tbody></table>
-            <!-- TABLE 2 -->
-            <table class="responsive" width="303" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-            <tbody><tr style="border-collapse:collapse;">
-                <td class="w0" width="10"></td>
-                <td>
-                <table class="responsive" width="303" cellpadding="0" cellspacing="0" border="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;border:1px solid #ffffff;">
-                <tbody>
-                <tr style="border-collapse:collapse;">
-                <td class="responsive-signature" width="303" height="50" align="left" valign="middle" style="mso-table-lspace:0;mso-table-rspace:0;">
-                    <img editable="true" label="Image" src="" width="200" height="50" border="0" />
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="303" height="5" style="font-size:5px;line-height:5px;">&nbsp;</td>
-            </tr>
-            <tr style="border-collapse:collapse;">
-                <td class="responsive" width="303" align="left">
-                    <div align="left" class="article-content" style="mso-table-lspace:0;mso-table-rspace:0;">
-                        <multiline label="Description">Enter your description</multiline>
-                    </div>
-                </td>
-            </tr>
-            <tr style="border-collapse:collapse;"><td class="responsive" width="303" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td></tr>
-                </tbody></table>
-                </td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr></tbody>
-    </table>
-
-</layout>                        <!-- END Modules -->
+</layout>                            <!-- include ../partials/module--rwdtwocols-image-text.kit -->
+                            <!-- include ../partials/module--rwdtwocols-text-image.kit -->
+                            <!-- include ../partials/module--rwdtwocols-text.kit -->
+                            <!-- include ../partials/module--story.kit -->
+                            <!-- include ../partials/module--table--twocol-firstrow.kit -->
+                            <!-- include ../partials/module--table--twocol-midrow.kit -->
+                            <!-- include ../partials/module--table--twocol-lastrow.kit -->
+                            <!-- include ../partials/module--table--twocol-firstrow-border.kit -->
+                            <!-- include ../partials/module--table--twocol-midrow-border.kit -->
+                            <!-- include ../partials/module--table--twocol-lastrow-border.kit -->
+                            <!-- include ../partials/module--table--threecol-firstrow.kit -->
+                            <!-- include ../partials/module--table--threecol-midrow.kit -->
+                            <!-- include ../partials/module--table--threecol-lastrow.kit -->
+                            <!-- include ../partials/module--table--twocol-1-2-firstrow.kit -->
+                            <!-- include ../partials/module--table--twocol-1-2-midrow.kit -->
+                            <!-- include ../partials/module--table--twocol-1-2-lastrow.kit -->
+                            <!-- include ../partials/module--signature.kit -->
+                            <!-- include ../partials/module--twosignatures.kit -->
+                        <!-- END Modules -->
 						</repeater>
                         
 					</td>

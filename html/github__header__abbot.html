@@ -594,6 +594,12 @@ a[x-apple-data-detectors] {
   .pb-button {
     max-width: 50%; } }
 @media only screen and (max-width: 660px) {
+  #three-cols__parent #three-cols .responsive {
+    width: 100% !important;
+    display: table; }
+    #three-cols__parent #three-cols .responsive img {
+      width: 100% !important; }
+
   tr[id=webversion] {
     display: none !important; }
 
@@ -696,7 +702,8 @@ a[x-apple-data-detectors] {
   table[class=table-row] table[class=table-row-2],
   table[class=table-row] table[class=table-col2],
   table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
-    width: 100% !important; }
+    width: 100% !important;
+    display: block !important; }
 
   table[class=w140], td[class=w140], img[class=w140] {
     width: 90px !important; }

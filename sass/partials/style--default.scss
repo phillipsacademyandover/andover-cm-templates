@@ -650,6 +650,18 @@ a[x-apple-data-detectors] {
     }
 }
 @media only screen and (max-width: 660px) {
+    
+    #three-cols__parent {
+        #three-cols .responsive {
+            width:100% !important;
+            display: table;
+            
+            img {
+                width:100% !important;
+            }
+        }
+    }
+    
 	tr[id=webversion] {
 		display:none !important;	
 	}
@@ -726,8 +738,19 @@ a[x-apple-data-detectors] {
 	div[id=date] {
 		font-weight:bold !important;	
 	}
+
 }
+
 @media only screen and (max-width: 568px) {
+    
+//    #three-cols__parent {
+//        #three-cols .responsive {
+//            width:100% !important;
+//            display: block;
+//        }
+//    }
+    
+    
     br[class=block--med],
     span[class=block--med] {
         display: block !important;
@@ -746,6 +769,7 @@ a[x-apple-data-detectors] {
         width:30% !important;
     }
 }
+
 @media only screen and (max-width: 480px) {
     br[class=block--small],
     span[class=block--small] {
@@ -761,6 +785,7 @@ a[x-apple-data-detectors] {
 	table[class=table-row] table[class=table-col2],
 	table[class=responsive-phone], td[class=responsive-phone], img[class=responsive-phone] {
 		width:100% !important;
+        display:block !important;
 	}
 	table[class=w140], td[class=w140], img[class=w140] { width:90px !important; }
 	table[class=w140-story], td[class=w140-story], img[class=w140-story] { width:90px !important;height:auto !important; }
