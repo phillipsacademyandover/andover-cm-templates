@@ -14,7 +14,18 @@
     # PA Secondary Colors
 \*------------------------------------*/
 /* --- Tints --- */
-/* --- PA --- */
+/*------------------------------------*\
+    # Strategic Plan Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # COLOR
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT SIZE
+\*------------------------------------*/
 /* --- PA Style Guide --- */
 /* Mobile-specific Styles */
 @media only screen and (max-width: 660px) {
@@ -389,6 +400,59 @@ h1.section-title {
   margin-bottom: 5px; }
 
 /*------------------------------------*\
+    # CONTENT BOX
+\*------------------------------------*/
+table {
+  border-collapse: collapse; }
+
+.blue-box {
+  background-color: #003c7f;
+  border-top: 10px solid #003c7f;
+  border-right: 16px solid #003c7f;
+  border-left: 16px solid #003c7f;
+  border-bottom: 10px solid #003c7f;
+  color: #ffffff !important;
+  line-height: 1;
+  margin-top: 0px;
+  Margin-bottom: 0px; }
+  .blue-box p {
+    color: #ffffff;
+    margin-top: 0 !important;
+    Margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    Margin-bottom: 0 !important; }
+
+.reasons-content {
+  font-size: 15px;
+  line-height: 1;
+  color: #333333;
+  margin-top: 0px;
+  Margin-bottom: 0px; }
+  .reasons-content p {
+    margin-top: 0 !important;
+    Margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    Margin-bottom: 0 !important; }
+
+.border {
+  border: 11px solid #ffffff; }
+
+@media only screen and (max-width: 660px) {
+  .border {
+    border: 0px solid #ffffff; } }
+.font-large {
+  font-size: 18px; }
+
+.font-xxlarge {
+  font-size: 36px; }
+
+@media screen and (max-width: 660px) {
+  #two-cols .fixed-height {
+    height: auto !important; }
+
+  #three-cols .fixed-height {
+    height: auto !important; } }
+/*------------------------------------*\
     # CALLOUT
 \*------------------------------------*/
 #callout--title .article-content {
@@ -584,12 +648,6 @@ a[x-apple-data-detectors] {
   .pb-button {
     max-width: 50%; } }
 @media only screen and (max-width: 660px) {
-  #three-cols__parent #three-cols .responsive {
-    width: 100% !important;
-    display: table; }
-    #three-cols__parent #three-cols .responsive img {
-      width: 100% !important; }
-
   tr[id=webversion] {
     display: none !important; }
 
@@ -600,7 +658,7 @@ a[x-apple-data-detectors] {
   table[class=table-row], td[class=table-row], img[class=table-row] {
     width: 100% !important; }
 
-  table[class=responsive-signature], td[class=responsive-signature], img[class=responsive-signature] {
+  table[class=responsive-signature], td[class=responsive-signature], img[class=responsive-signature], table[class=responsive-img], td[class=responsive-img], img[class=responsive-img] {
     width: 100% !important;
     height: auto !important; }
 
@@ -738,6 +796,115 @@ a[x-apple-data-detectors] {
 
   table[class=branding__logo], td[class=branding__logo], img[class=branding__logo] {
     width: 40% !important; } }
+/*------------------------------------*\
+    # Based on Stig Myre's mobile-first email solution
+    ## https://medium.com/cm-engineering/coding-mobile-first-emails-1513ac4673e
+
+    # Based on Remi Parmentier
+    ## https://medium.freecodecamp.com/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848#.g86deeokc
+    
+    # Based on CM Order of Stacked Columns in Responsive Email Design
+    ## https://www.campaignmonitor.com/blog/email-marketing/2014/10/order-stacked-columns-responsive-email/
+/*------------------------------------*/
+.layout {
+  display: table;
+  Margin: 0 auto;
+  width: 100%; }
+
+.narrow {
+  Float: left;
+  min-width: 200px;
+  width: 35%;
+  max-width: 100%;
+  min-width: -webkit-calc(35%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(35%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.wide {
+  Float: left;
+  min-width: 410px;
+  width: 65%;
+  max-width: 100%;
+  min-width: -webkit-calc(65%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(65%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.img__responsive {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+@media screen and (min-width: 480px) {
+  .layout {
+    width: 100% !important; }
+
+  .column {
+    display: table-cell; }
+
+  .narrow {
+    Float: none !important;
+    width: 35% !important; }
+
+  .wide {
+    Float: none !important;
+    width: 65% !important; }
+
+  .img__responsive {
+    display: inherit !important;
+    width: 100% !important;
+    height: auto !important; } }
+@media screen and (min-width: 630px) {
+  .narrow {
+    Float: none !important;
+    width: 200px !important; }
+
+  .wide {
+    Float: none !important;
+    width: 410px !important; } }
+@media screen and (max-width: 480px) {
+  .full {
+    display: block; } }
+/* OWA */
+[owa] .layout {
+  width: 610px !important; }
+
+[owa] .column {
+  display: table-cell; }
+
+[owa] .narrow {
+  width: 200px !important;
+  vertical-align: top; }
+
+[owa] .wide {
+  width: 410px !important;
+  vertical-align: top; }
+
+[owa] .narrow .spacing {
+  Margin: 15px 0 15px 5px !important; }
+
+[owa] .wide .spacing {
+  Margin: 0 10px 15px 0 !important; }
+
+/*------------------------------------*\
+    # STORY
+/*------------------------------------*/
+.story .narrow .spacing {
+  Margin: 15px 0; }
+.story .wide .spacing {
+  Margin: 15px; }
+@media screen and (min-width: 480px) {
+  .story .narrow .spacing {
+    Margin: 15px 0 !important; } }
     
 </style>
 
@@ -752,7 +919,18 @@ a[x-apple-data-detectors] {
     # PA Secondary Colors
 \*------------------------------------*/
 /* --- Tints --- */
-/* --- PA --- */
+/*------------------------------------*\
+    # Strategic Plan Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # COLOR
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT SIZE
+\*------------------------------------*/
 /* --- PA Style Guide --- */
 /* --- lt mso 9 --- */
 .title-purpose {
@@ -766,6 +944,11 @@ a[x-apple-data-detectors] {
 .article-purpose a {
   color: #003c7f;
   text-decoration: underline; }
+
+.img__responsive {
+  width: 168px;
+  height: 93px;
+  max-width: 168px; }
 </style>
 <![endif]-->
 <!--[if gte mso 9]>
@@ -779,7 +962,18 @@ a[x-apple-data-detectors] {
     # PA Secondary Colors
 \*------------------------------------*/
 /* --- Tints --- */
-/* --- PA --- */
+/*------------------------------------*\
+    # Strategic Plan Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # COLOR
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT SIZE
+\*------------------------------------*/
 /* --- PA Style Guide --- */
 /* --- lt mso 9 --- */
 .title-purpose {
@@ -803,6 +997,17 @@ a[x-apple-data-detectors] {
   Margin: 0 0 0 24px;
   padding: 0;
   list-style: none; }
+
+table {
+  border-collapse: collapse; }
+
+#two-cols .fixed-height {
+  height: auto !important;
+  line-height: 60px !important; }
+
+#three-cols .fixed-height {
+  height: auto !important;
+  line-height: 60px !important; }
 </style>
 <![endif]-->
 <!--[if gte mso 15]>
@@ -998,11 +1203,6 @@ a[x-apple-data-detectors] {
             </div>
         </td>
     </tr>
-<!--
-    <tr style="border-collapse:collapse;">
-        <td class="responsive" width="610" height="15" style="font-size:15px;line-height:15px;">&nbsp;</td>
-    </tr>
--->
     </tbody>
     </table>
 </layout>                            <layout label="Text + Left Image">
@@ -1101,7 +1301,7 @@ a[x-apple-data-detectors] {
     <tbody>
     <tr style="border-collapse:collapse;">
         <td align="center" class="responsive image__fullwidth" width="610">
-            <img editable="true" label="Full-width Image" class="responsive" src="" width="610" height="auto" border="0" style="Margin:0 auto;">
+            <img editable="true" label="Full-width Image" class="responsive" src="http://placehold.it/610x150" width="610" height="auto" border="0" style="Margin:0 auto;">
         </td>
     </tr>
     <tr style="border-collapse:collapse;">

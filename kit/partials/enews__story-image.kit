@@ -6,15 +6,35 @@
     <tr>
         <td class="responsive-padding" width="15"></td>
         <td class="responsive-content" width="610" valign="middle">
-            <table class="responsive" width="610" cellpadding="0" cellspacing="0" border="0">
+            <table class="responsive" width="100%" cellpadding="0" cellspacing="0" border="0" dir="rtl">
             <tbody>
             <tr style="border-collapse:collapse;">
-                <!-- TABLE 1 -->
-                <td class="auto" width="408">
-                    <table class="auto" width="408" cellpadding="0" cellspacing="0" border="0" align="left">
+                <!-- TABLE 2 -->
+                <td class="responsive-phone" width="192" dir="ltr">
+                    <p>(right)</p>
+
+                    <table class="responsive" width="192" cellpadding="0" cellspacing="0" border="0">
                     <tbody>
                     <tr style="border-collapse:collapse;">
-                        <td class="auto" width="408" align="left" valign="middle">
+                        <td width="10"></td>
+                        <td class="responsive" width="182" align="right" valign="middle">
+                            <div align="right" class="article-content" style="border:1px solid <!--$pa-navy-->;">
+                                <img editable="true" label="Story Image" src="" width="180" height="auto" border="0" class="responsive-img" />
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                    </table>
+
+                </td>
+                
+                <!-- TABLE 1 -->
+                <td class="responsive-phone" width="418" dir="ltr">
+                    <p>(left)</p>
+                    <table class="responsive" width="418" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr style="border-collapse:collapse;">
+                        <td class="responsive" width="418" align="left" valign="middle">
                             <h2 align="left" class="article-title" style="padding-right:10px;">
                                 <singleline label="Title" repeatertitle='true'>Add a story title</singleline>
                             </h2>
@@ -27,22 +47,7 @@
                     </tbody>
                     </table>
                 </td>
-
-                <!-- TABLE 2 -->
-                <td class="w170" width="192">
-                    <table class="w170" width="192" cellpadding="0" cellspacing="0" border="0" align="right">
-                    <tbody>
-                    <tr style="border-collapse:collapse;">
-                        <td width="10"></td>
-                        <td class="w140" width="182" align="right" valign="middle">
-                            <div align="right" class="article-content" style="border:1px solid <!--$pa-navy-->;">
-                                <img editable="true" label="Story Image" src="" width="180" height="115" border="0" class="w140-story" />
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                    </table>
-                </td>
+                
             </tr>
             </tbody>
             </table>
@@ -52,5 +57,163 @@
     <tr><td class="responsive" height="10" colspan="3"></td></tr>
     </tbody>
     </table>
+    
+    <!-- Based on Stig Myre's mobile-first email solution -->
+    <!-- https://medium.com/cm-engineering/coding-mobile-first-emails-1513ac4673e -->
+    <style>
+        .wrapper {}
+        .layout {
+            display: table;
+            Margin: 0 auto;
+            width:100%;
+/*
+            max-width: 610px;
+            min-width: 320px;
+            width:320px;
+            width:calc((610px - 320px) * 100% - (610px - 320px) * 630px - 610px);
+*/
+/*            width: calc((Desktop Width - Mobile Width) * 100% - (Desktop Width - Mobile Width) * Breakpoint - Desktop Width);*/
+        }
+        .narrow {
+/*            display: inline-block;*/
+            Float:right;
+            min-width: 200px;
+            width:35%;
+            max-width: 100%;
+            min-width:-webkit-calc(35%); /* < Android 5, < iOS 7 */
+            min-width: calc(35%);
+            width:-webkit-calc((480px - 100%) * 480); /* < Android 5, < iOS 7 */
+            width:calc((480px - 100%) * 480);
+            vertical-align: top;
+/*
+            Float:left;
+            min-width: 200px;
+            max-width: 320px;
+*/
+/*                width:30% !important;*/
+/*
+            width: 100%;
+            width: calc(((320px - 200px) * (480px - 1px) + 320px) - (320px - 200px) * 100%);
+*/
+/*                width: calc(((Mobile Width - Desktop Width) * (Breakpoint - 1px) + Mobile Width) - (Mobile Width - Desktop Width) * 100%);*/
+        }
+        .wide {
+/*            display: inline-block;*/
+            Float:right;
+            min-width: 420px;
+            width:65%;
+            max-width: 100%;
+            min-width:-webkit-calc(65%); /* < Android 5, < iOS 7 */
+            min-width: calc(65%);
+            width:-webkit-calc((480px - 100%) * 480); /* < Android 5, < iOS 7 */
+            width:calc((480px - 100%) * 480);
+            vertical-align: top;
+/*
+            Float:left;
+            min-width: 320px;
+            max-width: 410px;
+*/
+/*                width:70% !important;*/
+/*
+            width: 100%;
+            width: calc((410px - 320px) * 100% - (410px - 320px) * 480px - 410px);
+*/
+/*                width: calc((Desktop Width - Mobile Width) * 100% - (Desktop Width - Mobile Width) * Breakpoint - Desktop Width);*/
+
+        }
+        @media screen and (min-width:480px) {
+            .layout {
+                width:100% !important;
+            }
+            .column {
+                display: table-cell;
+            }
+            .narrow {
+                width:35% !important;
+            }
+            .wide {
+                width:65% !important;
+            }
+        }
+        @media screen and (min-width:630px) {
+            .narrow {
+                Float:none !important;
+                width:200px !important;
+            }
+            .wide {
+                Float:none !important;
+                width:420px !important;
+            }
+        }
+        @media screen and (max-width:480px) {
+            .full {
+                display: block;
+            }
+        }
+        .spacing {
+            Margin:10px 15px;
+        }
+        p {
+            Margin:10px 0;
+        }
+        
+        /* OWA */
+        [owa] .layout {
+          width: 640px !important;
+        }
+        [owa] .column {
+          display: table-cell;
+        }
+        [owa] .narrow {
+          width: 200px !important;
+        }
+        [owa] .wide {
+          width: 420px !important;
+        }
+    </style>
+    <div class="wrapper">
+        <div class="layout" dir="rtl">
+            <!--[if (mso)|(IE)]>
+            <table class="layout" cellpadding="0" cellspacing="0" align="center" bgcolor="#edece6">
+            <tr>
+                <td class="column" valign="top" style="width: 200px;">
+            <![endif]-->
+            <div class="column full narrow" dir="ltr">
+                <div class="spacing">
+<!--
+                    <p>small column</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+-->
+                    <div align="left" class="article-content" style="border:1px solid <!--$pa-navy-->;">
+                        <img editable="true" label="Story Image" src="" width="198" height="auto" border="0" class="responsive-img" />
+                    </div>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+                <td class="column" valign="top" style="width: 420px;">
+            <![endif]-->
+            <div class="column full wide" dir="ltr">
+                <div class="spacing">
+<!--
+                    <p>wide column</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+-->
+                    <h2 align="left" class="article-title" style="text-align:left;">
+                        <singleline label="Title" repeatertitle='true'>Add a story title</singleline>
+                    </h2>
+                    <div align="left" class="article-content" style="text-align:left;">
+                        <multiline label="Description">Enter your description</multiline>
+                        <singleline label="Story Link">Read More &raquo;</singleline>
+                    </div>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </div>
 
 </layout>

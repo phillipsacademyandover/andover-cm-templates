@@ -7,7 +7,18 @@
     # PA Secondary Colors
 \*------------------------------------*/
 /* --- Tints --- */
-/* --- PA --- */
+/*------------------------------------*\
+    # Strategic Plan Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # COLOR
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT SIZE
+\*------------------------------------*/
 /* --- PA Style Guide --- */
 /* --- lt mso 9 --- */
 .title-purpose {
@@ -31,3 +42,14 @@
   Margin: 0 0 0 24px;
   padding: 0;
   list-style: none; }
+
+table {
+  border-collapse: collapse; }
+
+#two-cols .fixed-height {
+  height: auto !important;
+  line-height: 60px !important; }
+
+#three-cols .fixed-height {
+  height: auto !important;
+  line-height: 60px !important; }

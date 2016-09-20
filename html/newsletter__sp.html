@@ -1,0 +1,1186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge" /><!--<![endif]-->
+    <meta name="viewport" content="width=device-width" />
+    <style type="text/css">
+        /* --- Style --- */
+/* --- PA Style Guide --- */
+/*------------------------------------*\
+    # PA Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # PA Secondary Colors
+\*------------------------------------*/
+/* --- Tints --- */
+/*------------------------------------*\
+    # Strategic Plan Primary Colors
+\*------------------------------------*/
+/*------------------------------------*\
+    # COLOR
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT
+\*------------------------------------*/
+/*------------------------------------*\
+    # FONT SIZE
+\*------------------------------------*/
+/* --- PA Style Guide --- */
+/*------------------------------------*\
+    # BOURBON FRAMEWORK
+/*------------------------------------*/
+/*------------------------------------*\
+    # GLOBAL
+/*------------------------------------*/
+.ReadMsgBody {
+  width: 100%; }
+
+.ExternalClass {
+  width: 100%;
+  display: block !important; }
+
+/* Reset Styles */
+body {
+  Margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100% !important;
+  width: 100% !important;
+  min-width: 100%; }
+
+img {
+  display: block;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+  max-width: 100%; }
+
+.center {
+  text-align: center; }
+  .center img {
+    display: inline; }
+
+br, strong br, b br, em br, i br {
+  line-height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 130% !important;
+  -webkit-font-smoothing: antialiased; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #0058a0 !important; }
+
+h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+  color: #0058a0 !important; }
+
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+  color: #0058a0 !important; }
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt; }
+  table tr,
+  table td {
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt; }
+
+body, td {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+
+a {
+  color: #0058a0;
+  font-weight: bold;
+  text-decoration: underline; }
+
+ol,
+ul {
+  Margin: 0 0 18px 19px;
+  padding: 0; }
+  ol li,
+  ul li {
+    line-height: 130%;
+    color: #333333; }
+
+p {
+  line-height: 130%;
+  Margin-top: 0 !important;
+  Margin-bottom: 15px !important; }
+
+/*------------------------------------*\
+    # HELPER CLASSES
+/*------------------------------------*/
+.hide {
+  display: none !important; }
+
+.block {
+  display: block !important;
+  width: 100% !important; }
+
+.center {
+  text-align: center; }
+  .center img {
+    display: inline; }
+
+/*------------------------------------*\
+    # LAYOUT
+/*------------------------------------*/
+body {
+  background: #ffffff; }
+
+.layout {
+  display: table;
+  Margin: 0 auto;
+  max-width: 640px;
+  width: 100%; }
+  .layout--inner {
+    display: table;
+    Margin: 0 auto;
+    max-width: 610px;
+    width: 100%; }
+
+.one-col {
+  Float: none;
+  min-width: 320px;
+  width: 100%;
+  max-width: 100%;
+  min-width: -webkit-calc(100%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(100%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.two-col {
+  Float: left;
+  min-width: 320px;
+  width: 50%;
+  max-width: 100%;
+  min-width: -webkit-calc(50%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(50%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.three-col {
+  Float: left;
+  min-width: 213px;
+  width: 33.333%;
+  max-width: 100%;
+  min-width: -webkit-calc(33.333%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(33.333%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.twothird-col {
+  Float: left;
+  min-width: 427px;
+  width: 66.666%;
+  max-width: 100%;
+  min-width: -webkit-calc(66.666%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(66.666%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.four-col {
+  Float: left;
+  min-width: 160px;
+  width: 25%;
+  max-width: 100%;
+  min-width: -webkit-calc(25%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(25%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.auto-col {
+  display: inline-block;
+  min-width: inherit;
+  width: inherit;
+  max-width: 100%;
+  min-width: -webkit-calc(auto);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(auto);
+  width: -webkit-calc((480px - inherit) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - inherit) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+@media screen and (min-width: 620px) {
+  .threequarter-col {
+    Float: left;
+    min-width: 320px;
+    width: 75%;
+    max-width: 100%;
+    min-width: -webkit-calc(75%);
+    /* < Android 5, < iOS 7 */
+    min-width: calc(75%);
+    width: -webkit-calc((480px - 100%) * 480);
+    /* < Android 5, < iOS 7 */
+    width: calc((480px - 100%) * 480);
+    /* (Breakpoint - Max-Width) * Breakpoint */
+    vertical-align: top; } }
+.column {
+  display: table-cell; }
+
+[owa] .layout {
+  width: 640px !important; }
+  [owa] .layout--inner {
+    width: 610px !important; }
+
+[owa] .column {
+  display: table-cell; }
+
+[owa] .one-col {
+  width: 640px !important;
+  vertical-align: top; }
+
+[owa] .two-col {
+  width: 320px !important;
+  vertical-align: top; }
+
+[owa] .three-col {
+  width: 213px !important;
+  vertical-align: top; }
+
+[owa] .twothird-col {
+  width: 426px !important;
+  vertical-align: top; }
+
+[owa] .four-col {
+  width: 160px !important;
+  vertical-align: top; }
+
+[owa] .threequarter-col {
+  width: 480px !important;
+  vertical-align: top; }
+
+@media screen and (min-width: 180px) {
+  .layout,
+  .layout--inner {
+    width: 100% !important; } }
+@media screen and (min-width: 480px) {
+  .column {
+    display: table-cell; }
+
+  .one-col {
+    width: 100%; }
+
+  .two-col {
+    width: 50%; }
+
+  .three-col {
+    width: 33.333%; }
+
+  .twothird-col {
+    width: 66.666%; }
+
+  .four-col {
+    width: 25%; }
+
+  .threequarter-col {
+    width: 75%; } }
+@media screen and (min-width: 630px) {
+  .layout {
+    width: 640px !important; }
+    .layout--inner {
+      width: 610px !important; }
+
+  .one-col {
+    width: 640px !important; }
+
+  .two-col {
+    width: 320px !important; }
+
+  .three-col {
+    width: 213px !important; }
+
+  .twothird-col {
+    width: 426px !important; }
+
+  .four-col {
+    width: 160px !important; }
+
+  .threequarter-col {
+    width: 480px !important; } }
+.spacing {
+  Margin: 15px 0; }
+  .spacing--horz {
+    padding-right: 15px;
+    padding-left: 15px; }
+  .spacing--horz__left {
+    padding-left: 15px; }
+  .spacing--bottom {
+    Margin: 0 0 15px 0 !important; }
+  .spacing--no-top {
+    Margin-top: 0 !important; }
+  .spacing--no-bottom {
+    Margin-bottom: 0 !important; }
+  #header .spacing {
+    Margin: 0 0 30px 0; }
+  .img--full .spacing {
+    Margin: 0; }
+  .headline .spacing {
+    Margin: 8px 0 0 0; }
+  .one-col--text .spacing, .two-col .spacing, .three-col .spacing, .twothird-col .spacing {
+    Margin: 15px; }
+  .img-col--left .spacing, .img-col--middle .spacing, .img-col--right .spacing {
+    Margin: 15px 0; }
+  .img-col--left .spacing {
+    padding-right: 1px; }
+  .img-col--middle .spacing {
+    padding-right: 1px;
+    padding-left: 1px; }
+  .img-col--right .spacing {
+    padding-left: 1px; }
+  @media screen and (max-width: 480px) {
+    .img-col--left .spacing {
+      padding-right: 0 !important; }
+    .img-col--middle .spacing {
+      padding-right: 0 !important;
+      padding-left: 0 !important; }
+    .img-col--right .spacing {
+      padding-left: 0 !important; } }
+  .no-bottom .spacing {
+    Margin-bottom: 0; }
+  .no-top .spacing {
+    Margin-top: 0; }
+  .brand__spacing .spacing {
+    Margin: 10px 0; }
+
+[owa] .img-col--left .spacing {
+  padding-right: 1px !important; }
+
+[owa] .img-col--middle .spacing {
+  padding-right: 1px !important;
+  padding-left: 1px !important; }
+
+[owa] .img-col--right .spacing {
+  padding-left: 1px !important; }
+
+/*------------------------------------*\
+    # IMAGE
+/*------------------------------------*/
+.responsive__img {
+  display: block;
+  width: 100%;
+  height: auto; }
+  @media screen and (min-width: 480px) {
+    .responsive__img {
+      display: inherit !important;
+      width: 100% !important;
+      height: auto !important; } }
+  @media screen and (min-width: 630px) {
+    .responsive__img--full {
+      width: 640px !important; } }
+
+/*------------------------------------*\
+    # PREVIEW TEXT
+/*------------------------------------*/
+.preview__content {
+  color: #ffffff !important; }
+  .preview__content p {
+    color: #ffffff !important;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1px !important;
+    height: 0px !important;
+    line-height: 1px !important;
+    max-height: 0px;
+    max-width: 0px;
+    mso-hide: all;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+    Margin-top: 0 !important;
+    Margin-bottom: 0 !important; }
+
+/*------------------------------------*\
+    # BRAND HEADER
+/*------------------------------------*/
+.brand__head {
+  color: #ffffff !important;
+  width: 160px; }
+  @media screen and (max-width: 520px) {
+    .brand__head {
+      width: 147px !important; } }
+
+.brand__img {
+  Margin: 0 auto !important; }
+  @media screen and (max-width: 520px) {
+    .brand__img {
+      width: 100px !important;
+      height: auto !important; } }
+
+.brand__txt {
+  color: #ffffff !important;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: oblique;
+  vertical-align: middle; }
+
+/*------------------------------------*\
+    # CONTENT
+/*------------------------------------*/
+.headline-title {
+  color: #ffffff !important;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 130%;
+  Margin-top: 0px;
+  Margin-bottom: 0px; }
+  .headline-title p {
+    Margin-bottom: 8px !important; }
+  .headline-title a {
+    color: #ffffff !important;
+    text-decoration: underline; }
+
+.title {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 130%;
+  Margin: 0; }
+  .title--xxlarge {
+    font-size: 36px; }
+  .title--xlarge {
+    font-size: 32px; }
+  .title--large {
+    font-size: 24px; }
+
+/*------------------------------------*\
+    # COLOR HELPER CLASSES
+/*------------------------------------*/
+.bg__pa-blue {
+  background: #0058a0; }
+
+/*------------------------------------*\
+    # FOOTER
+/*------------------------------------*/
+.footer {
+  color: #333333;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+  .footer .vcard {
+    font-family: Georgia, Times, serif; }
+  .footer .vcard,
+  .footer .legal {
+    font-size: 12px; }
+
+.vcard,
+.webversion,
+.legal {
+  line-height: 140%;
+  text-align: center; }
+
+/* MOBILE STREET ADDRESS */
+@media screen and (max-width: 479px) {
+  .vcard .street-address {
+    display: block !important;
+    width: 100% !important; }
+  .vcard .mobile-hide {
+    display: none !important; } }
+/*------------------------------------*\
+    # Based on Stig Myre's mobile-first email solution
+    ## https://medium.com/cm-engineering/coding-mobile-first-emails-1513ac4673e
+
+    # Based on Remi Parmentier
+    ## https://medium.freecodecamp.com/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848#.g86deeokc
+    
+    # Based on CM Order of Stacked Columns in Responsive Email Design
+    ## https://www.campaignmonitor.com/blog/email-marketing/2014/10/order-stacked-columns-responsive-email/
+/*------------------------------------*/
+.layout {
+  display: table;
+  Margin: 0 auto;
+  width: 100%; }
+
+.narrow {
+  Float: left;
+  min-width: 200px;
+  width: 35%;
+  max-width: 100%;
+  min-width: -webkit-calc(35%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(35%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.wide {
+  Float: left;
+  min-width: 410px;
+  width: 65%;
+  max-width: 100%;
+  min-width: -webkit-calc(65%);
+  /* < Android 5, < iOS 7 */
+  min-width: calc(65%);
+  width: -webkit-calc((480px - 100%) * 480);
+  /* < Android 5, < iOS 7 */
+  width: calc((480px - 100%) * 480);
+  /* (Breakpoint - Max-Width) * Breakpoint */
+  vertical-align: top; }
+
+.img__responsive {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+@media screen and (min-width: 480px) {
+  .layout {
+    width: 100% !important; }
+
+  .column {
+    display: table-cell; }
+
+  .narrow {
+    Float: none !important;
+    width: 35% !important; }
+
+  .wide {
+    Float: none !important;
+    width: 65% !important; }
+
+  .img__responsive {
+    display: inherit !important;
+    width: 100% !important;
+    height: auto !important; } }
+@media screen and (min-width: 630px) {
+  .narrow {
+    Float: none !important;
+    width: 200px !important; }
+
+  .wide {
+    Float: none !important;
+    width: 410px !important; } }
+@media screen and (max-width: 480px) {
+  .full {
+    display: block; } }
+/* OWA */
+[owa] .layout {
+  width: 610px !important; }
+
+[owa] .column {
+  display: table-cell; }
+
+[owa] .narrow {
+  width: 200px !important;
+  vertical-align: top; }
+
+[owa] .wide {
+  width: 410px !important;
+  vertical-align: top; }
+
+[owa] .narrow .spacing {
+  Margin: 15px 0 15px 5px !important; }
+
+[owa] .wide .spacing {
+  Margin: 0 10px 15px 0 !important; }
+
+/*------------------------------------*\
+    # STORY
+/*------------------------------------*/
+.story .narrow .spacing {
+  Margin: 15px 0; }
+.story .wide .spacing {
+  Margin: 15px; }
+@media screen and (min-width: 480px) {
+  .story .narrow .spacing {
+    Margin: 15px 0 !important; } }
+
+/*------------------------------------*\
+    # FOOTER
+/*------------------------------------*/
+#footer {
+  background: #f5f5f5; }
+ 
+    </style>
+
+    <!-- Text -->
+    
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+    <div id="preview" class="layout">
+        <!--[if (mso)|(IE)]>
+        <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="640">
+        <tr>
+            <td width="640">
+        <![endif]-->
+        <div class="column one-col">
+            <div class="preview__content">
+                <multiline editable label="Preheader Text"><p>Preheader Text Goes Here</p></multiline>
+            </div>
+        </div>
+        <!--[if (mso)|(IE)]>
+            </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </div>
+</div><!-- include ../partials/NEW__brandbar.kit -->
+<!-- include ../partials/NEW__header__parentbulletin.kit -->
+<div class="wrapper">
+    <div id="brand" class="layout">
+        <!--[if mso]>
+        <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="640">
+        <tr>
+            <td align="left" width="147">
+                <table cellpadding="0" cellspacing="0" border="0" align="left" valign="top" width="147" bgcolor="#0058a0">
+                <tr>
+                    <td width="15">&nbsp;</td>
+                    <td width="117">
+        <![endif]-->
+        <div class="column four-col bg__pa-blue brand__spacing brand__head">
+            <div class="spacing spacing--horz">
+                <img src="images/andover__txt__2x.png" width="117" height="17" border="0" alt="Andover" class="brand__img" />
+            </div>
+        </div>
+        <!--[if mso]>
+                </td>
+                    <td width="15">&nbsp;</td>
+                </tr>
+                </table>
+            </td>
+            <td width="493">&nbsp;</td>
+        </tr>
+        </table>
+        <![endif]-->
+    </div>
+<!--</div>-->
+    <!---------------------->
+    <!-- Full-width Image -->
+    <!---------------------->
+    <div id="header">
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="640">
+            <tr>
+                <td class="column one-col" valign="top" width="640">
+            <![endif]-->
+            <div class="column one-col">
+                <div class="spacing">
+                    <a href="">
+                        <img src="http://placehold.it/640x150" width="640" height="auto" border="0" alt="" class="responsive__img responsive__img--full" />
+                    </a>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+        <!----------------->
+        <!-- Large Title -->
+        <!----------------->
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+            <tbody>
+            <tr>
+                <td width="15"></td>
+                <td width="610">
+                <![endif]-->
+                <div class="column one-col spacing--horz">
+                    <div class="spacing">
+                        <div align="center" class="title--xlarge">
+                            Strategic Plan Newsletter
+                        </div>
+                    </div>
+                </div>
+                <!--[if (mso)|(IE)]>
+                </td>
+                <td width="15"></td>
+            </tr>
+            </tbody>
+            </table>
+            <![endif]-->
+        </div>
+    </div>
+    <div id="intro">
+        <!---------------------->
+        <!-- Full-width Image -->
+        <!---------------------->
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" width="640">
+            <tr>
+                <td class="column one-col" valign="top" width="640">
+            <![endif]-->
+            <div class="column one-col img--full">
+                <div class="spacing">
+                    <img editable="true" label="Image" src="http://placehold.it/640x150" width="640" height="auto" border="0" class="responsive__img responsive__img--full" />
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+        <!-------------------->
+        <!-- Title and Text -->
+        <!-------------------->
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+            <tbody>
+            <tr>
+                <td width="15"></td>
+                <td width="610">
+                <![endif]-->
+                <div class="column one-col spacing--horz">
+                    <div class="spacing">
+                        <div align="left" class="title--large">
+                            <singleline label="Title" repeatertitle='true'>Add a title</singleline>
+                        </div>
+                        <div align="left" class="article-content">
+                            <multiline label="Description">Enter your description</multiline>
+                        </div>
+
+                    </div>
+                </div>
+                <!--[if (mso)|(IE)]>
+                </td>
+                <td width="15"></td>
+            </tr>
+            </tbody>
+            </table>
+            <![endif]-->
+        </div>
+        
+    </div>
+    
+    <div id="news">
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+            <tbody>
+            <tr>
+                <td width="15"></td>
+                <td width="640">
+                <![endif]-->
+                <div class="column one-col spacing--horz">
+                    <div class="spacing" style="Margin:30px 0 15px 0;">
+
+                        <div align="left" style="font-weight:bold;text-transform:uppercase;">
+                            News
+                        </div>
+
+                    </div>
+                </div>
+                <!--[if (mso)|(IE)]>
+                </td>
+                <td width="15"></td>
+            </tr>
+            </tbody>
+            </table>
+            <![endif]-->
+        </div>
+        <div class="layout">
+        <!--[if (mso)|(IE)]>
+        <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+        <tbody>
+        <tr>
+            <td width="640">
+            <![endif]-->
+            <div class="column one-col">
+
+                    <div>
+                        <repeater>
+                            <layout label="Story">
+    
+<div class="layout">
+    <!--[if (mso)|(IE)]>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+    <tbody>
+    <tr>
+        <td width="15"></td>
+        <td width="610">
+        <![endif]-->
+        <div class="column one-col spacing--horz">
+            <div class="spacing">
+                <div align="left" class="title--large">
+                    <singleline label="Title">Add a title</singleline>
+                </div>
+                <div align="left">
+                    <multiline label="Description">Enter your description</multiline>
+                    <singleline label="Story Link">Read More &raquo;</singleline>
+                </div>
+                        
+            </div>
+        </div>
+        <!--[if (mso)|(IE)]>
+        </td>
+        <td width="15"></td>
+    </tr>
+    </tbody>
+    </table>
+    <![endif]-->
+</div>
+    
+</layout>                            <layout label="Story with Image">
+    
+    <div class="story">
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table cellpadding="0" cellspacing="0" align="center" valign="top" bgcolor="#ffffff">
+            <tr>
+                <td valign="top" width="200">
+            <![endif]-->
+            <div align="left" class="column full narrow">
+                <div class="spacing">
+                    <div>
+                        <img editable="true" label="Story Image" src="http://placehold.it/200x100" width="200" height="auto" border="0" class="img__responsive" />
+                    </div>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+                <td valign="top" width="440">
+            <![endif]-->
+            <div align="left" class="column full wide">
+                <div class="spacing">
+                    <div class="title--large" style="text-align:left;">
+                        <singleline label="Title">Add a story title</singleline>
+                    </div>
+                    <div style="Margin-bottom:0 !important;text-align:left;">
+                        <multiline label="Description">Enter your description</multiline>
+                        <singleline label="Story Link">Read More &raquo;</singleline>
+                    </div>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </div>
+
+</layout>                        </repeater>
+                    </div>
+
+            </div>
+
+            <!--[if (mso)|(IE)]>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+        <![endif]-->
+        </div>
+    </div>
+    
+    <div id="milestones">
+        <div class="layout">
+            <!--[if (mso)|(IE)]>
+            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+            <tbody>
+            <tr>
+                <td width="15"></td>
+                <td width="640">
+                <![endif]-->
+                <div class="column one-col spacing--horz">
+                    <div class="spacing" style="Margin:30px 0 15px 0;">
+
+                        <div align="left" style="font-weight:bold;text-transform:uppercase;">
+                            Milestones
+                        </div>
+
+                    </div>
+                </div>
+                <!--[if (mso)|(IE)]>
+                </td>
+                <td width="15"></td>
+            </tr>
+            </tbody>
+            </table>
+            <![endif]-->
+        </div>
+        <div class="layout">
+    <!--[if (mso)|(IE)]>
+    <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+    <tbody>
+    <tr>
+        <td width="640">
+        <![endif]-->
+        <div class="column one-col">
+            <div class="spacing spacing--horz">
+                
+                <div>
+                    <repeater>
+                        <layout label="Milestone List - Orange">
+                            <!--[if !mso]><!-->
+                            <table align="center" valign="top" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="100%">
+                            <!--<![endif]-->
+                            <!--[if mso]>
+                            <table align="center" valign="top" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+                            <![endif]-->
+                            <tbody>
+                            <tr>
+                                <!--[if mso]>
+                                <td width="20">&nbsp;</td>
+                                <![endif]-->
+                                <td width="20" background="images/milestones__bg__1x.gif" valign="top" style="background-repeat:repeat-y;">
+                                <!--[if mso]>
+                                <img src="https://enews.andover.edu/newsletter/strategicplan/images/mso__milestones__bg__1x.gif" height="100" width="20" border="0" style="display: block;" />
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="position:relative;top:0;left:0;width:20px;height:100px;">  
+                                    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                        <div>
+                            <![endif]-->
+                                    
+                                <span>
+                                    <img src="images/orange__1x.gif" height="20" width="20" border="0" />
+                                </span>
+                                    
+                                <!--[if mso]>
+                                        </div>
+                                    </v:textbox>
+                                </v:rect>
+                                <![endif]-->
+                                </td>
+                                <!--[if !mso]><!-->
+                                <td valign="top">
+                                <!--<![endif]-->
+                                <!--[if (mso)|(IE)]>
+                                <td valign="top" width="620">
+                                <![endif]-->
+                                    <div class="column auto-col">
+                                        <div style="Margin-left:30px;"><multiline label="Milestone"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></multiline></div>
+                                    </div>
+                                <!--[if (mso)|(IE)]>
+                                </td>
+                                <![endif]-->
+                                <!--[if !mso]><!-->
+                                </td>
+                                <!--<![endif]-->
+                            </tr>
+                            </tbody>
+                            </table>                            
+                        </layout>
+                        <layout label="Milestone List - Yellow">
+                            <!--[if !mso]><!-->
+                            <table align="center" valign="top" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="100%">
+                            <!--<![endif]-->
+                            <!--[if mso]>
+                            <table align="center" valign="top" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+                            <![endif]-->
+                            <tbody>
+                            <tr>
+                                <!--[if mso]>
+                                <td width="20">&nbsp;</td>
+                                <![endif]-->
+                                <td width="20" background="images/milestones__bg__1x.gif" valign="top" style="background-repeat:repeat-y;">
+                                <!--[if mso]>
+                                <img src="https://enews.andover.edu/newsletter/strategicplan/images/mso__milestones__bg__1x.gif" height="100" width="20" border="0" style="display: block;" />
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="position:relative;top:0;left:0;width:20px;height:100px;">  
+                                    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                        <div>
+                            <![endif]-->
+                                    
+                                <span>
+                                    <img src="images/yellow__1x.gif" height="20" width="20" border="0" />
+                                </span>
+                                    
+                                <!--[if mso]>
+                                        </div>
+                                    </v:textbox>
+                                </v:rect>
+                                <![endif]-->
+                                </td>
+                                <!--[if !mso]><!-->
+                                <td valign="top">
+                                <!--<![endif]-->
+                                <!--[if (mso)|(IE)]>
+                                <td valign="top" width="620">
+                                <![endif]-->
+                                    <div class="column auto-col">
+                                        <div style="Margin-left:30px;"><multiline label="Milestone"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p></multiline></div>
+                                    </div>
+                                <!--[if (mso)|(IE)]>
+                                </td>
+                                <![endif]-->
+                                <!--[if !mso]><!-->
+                                </td>
+                                <!--<![endif]-->
+                            </tr>
+                            </tbody>
+                            </table>                            
+                        </layout>
+                        <layout label="Milestone List - Gray">
+                            <!--[if !mso]><!-->
+                            <table align="center" valign="top" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="100%">
+                            <!--<![endif]-->
+                            <!--[if mso]>
+                            <table align="center" valign="top" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" width="640">
+                            <![endif]-->
+                            <tbody>
+                            <tr>
+                                <!--[if mso]>
+                                <td width="20">&nbsp;</td>
+                                <![endif]-->
+                                <td width="20" background="images/milestones__bg__1x.gif" valign="top" style="background-repeat:repeat-y;">
+                                <!--[if mso]>
+                                <img src="https://enews.andover.edu/newsletter/strategicplan/images/mso__milestones__bg__1x.gif" height="100" width="20" border="0" style="display: block;" />
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="false" stroke="false" style="position:relative;top:0;left:0;width:20px;height:100px;">  
+                                    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                                        <div>
+                            <![endif]-->
+                                    
+                                <span>
+                                    <img src="images/gray__1x.gif" height="20" width="20" border="0" />
+                                </span>
+                                    
+                                <!--[if mso]>
+                                        </div>
+                                    </v:textbox>
+                                </v:rect>
+                                <![endif]-->
+                                </td>
+                                <!--[if !mso]><!-->
+                                <td valign="top">
+                                <!--<![endif]-->
+                                <!--[if (mso)|(IE)]>
+                                <td valign="top" width="620">
+                                <![endif]-->
+                                    <div class="column auto-col">
+                                        <div style="Margin-left:30px;"><multiline label="Milestone"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></multiline></div>
+                                    </div>
+                                <!--[if (mso)|(IE)]>
+                                </td>
+                                <![endif]-->
+                                <!--[if !mso]><!-->
+                                </td>
+                                <!--<![endif]-->
+                            </tr>
+                            </tbody>
+                            </table>                            
+                        </layout>
+                    </repeater>
+                </div>
+                        
+            </div>
+        </div>
+        
+        <!--[if (mso)|(IE)]>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    <![endif]-->
+</div>    </div>
+    
+    <div id="footer">
+        <!--[if (mso)|(IE)]>
+        <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#f5f5f5" width="100%">
+        <tr>
+            <td valign="top" width="100%">
+        <![endif]-->
+        <div class="footer layout">
+            <!--[if (mso)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#f5f5f5" width="640">
+            <tr>
+                <td valign="top" width="640">
+            <![endif]-->
+            <div class="column one-col">
+                <div class="spacing center">
+                    <a href="http://www.andover.edu">
+                        <img src="images/andover-wordmark-2x-pablue.png" alt="Phillips Academy" width="132" height="43" border="0" class="brand__logo">
+                    </a>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+        <div class="footer layout">
+            <!--[if (mso)|(IE)]>
+            <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#f5f5f5" width="640">
+            <tr>
+                <td valign="top" width="640">
+            <![endif]-->
+            <div class="column one-col spacing--horz">
+                <div class="spacing">
+                    <div class="vcard">
+                        <div class="org block">&copy; <currentyear>&nbsp;Phillips Academy&nbsp;</div>
+                        <div class="block">
+                            <span class="street-address">180 Main Street<span class="mobile-hide">,</span></span>
+                            <span class="locality">Andover,</span> <span class="region">Massachusetts</span> <span class="postal-code">01810-4161</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacing" style="Margin-top:30px !important;">
+
+                    <div class="center">
+                    <!--[if mso]>
+                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" style="height:36px;v-text-anchor:middle;width:200px;" arcsize="50%" stroke="f" fillcolor="#0058a0">
+                        <w:anchorlock/>
+                        <center>
+                      <![endif]-->
+                          <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="button__manage-pref" style="background-color:#0058a0;border-radius:18px;color:#ffffff;display:inline-block;font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none !important;width:200px;-webkit-text-size-adjust:none;">Manage Preferences</a>
+                      <!--[if mso]>
+                        </center>
+                      </v:roundrect>
+                    <![endif]-->
+                    </div>
+                    
+                </div>
+                <div class="spacing">
+                    <div class="legal">
+
+                            <p class="footer-content--pref" style="padding: 0;word-break: break-word;word-wrap: break-word;Margin-left: 15px;Margin-right: 15px;text-align:left;">To customize the kinds of communications you receive from Phillips Academy, please click on <a href="http://v2.decipherinc.com/survey/selfserve/2043/pha15001?rn=[MemberID]" class="link">Manage Preferences</a>. If you would like to stop receiving all e-mail from Phillips Academy, including event invitations, e-newsletters, development news, class news, reunion information, and special messages from the Head of School, click on <unsubscribe>unsubscribe</unsubscribe>.</p>
+
+                    </div>
+                </div>
+                <div class="spacing" style="Margin-top:30px !important;">
+                    <div class="legal">
+                        <p class="whitelist-message">To ensure continued receipt of Phillips Academy messages, please <a href="https://www.campaignmonitor.com/resources/guides/whitelisting/" target="_blank">“white list”</a> us.</p>
+                        <p class="webversion"><webversion>Web version</webversion></p>
+                    </div>
+                </div>
+            </div>
+            <!--[if (mso)|(IE)]>
+                </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+        <!--[if (mso)|(IE)]>
+            </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </div>
+    
+</div>
+    
+    
+    
+</body>
+</html>

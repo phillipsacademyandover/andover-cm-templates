@@ -1,0 +1,163 @@
+/*------------------------------------*\
+    # PB HEADER
+/*------------------------------------*/
+
+$pb-head-font-size:40px;
+$pb-date-font-size:20px;
+$pb-head-news-font-size:40px;
+$pb-date-news-font-size:20px;
+$pb-head-color:#002b5a;
+
+.pb__head {
+     @media screen and (max-width:414px) {
+        background-position: left top !important;
+    }
+//    @media screen and (min-width:415px) and (max-width:479px) {
+//        background-position: left -50px !important;
+//    }
+    @media screen and (min-width:620px) {
+        background-size:100% !important;
+        height: 300px !important;
+    }
+}
+// GMAIL
+.headline--pb {
+    background-color:rgba($white, 0.65);
+    
+    h1 {
+        padding-top: 10px;
+    }
+    p {
+        padding-bottom:10px;
+    }
+    @media screen and (min-width:320px) {
+        
+        background-color:transparent !important;
+        
+        h1 {
+            padding-top: 0 !important;
+        }
+        p {
+            padding-bottom:0 !important;
+        }
+    }
+}
+// END GMAIL
+.headline-title--pb {
+    color: $pb-head-color !important;
+    font-family: $san-serif;
+    font-weight:normal;
+    line-height:130%;
+    
+    Margin-top:110px;
+    Margin-bottom:65px;
+    @media screen and (min-width:620px) {
+        Margin-bottom:65px;
+    }
+    h1 {
+        color: $pb-head-color !important;
+        font-size: $pb-head-font-size;
+        font-weight: 700;
+        Margin-bottom:8px !important;
+    }
+    
+    p {
+        color: $pb-head-color !important;
+        font-size: $pb-date-font-size;
+        Margin-top:0px;
+        Margin-bottom:0px;
+    }
+    
+    @media screen and (max-width:600px) {
+        Margin-bottom:50px !important;
+        
+        h1 {
+            font-size: 36px !important;
+        }
+    }
+    
+    @media screen and (max-width:560px) {
+        
+        Margin-top: 10px !important;
+        Margin-bottom:35px !important;
+        
+        h1 {
+            font-size: 32px !important;
+            Margin-top:0 !important;
+            width:160px;
+        }
+
+        p {
+            font-size: 14px !important;
+        }
+    }
+    @media screen and (max-width:375px) {
+                
+        h1 {
+            font-size: 26px !important;
+        }
+    }
+    
+    @media screen and (max-width:320px) {
+        
+        Margin-bottom:25px !important;
+        
+    }
+    
+}
+
+.news__font {
+    
+    h1 {
+        font-family: $san-serif;
+        color: $pb-head-color !important;
+        font-size: $pb-head-news-font-size;
+        font-weight: 700;
+        span {
+            font-family: 'News Cycle', $san-serif !important;
+            
+        }
+    }
+    
+    p {
+        font-family: $san-serif;
+        color: $pb-head-color !important;
+        font-size: $pb-date-news-font-size;
+        font-weight: 400;
+        span {
+            font-family: 'News Cycle', $san-serif !important;
+            
+        }
+    }
+    @media screen and (max-width:600px) {
+        
+        h1 {
+            font-size: 36px !important;
+        }
+    }
+    
+    @media screen and (max-width:560px) {
+        
+        h1 {
+            font-size: 34px !important;
+            width:160px;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+    @media screen and (max-width:375px) {
+                
+        h1 {
+            font-size: 28px !important;
+        }
+    }
+    @media screen and (max-width:374px) {
+                
+        p {
+            font-size: 14px !important;
+        }
+    }
+    
+}

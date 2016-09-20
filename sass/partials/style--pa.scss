@@ -44,8 +44,26 @@ $pa-butter__tint-60: #ffedb3;
 
 
 
-/* --- PA --- */
-// Color
+/*------------------------------------*\
+    # Strategic Plan Primary Colors
+\*------------------------------------*/
+
+$sp-orange:                 rgb(227, 111, 30);
+$sp-orange--hex:            #e36f1e;
+
+$sp-yellow:                 rgb(230, 178, 34);
+$sp-yellow--hex:            #e6b222;
+
+$sp-gray:                   rgb(124, 139, 161);
+$sp-gray--hex:              #7c8ba1;
+
+
+
+
+/*------------------------------------*\
+    # COLOR
+\*------------------------------------*/
+
 $header--text: $pa-navy;
 $footer--text: $dkgrey;
 $link: $pa-blue;
@@ -55,10 +73,24 @@ $title-purpose: $pa-navy;
 $text: $dkgrey;
 
 
-// Font
+/*------------------------------------*\
+    # FONT
+\*------------------------------------*/
+
 $serif: Georgia, Times, serif;
 $san-serif: "Helvetica Neue", Arial, Helvetica, sans-serif;
 $body--font:$san-serif;
 $brand--font:$serif;
+
+/*------------------------------------*\
+    # FONT SIZE
+\*------------------------------------*/
+
+$xxlarge-font-size: 36px;
+$xlarge-font-size: 32px;
+$large-font-size: 24px;
+$medium-font-size: 18px;
+$base-font-size: 16px;
+$small-font-size: 12px;
 
 /* --- PA Style Guide --- */
